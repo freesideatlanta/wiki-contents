@@ -1,0 +1,93 @@
+= How Projects Work at Freeside =
+A big part of the mission at Freeside is to host group projects involving as many curious tinkerers as possible.
+
+If you'd like to manage a project or host a meeting at Freeside, all you have to do is answer a few questions about what you'd like to do and we'll help you schedule and promote it!
+
+= Scheduling for Projects =
+
+Being crafty engineers, we have developed a system to schedule project meetings and classes around the highest availability of members and Project Managers.
+
+Fill out this form expressing your interest in participating in different projects and classes and we will take your availability into consideration when recommending schedules for them. If you include your email address, we will contact you for rare and one-time events that coincide with your schedule.
+
+= Active Projects =
+
+* Off-Road Wheelchair
+* UAV Hexacopter Meetup
+* CNC Build Project
+* Access Control and Hackerspace Automation
+
+= Potential Projects =
+
+This is a brainstorm list of projects we might work on, or projects you work on already that you want to bring to the hacker space.
+
+Please feel free to add anything you are interested in to the list but please put your name after it so those who are interested can find you. 
+
+* Blender Render Farm (jweiler)
+* BGP trust modeling and research. (eater)
+* Self-forming, robust, self-defending networks. (eater)
+* Workspace security (jweiler and many others)
+** access control
+** video surveilance(exterior)
+* UAV (cjr)
+** WiFi Scanning
+** IP Geolocation
+* RFID Security Cracking (cjr)
+* Bittorrent Hacking (cjr)
+* Mobile Device Hacking (cjr) (1NF0)
+* Honeynet Project (cjr)
+* Beer (homebrew) (jweiler) (liam) (rjhatl)
+* Biodiesel from algae (jweiler) (1NF0)
+** supercritical oil extraction (liam)
+** flat plate algae bioreactor (liam)
+* Solar power/battery charging projects to power some projects. (our projects, not the projects next door... *jaykay*) (tronik)
+* Organic hydroponic vegetable production w/ Arduino-based regulation of environment and nutrients. (scribbles)
+ puredata for systems control and visualization (liam)
+* Fungi cultivation for filtration systems and DIY pharmaceuticals (liam)
+** supercritical compound extraction (liam)
+* Satellite Hacking (cjr) (1NF0) (rjhatl)
+* CO2 Laser (jweiler)
+* Applications of nVidia's CUDA SDK (DANtheMAN) 
+** Rainbow Table Generation 
+** Modeling Dynamic Systems 
+** Other Cool Stuff
+* Open and pluggable protocol and file fuzzing framework (jlash)
+* Self-spreading agent-based vulnerability scanner and patch manager (jlash)
+** Potentially a subset to eater's self-forming/defending networks
+* A robust network packet capture editing GUI with one-side replay/recapture functionality (jlash)
+* Homebrew aerogel (jlash)
+** Manufacturing - potential funding source via sales
+** Fabricating - potential funding source via research grants
+* Free-to-air satellite tinkering (who first?) (1NF0) (rjhatl)
+* Inexpensive closed circuit video surveillance/recording systems (tronik)
+* Aquarium hacking comes to mind for some strange reason - and a few fish tanks might add to the ambiance early on (kive)
+** tronik has fish tank!
+* (Airsoft) Phalanx Anti-(Nerf) Missle system (Agox)
+* Notification to IRC channel of events in the space (mluffel)
+* Audio Circuits (DANtheMAN) (1NF0)
+** TUBE Amps
+** Synthesizers
+** Effects Pedals
+** Guitar Pick Ups 
+** MIDI Controllers (arduino based)
+* Whole-facility zoned lighting/sound controller from scratch (think home/hackerspace automation on steroids)? (kive) (1NF0)
+** area/zoned/whole lighting transforms
+*** maker-space light: bright vs. normal vs. dark vs. trippy
+** area/zoned/whole sound
+*** zoned/whole: voice annunciation
+*** intercom (door/entry)
+*** intercom (announcement-internal)
+*** music? by presence-based concensus playlist kind of toy?
+**** App for G1 to control or suggest music?
+* Tesla coil (1NF0) (rjhatl)
+* Hate campaign against French nobility (Agox, Andrew, Danny, and Mandy)
+* Mind-reading matter compilers (ambience)
+* Microwave Oven Transformer High Voltage Rig (jc)
+** simply following the how-to on Instructables.
+
+= Interesting Project links =
+
+* DARPA
+** http://www.darpa.mil/funding_opportunities.html
+** http://grants.gov/
+** http://www.propublica.org/special/the-stimulus-plan-a-detailed-list-of-spending 
+** ArduPilot http://diydrones.com/profiles/blog/show?id=705844%3ABlogPost%3A44814
