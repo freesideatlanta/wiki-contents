@@ -14,28 +14,28 @@ Atlanta, Georgia 30310<br>
 
 Freeside is composed of several zones, which divide the space into loosely-defined areas of common activity.  The zone boundaries are intended to shift and move as activity increases and member interests change over time.
 
-- 00: Welcome
-- 01: 3D Printing
-- 02: TBD (currently occupied by eggbots and weather station equipment)
-- 03: Electronics Lab
-- 04: Kitchen
-- 05: Classroom
-- 06: Server Room
-- 07: Auditorium
-- 08: Parts Storage
-- 09: Darkroom
-- 10: Ham Radio Station (coming soon)
-- 11: Member Storage
-- 12: Project Storage
-- 13: Loft (home of the Media Lab and Bio Lab)
-- 14: Tool Room
-- 15: Woodshop
-- 16: CNC Lab
-- 17: Garage
-- 18: Workstations
-- 19: Safety
-- 20: Open Workspace
-- 21: Attic
+* 00: Welcome
+* 01: 3D Printing
+* 02: TBD (currently occupied by eggbots and weather station equipment)
+* 03: Electronics Lab
+* 04: Kitchen
+* 05: Classroom
+* 06: Server Room
+* 07: Auditorium
+* 08: Parts Storage
+* 09: Darkroom
+* 10: Ham Radio Station (coming soon)
+* 11: Member Storage
+* 12: Project Storage
+* 13: Loft (home of the Media Lab and Bio Lab)
+* 14: Tool Room
+* 15: Woodshop
+* 16: CNC Lab
+* 17: Garage
+* 18: Workstations
+* 19: Safety
+* 20: Open Workspace
+* 21: Attic
 
 = Walkthroughs =
 
