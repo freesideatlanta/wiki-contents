@@ -36,10 +36,9 @@ We also have events and classes (just about) all the time.  Check out and join o
 === Why 'Freeside'? ===
 
 {{quote|
-  Home.
-  Home was BAMA, the Sprawl, the Boston-Atlanta Met-
-ropolitan Axis.
-  Program a map to display frequency of data exchange, every
+<p>Home.</p>
+<p>Home was BAMA, the Sprawl, the Boston-Atlanta Met-ropolitan Axis.</p>
+<p>Program a map to display frequency of data exchange, every
 thousand megabytes a single pixel on a very large screen. 
 Manhattan and Atlanta burn solid white.  Then they start to
 pulse, the rate of traffic threatening to overload your simulation. 
@@ -47,5 +46,5 @@ Your map is about to go nova.  Cool it down.  Up your scale.
 Each pixel a million megabytes.  At a hundred million mega-
 bytes per second, you begin to make out certain blocks in
 midtown Manhattan, outlines of hundred-year-old industrial
-parks ringing the old core of Atlanta...
+parks ringing the old core of Atlanta...</p>
 }}
