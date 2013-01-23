@@ -22,7 +22,7 @@ Freeside is composed of several zones, which divide the space into loosely-defin
 * 05: [[Classroom]]
 * 06: Server Room
 * 07: Auditorium
-* 08: Parts Storage
+* 08: [[Shared Storage]]
 * 09: Darkroom
 * 10: Ham Radio Station (coming soon)
 * 11: Member Storage
