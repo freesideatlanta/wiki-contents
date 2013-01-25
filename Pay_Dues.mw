@@ -13,7 +13,12 @@
 
 === Paypal ===
 
-(TODO: insert PP single and subscription widgets here)
+==== Single Payment ===
+
+[https://www.paypal.com/subscriptions/business=freesideatlanta@gmail.com&item_name=Freeside%20Monthly%20Dues%20%28Standard%29&cy_code=USD&a3=80&p3=1&t3=M&src=1 $80/mo]
+
+
+==== Recurring Payment ====
 
 === Google Checkout ===
 
