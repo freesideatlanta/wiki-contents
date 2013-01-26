@@ -25,35 +25,26 @@ Fill out [https://docs.google.com/document/d/1NHnSzYc5cJzvWBzKF4E60TMFLA1YTIq-8Y
 
 === Suggestions ===
 
-(TODO: Review and see if any still apply, many of these members have long gone - Alan)
-
 This is a brainstorm list of projects we might work on, or projects you work on already that you want to bring to the hacker space.
 
 Please feel free to add anything you are interested in to the list but please put your name after it so those who are interested can find you. 
 
-* Blender Render Farm (jweiler)
-* BGP trust modeling and research. (eater)
-* Self-forming, robust, self-defending networks. (eater)
-* Workspace security (jweiler and many others)
-** access control
-** video surveilance(exterior)
-* UAV (cjr)
+* Blender Render Farm
+* BGP trust modeling and research.
+* Self-forming, robust, self-defending networks
+* UAV
 ** WiFi Scanning
 ** IP Geolocation
-* RFID Security Cracking (cjr)
-* Bittorrent Hacking (cjr)
-* Mobile Device Hacking (cjr) (1NF0)
-* Honeynet Project (cjr)
-* Beer (homebrew) (jweiler) (liam) (rjhatl)
-* Biodiesel from algae (jweiler) (1NF0)
-** supercritical oil extraction (liam)
-** flat plate algae bioreactor (liam)
-* Solar power/battery charging projects to power some projects. (our projects, not the projects next door... *jaykay*) (tronik)
-* Organic hydroponic vegetable production w/ Arduino-based regulation of environment and nutrients. (scribbles)
-* puredata for systems control and visualization (liam)
-* Fungi cultivation for filtration systems and DIY pharmaceuticals (liam)
-** supercritical compound extraction (liam)
-* Satellite Hacking (cjr) (1NF0) (rjhatl)
+** Radiation dosimeter deployment
+* Honeynet Project
+* Biodiesel from algae
+** supercritical oil extraction
+** flat plate algae bioreactor
+* Organic hydroponic vegetable production w/ Arduino-based regulation of environment and nutrients
+* puredata for systems control and visualization
+* Fungi cultivation for filtration systems and DIY pharmaceuticals
+** supercritical compound extraction
+* Satellite Hacking
 * CO2 Laser (jweiler)
 * Applications of nVidia's CUDA SDK (DANtheMAN) 
 ** Rainbow Table Generation 
