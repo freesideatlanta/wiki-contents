@@ -18,3 +18,10 @@ If you are interested in attending a class and are not a member, either email th
 Freeside is always looking for volunteers! If you're interested in speaking or giving a talk at Freeside, please fill out or application form. We'll contact you to help you schedule and promote your class, lecture, or workshop.
 
 <iframe width="240" height="350" src="http://meetu.ps/vbtDz" frameborder="0"></iframe>
+
+{{#widget:Iframe
+|url=http://meetu.ps/vbtDz
+|width=240
+|height=350
+|border=0
+}}
