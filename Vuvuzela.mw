@@ -40,9 +40,15 @@ There are some possible ways to hack this system, and some counter-hacks.
 
 One way is to swap out the SD card on the Raspi.  Our plan was to put the node into an enclosure, like the kind used to lock up a thermostat.  Even if the SD card is replaced, the attacker needs the right software installed plus the location of the SQLite file.  Plus, we'll be putting the nodes behind the secured door.
 
-Another attack would be to perform man-in-the-middle on rsync.  We'll take a couple of measures to mitigate that, including putting the nodes on their own dedicated subnet, with firewall and routing tables that drive traffic and communication only to the centralized server.
+Another attack would be to perform [https://en.wikipedia.org/wiki/Man-in-the-middle_attack man-in-the-middle] on rsync.  We'll take a couple of measures to mitigate that, including putting the nodes on their own dedicated subnet, with firewall and routing tables that drive traffic and communication only to the centralized server.  So, the attacker would have to get onto our protected members-only LAN, and then bypass the firewall and routing tables to initiate MITM.  Of course, by passing StrictHostKeyChecking=yes as an argument to rsync, then the transfer isn't initiated.  
 
-Because the node will be on battery backup, the most viable attack is to cut-off the power and wait for the battery to die.  We would likely broadcast a power failure to IT, so we'd know to come down and wait for the power to come back up.  That means the internet needs to be cut-off as well.  Probably a polling script could notify IT of an internet outage, so it would be 1-2 hours maximum that we wouldn't know both services were down.  Since the Raspi is a low-power device, it would remain operational and keep the doors locked for several hours, at least 12+ hours.
+Failure to sync just means that any new users won't be allowed to open a lock, so anyone in the existing group can still get in.
+
+The next obvious point of attack is the central server.  A user that obtains root on our central server could reset the MySQL root password and then alter the MySQL tables to include the attacker's RFID token ID into the target ACL.  Physical access to the central server is restricted by the server room door.  A service could be exploited on the server.  However, the server would be on a dedicated subnet for administration machines, and traffic limited to it.  There would be no reason for the central server to be exposed to the internet.  An attacker would have to VPN into the Freeside members-only subnet as an administrator in order to be allowed to ssh into machines in the administration subnet.
+
+Because the node will be on battery backup, the next most viable attack is to cut-off the power and wait for the battery to die.  We would likely broadcast a power failure to IT, so we'd know to come down and wait for the power to come back up.  That means the attacker would have to cut off the internet access as well.  Probably a polling script could notify IT of an internet outage, so it would be 1-2 hours maximum that we wouldn't know both services were down.  Since the Raspi is a low-power device, it would remain operational and keep the doors locked for several hours, at least 12+ hours.
+
+The most viable attack would be either robbery of a member RFID card or [https://en.wikipedia.org/wiki/Rubber-hose_cryptanalysis rubber hose cryptanalysis] - so keep your RFID cards safe, and [[IT| let IT know]] the minute you lose any of them!
 
 === Future Work ===
 
