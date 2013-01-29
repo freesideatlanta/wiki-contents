@@ -1,0 +1,27 @@
+=== Vuvuzela, Open Source Access Control ===
+
+The Vuvuzela project was originally meant to recreate our member welcome noise: whenever a member would strike their RFID badge, a sound of their choice would play.
+
+It then grew into a larger effort to create an access control solution for Freeside that would have the following characteristics:
+
+* Centralized management of groups and access rights
+* Platform for easily programming actions not limited to sounds on RFID swipe
+* Secure access control nodes (very difficult to hack)
+
+So far, we've assembled a prototype system that works like this:
+
+* The central server MySQL database puts our members into groups, like IT-Staff or Members
+* A central server daemon generates access control lists (ACLs) from tables in a MySQL database
+* These ACLs are pulled from the central server by each node, using rsync over SSH
+* Each ACL is specific to a node and relay pair, and is just a table in a SQLite file
+* A node is a Raspberry Pi, with an RFID reader fed into its GPIO, and a relay shield to operate up to four locks
+* Logging is sent back to the server via the SQLite file, and aggregated
+
+For example, we could attach two door locks to one node: the server room door on relay 0, and the front door on relay 1.  The node named "joker" would pull down the ACLs for joker-0.db and joker-1.db from the server's /srv directory.  joker-0.db has a table called "access" which is just a list of acceptable 8-character token IDs, which correspond to the RFID token IDs that are assigned to each member in the "IT-Staff" group.  Likewise, joker-1.db just has the token IDs for each member of "Members" group.  So, any Freeside member can get in the front door, but only IT staff can get into the server room.
+
+In addition, we could send notification emails to the head of IT every time the server room was accessed.
+
+If you're interested in helping out with this project, contact [[User:Emptyset Alan]] about participating, or follow the project at:
+
+* [https://github.com/emptyset/vuvuzela/tree/batman Github]
+* [https://trello.com/board/vuvuzela/4f2e969c73c9e4eb24380692 Trello]
