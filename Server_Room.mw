@@ -10,5 +10,10 @@ The server room is where most of the heavy computing for Freeside happens. There
 * Rack servers running *nix OS, various specifications
 * IT workstation
 
-==Current Projects==
-*Access Control
+=== Current Projects ===
+
+* [[Vuvuzela]], Open Source Access Control
+* Infosec Lab
+* Server Virtualization
+* F-BOMB
+* Other cloak and dagger stuff we can't talk about
