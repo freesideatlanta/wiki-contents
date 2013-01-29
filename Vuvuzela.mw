@@ -14,10 +14,10 @@ It then grew into a larger effort to create an access control solution for Frees
 
 So far, we've assembled a prototype system that works like this:
 
-* The central server MySQL database puts our members into groups, like IT-Staff or Members
+* The central server [https://www.mysql.com MySQL] database puts our members into groups, like IT-Staff or Members
 * A central server daemon generates access control lists (ACLs) from tables in a MySQL database
-* These ACLs are pulled from the central server by each node, using rsync over SSH
-* Each ACL is specific to a node and relay pair, and is just a table in a SQLite file
+* These ACLs are pulled from the central server by each node, using [http://linux.die.net/man/1/rsync rsync]
+* Each ACL is specific to a node and relay pair, and is just a table in a [https://www.sqlite.org SQLite] file
 * A node is a [http://www.raspberrypi.org Raspberry Pi], with an RFID reader fed into its GPIO, and a relay shield to operate up to four locks
 * Logging is sent back to the server via the SQLite file, and aggregated
 
