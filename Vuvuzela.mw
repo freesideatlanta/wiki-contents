@@ -8,7 +8,7 @@ It then grew into a larger effort to create an access control solution for Frees
 
 * Centralized management of groups and access rights
 * Platform for easily programming actions not limited to sounds on RFID swipe
-* Secure access control nodes (very difficult to hack)
+* "Secure" access control nodes
 
 === System Overview ===
 
@@ -33,6 +33,16 @@ If you're interested in helping out with this project, contact [[User:Emptyset| 
 Some other related material:
 
 * [http://raspberrypi.stackexchange.com/questions/4637/cannot-read-input-to-sda-scl-gpio-pins Stack Exchange Raspberry Pi Q&A - Cannot Read Input to SDA/SCL GPIO Pins]
+
+=== Hacking ===
+
+There are some possible ways to hack this system, and some counter-hacks.
+
+One way is to swap out the SD card on the Raspi.  Our plan was to put the node into an enclosure, like the kind used to lock up a thermostat.  Even if the SD card is replaced, the attacker needs the right software installed plus the location of the SQLite file.  Plus, we'll be putting the nodes behind the secured door.
+
+Another attack would be to perform man-in-the-middle on rsync.  We'll take a couple of measures to mitigate that, including putting the nodes on their own dedicated subnet, with firewall and routing tables that drive traffic and communication only to the centralized server.
+
+Because the node will be on battery backup, the most viable attack is to cut-off the power and wait for the battery to die.  We would likely broadcast a power failure to IT, so we'd know to come down and wait for the power to come back up.  That means the internet needs to be cut-off as well.  Probably a polling script could notify IT of an internet outage, so it would be 1-2 hours maximum that we wouldn't know both services were down.  Since the Raspi is a low-power device, it would remain operational and keep the doors locked for several hours, at least 12+ hours.
 
 === Future Work ===
 
