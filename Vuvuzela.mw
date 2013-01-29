@@ -2,6 +2,8 @@
 
 The Vuvuzela project was originally meant to recreate our member welcome noise: whenever a member would strike their RFID badge, a sound of their choice would play.
 
+[[File:raspi-circuit-fixed.jpg|framed|right|The prototype circuit from the RFID reader into the Pi Cobbler]]
+
 It then grew into a larger effort to create an access control solution for Freeside that would have the following characteristics:
 
 * Centralized management of groups and access rights
