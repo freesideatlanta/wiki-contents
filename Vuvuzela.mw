@@ -1,4 +1,4 @@
-=== Vuvuzela, Open Source Access Control ===
+=== Open Source Access Control ===
 
 The Vuvuzela project was originally meant to recreate our member welcome noise: whenever a member would strike their RFID badge, a sound of their choice would play.
 
@@ -9,6 +9,8 @@ It then grew into a larger effort to create an access control solution for Frees
 * Centralized management of groups and access rights
 * Platform for easily programming actions not limited to sounds on RFID swipe
 * Secure access control nodes (very difficult to hack)
+
+=== System Overview ===
 
 So far, we've assembled a prototype system that works like this:
 
@@ -27,3 +29,10 @@ If you're interested in helping out with this project, contact [[User:Emptyset| 
 
 * [https://github.com/emptyset/vuvuzela/tree/batman Github]
 * [https://trello.com/board/vuvuzela/4f2e969c73c9e4eb24380692 Trello]
+
+=== Future Work ===
+
+* Group management via LDAP and not MySQL tables
+* Implement web API for managing user information
+* Design plug-in system for playing sounds, email, etc.
+* Manufacture integrated RFID reader and relay shield for Raspberry Pi
