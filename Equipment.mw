@@ -1,18 +1,19 @@
 [[File:Toolroom1.jpg|thumb|250px]]
+
 Freeside has lots of equipment, spare parts, material, furniture, and almost anything you can think of. 
 
 We're always looking to expand, so we also have a [[Wishlist]] of equipment that we'd like to have.
 
-=== Welcome ===
+== Welcome ==
 
-*Welcome kiosk
-*Van de Graaf generator
-*Lockpick kit (needs improvement)
-*Rhombic hexecontahedron
-*Pterodactyl
-*Weather station
+* Welcome kiosk
+* Van de Graaf generator
+* Lockpick kit (needs improvement)
+* Rhombic hexecontahedron
+* Pterodactyl
+* Weather station
 
-=== 3D Printing ===
+== 3D Printing ==
 
 * Thingomatic
 * Cupcake
@@ -20,7 +21,7 @@ We're always looking to expand, so we also have a [[Wishlist]] of equipment that
 * The Kraken (custom- and member-designed)
 * Member workstation
 
-=== Electronics Lab ===
+== Electronics Lab ==
 
 * Solder
 * Flux pens
@@ -38,54 +39,54 @@ We're always looking to expand, so we also have a [[Wishlist]] of equipment that
 * Desoldering tools
 * Many, many spare parts and components
 
-=== Classroom ===
+== Classroom ==
 
-*Desk space for 16
-*Portable projector
-*Whiteboard (both on the wall and on the tables!)
-*Official-looking teacher's desk
+* Desk space for 16
+* Portable projector
+* Whiteboard (both on the wall and on the tables!)
+* Official-looking teacher's desk
 
-=== Server Room ===
+== Server Room ==
 
 * Racks
 * Rack servers running *nix OS, various specifications
 * IT workstation
 
-=== Auditorium ===
-*A bunch of couches and chairs
-*16ft x 9ft projection screen
-*1080p 2500 lumen projector
-*5.2 Surround sound system
-*Totally legit podium with a microphone
-*Stage for presentation area
-*Beautiful, well-designed media cabinet
-*Weird videos from the internet
+== Auditorium ==
+* A bunch of couches and chairs
+* 16ft x 9ft projection screen
+* 1080p 2500 lumen projector
+* 5.2 Surround sound system
+* Totally legit podium with a microphone
+* Stage for presentation area
+* Beautiful, well-designed media cabinet
+* Weird videos from the internet
 
-=== Media Lab ===
-*Media workstations (Windows and Linux)
-*Network attached storage (NAS) systems
-*Emotiv Epoc brain-computer interface headset
-*Vuzix stereoscopic glasses
-*Kinect with SDK
-*Eye tracking system with Open Gazer and OGAMA
-*Arduino
-*Raspberry Pi
-*Yamaha guitar (let's hack this)
-*Ben's custom guitar
-*Avid Vocal Studio mic kit
-*USB-to-DMX interface
-*Dreamlights RGB LED lighting
-*5.1 Surround sound system (it's more like a 9.4 system - Alan)
+== Media Lab ==
+* Media workstations (Windows and Linux)
+* Network attached storage (NAS) systems
+* Emotiv Epoc brain-computer interface headset
+* Vuzix stereoscopic glasses
+* Kinect with SDK
+* Eye tracking system with Open Gazer and OGAMA
+* Arduino
+* Raspberry Pi
+* Yamaha guitar (let's hack this)
+* Ben's custom guitar
+* Avid Vocal Studio mic kit
+* USB-to-DMX interface
+* Dreamlights RGB LED lighting
+* 5.1 Surround sound system (it's more like a 9.4 system - Alan)
 
-=== Bio Lab ===
-*Stereoscopic microscope
-*Glassware
-*Slides
-*Hot plate with stirrer
-*Scales
-*Incubator
+== Bio Lab ==
+* Stereoscopic microscope
+* Glassware
+* Slides
+* Hot plate with stirrer
+* Scales
+* Incubator
 
-===Tool Room ===
+== Tool Room ==
 * Jigsaws
 * Circular Saws
 * Grinders and Cut-off Wheels
@@ -98,9 +99,10 @@ We're always looking to expand, so we also have a [[Wishlist]] of equipment that
 * More than 30 clamps
 * Screwdrivers, pliers, and such
 
+== Woodshop ==
+
 [[File:Workshop - from Loft.jpg|thumb|250px|The [[Woodshop]] as seen from the loft]]
 
-=== Woodshop ===
 * Z-Corp 3D Printer
 * Delta 36-430 Table Saw
 * Steel City Drill Press
@@ -116,7 +118,8 @@ We're always looking to expand, so we also have a [[Wishlist]] of equipment that
 * Propane Blowtorches
 * Tons of Extension Cords
 
-=== Garage ===
+== Garage ==
+
 * Busy Bee Lathe
 * Lincoln Electric Mig Welder
 * Hobart Stickmate Welder
@@ -125,7 +128,8 @@ We're always looking to expand, so we also have a [[Wishlist]] of equipment that
 * Crucible
 * Grinders and cut-off wheels
 
-=== Safety ===
+== Safety ==
+
 * Safety glasses
 * Ear plugs
 * Heavy-duty hearing protection
@@ -134,133 +138,5 @@ We're always looking to expand, so we also have a [[Wishlist]] of equipment that
 * Eye wash
 * Two First Aid kits
 
-=== Attic ===
+== Attic ==
 * Build-out Materials
-
-
-= Outdated List (Remove after review) =
-
-This is a list of items we have purchased, or that are being donated.
-
-* Computer hardware:
-** (2) 2U 2xPIII rackmount (dknowles) & (dr.kaos compaq proliant)
-** Dell 1500SC dual-proc tower server w/ 6 36GB
-** SCSI drives (dr.kaos)
-** Misc older computers and parts
-** 1 Soekris 4801 embedded system -- for fw applications (eater)
-** 2-3 1U PowerEdge 1550/1650's for public use (Probably ESX'ed?) (sariel)
-** 2-3 1U PowerEdge 1550/1650's for project use (sariel)
-** Few 15 inch monitors, may need a little work (sariel)
-** HP Netserver LP2000R - 2U dual p4, SCSI raid 5x20gb, redundant PSU (jlash)
-** 5 cheap-o web-cams. (2/eater) (1/tronik) (1/kive) (1/dmm)
-** 3x15" LCD Samsung displays on a triple-headed Ergotron mount (cjr)
-* Computer Software
-** VMware ESX enterprise + licenses (dr.kaos)
-* Network Hardware
-** Cat-5 cable
-** 1 spool of RG-6U coaxial cable, w/ insulation ** stripper, crimpers, and connectors. (eater)
-** 1U 3Com 24 port hub (ears for mounting included) (sariel)
-** I have tools and supplies for running and punching down Cat-5 connections. (eater)
-** 1 Cisco 3640 16/64MB 1EFW, 2FE2W (duckie)
-** 2 Foundry FastIron FWS24 w 2x Gig SX Uplinks (duckie)
-* Infrastructure
-** Server rack on casters (lockable) (jweiler)
-** 3ft x 7ft ish lockable rack with plexiglass door, fan, and built-in KVM -- donate or extended lend (beth/dc404)
-* Electrical / Electronic
-** 1 soldering iron (eater)
-** 1 soldering iron (sariel)
-** 1 electronics protoyping kit with breadboards and random useful components (daeken)
-** HP 1220A Oscilloscope (old, but it works.) (phreakmonkey)
-* Entertainment
-** 1 "thickie" PlayStation2. I acquired this to play with PS2 soft-modding and basic networked media applications. (eater)
-** 1 GameCube (dknowles)
-** 1 Original Nintendo (kive)
-** Several Speakers for Stereo System/Music/etc. (tronik) - DONATED ON 08/04/09
-** boombox until we get a better stereo (dr.kaos)
-** Jose Quervo shot cooler / machine, may need to convert to water cooler (sariel) - may need to convert to jaeger machine!
-** PS2 with two Red Octane dance pads -maybe this should be under nerd-gym equipment (dmm)
-** stereo receiver (dmm)
-** 500' spool of 24/2 speaker wire (dmm)
-* Tools
-** Delta 36-430 Table Saw
-** Steel City Drill Press
-** CNC Mills and CNC Routers
-** Jigsaws
-** Circular Saws
-** Grinders and Cut-off Wheels
-** (Compound) Miter Saw
-** Power Drills and Hammer Drills
-** Porter Cable Scroll Saw
-** Delta Bench Grinder
-** Central Machinery Joiner
-** Craftsman Router 315-17300
-** Squirrel Cage shop fan
-** Busy Bee Lathe
-** Lincoln Electric Mig Welder
-** Hobart Stickmate Welder
-** Ridgid Air Compressor
-** AC Power Supplies and Transformers
-** Hexacopter and other RC Machines
-** Soldering Irons
-** 3D Printers
-** Incubator and BioLab
-** Chemistry Equipment
-** Heat Guns
-** CRT Monitors (esp. in arcade cabinets)
-** Propane Blowtorches
-** Sewing Machines
-** Extension Cords
-** Dremel Hand Tools
-** Jacks and Jack stands
-** Crucible
-** Kiln
-** 220v Industrial Air Compressor
-** Pair of heavy-duty jackstands (kive)
-* Kitchen
-** 1 full size refrigerator
-** 1 full size refrigerator needing a vehicle to move it in (dmm)
-** 1 microwave (Sarah)
-* Antennae & Dishes
-** 1 18dBi 2.4GHz sector antenna w/ approx 75' of low-loss LMR-400 cable + N-connectors :) (eater)
-** Ku-band satellite dish, FTA receiver (rjhatl
-* Books
-** Lots of books. Maybe we should just post a picture...
-* Lab ware
-** a few boxes of glass lab ware (flasks, beakers, graduated cylinders, ...) (dmm)
-
-= Equipment we can Lend =
-Items that we are willing to lend on a temporary basis or make available when needed but not donate. 
-
-If you borrowed an item, please note it here: Equipment sign out sheet. (TODO: Post link)
-
-* 36" wide inkjet plotter (jweiler)
-* Hand-held jigsaw (eater)
-* Heavy duty compound double bevel mitre saw (cjr)
-* Shop Vac wet/dry (dub)
-* Chumby (daeken)
-* SP3Dev FPGA dev board (daeken)
-* Roku Player - Netflix streaming for chillaxing area (kive)
-* Fish Tank for baby fishies or even large killer whales (tronik) (kive has one or three 50+ gal tanks that may be available, also)
-* 12" double bevel mitre saw (dmm)
-* router (dmm)
-* sawzall (dmm)
-* circular saw (dmm)
-* drill (dmm)
-* 2 microscopes - possible donation if utility is there (dmm)
-
-= Equipment we want =
-Stuff that would be nice to have, but isn't necessarily a necessity.
-* A laser cutter
-* Drill bits and consumables
-* Some hacker spaces, most notably c-base, have a considerable amount of work put into "ambiance"... artistic (and electronic) enhancement to the space. I would love do likewise. It means we'll need paint and lighting supplies, though. (eater)
-** tronik's girlfriend paints murals/other artistic environments, also believe duckie said his lady could work on this as well (tronik)
-** I have a couple artist friends who would love to come play with our blank walls.
-* CNC machine(jweiler)
-* Wood working equip. (jweiler)
-* Metal working Equip. (jweiler)
-* Laser (preferable attached to the cnc) (jweiler)
-* Stove/Oven, Fridge, Freezer, liquid nitrogen,  molecular gastronomy /foodhacking stuff 
-* ginormous LED boards (smaller ones too)
-* old microwaves (the coils in them are handy for a ton of stuff!) (1NF0)
-welders ("cheap" arc, MIG, TIG, spot) (1NF0)
-Two Post Car Lift
