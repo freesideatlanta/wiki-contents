@@ -44,3 +44,20 @@ Follow the links below to setup either a single or recurring payment of dues thr
 * '''Standard:''' [https://www.paypal.com/subscriptions/business=freesideatlanta@gmail.com&item_name=Freeside%20Monthly%20Dues%20%28Standard%29&cy_code=USD&a3=80&p3=1&t3=M&src=1 $80/mo]
 * '''[[Starving_Hacker_Program| Starving Hacker]]:''' [https://www.paypal.com/subscriptions/business=freesideatlanta@gmail.com&item_name=Freeside%20Monthly%20Dues%20%28Starving%20Hacker%20Program%29&cy_code=USD&a3=40&p3=1&t3=M&src=1 $40/mo]
 * '''Joint-MIC:''' [https://www.paypal.com/subscriptions/business=freesideatlanta@gmail.com&item_name=Freeside%20Monthly%20Dues%20%28Joint%20MIC%29&cy_code=USD&a3=65&p3=1&t3=M&src=1 $65/mo]
+
+<shtml version="2" hash="3b873bd2ef3a80d88f6701352fe2f8cf25254197f300233a141a3aaacc31fe65"><form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<table>
+<tr><td style="vertical-align: top"><select name="os0">
+	<option value="Standard">Standard : $80.00 USD - monthly</option>
+	<option value="Starving Hacker">Starving Hacker : $40.00 USD - monthly</option>
+	<option value="Joint-MIC">Joint-MIC : $65.00 USD - monthly</option>
+</select> </td>
+<td style="vertical-align: middle">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribe_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+</td></tr>
+</table>
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="8JD58AXUPBGYS">
+<input type="hidden" name="on0" value="Rates">
+<input type="hidden" name="currency_code" value="USD">
+</form></shtml>
