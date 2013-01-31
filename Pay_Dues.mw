@@ -61,6 +61,7 @@ Follow the links below to setup either a single or recurring payment of dues thr
 
 == Google Checkout ==
 
+=== Single Payment ===
 <shtml version="2" hash="c999259305ec60924eb126aab32268f5391a1441c5fe58a6be0d02a31b7913bc"><form action="https://checkout.google.com/api/checkout/v2/checkoutForm/Merchant/337223875096561" id="BB_BuyButtonForm" method="post" name="BB_BuyButtonForm" target="_top"><table><tr><td style="vertical-align: top"><select name="item_selection_1">
 <option value="1">$80.00 - Freeside Membership Dues (Standard)</option>
 <option value="2">$40.00 - Freeside Membership Dues (Starving Hacker)</option>
