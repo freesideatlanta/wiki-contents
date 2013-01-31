@@ -19,6 +19,21 @@ Follow the links below to setup either a single or recurring payment of dues thr
 
 === Single Payment ===
 
+<shtml version="2" hash="0a07d0def373fbc1a8768e156aaa148a2bd4a91ae8ef76273bde3e9f495ee60d"><form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<table>
+<tr><td style="vertical-align: top"><select name="os0">
+	<option value="Standard">Standard $80.00 USD</option>
+	<option value="Starving Hacker">Starving Hacker $40.00 USD</option>
+	<option value="Joint-MIC">Joint-MIC $65.00 USD</option>
+</select> </td><td style="vertical-align: middle"><input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"></td></tr>
+</table>
+<input type="hidden" name="on0" value="Rates">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="WXXGXYGXVLRYG">
+<input type="hidden" name="currency_code" value="USD">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form></shtml>
+
 * '''Standard:''' 
 ** [https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=freesideatlanta%40gmail%2ecom&lc=US&item_name=Freeside%20Dues&currency_code=USD&amount=80 $80] one month's dues
 ** [https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=freesideatlanta%40gmail%2ecom&lc=US&item_name=Freeside%20Dues&currency_code=USD&amount=912 $912] one year's dues, with 5% discount applied
