@@ -33,7 +33,6 @@ Follow the links below to setup either a single or recurring payment of dues thr
 <input type="hidden" name="currency_code" value="USD">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form></shtml>
-
 * '''Standard:''' 
 ** [https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=freesideatlanta%40gmail%2ecom&lc=US&item_name=Freeside%20Dues&currency_code=USD&amount=80 $80] one month's dues
 ** [https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=freesideatlanta%40gmail%2ecom&lc=US&item_name=Freeside%20Dues&currency_code=USD&amount=912 $912] one year's dues, with 5% discount applied
