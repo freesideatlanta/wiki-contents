@@ -58,3 +58,25 @@ Follow the links below to setup either a single or recurring payment of dues thr
 <input type="hidden" name="on0" value="Rates">
 <input type="hidden" name="currency_code" value="USD">
 </form></shtml>
+
+== Google Checkout ==
+
+<shtml version="2" hash="c999259305ec60924eb126aab32268f5391a1441c5fe58a6be0d02a31b7913bc"><form action="https://checkout.google.com/api/checkout/v2/checkoutForm/Merchant/337223875096561" id="BB_BuyButtonForm" method="post" name="BB_BuyButtonForm" target="_top"><table><tr><td style="vertical-align: top"><select name="item_selection_1">
+<option value="1">$80.00 - Freeside Membership Dues (Standard)</option>
+<option value="2">$40.00 - Freeside Membership Dues (Starving Hacker)</option>
+<option value="3">$65.00 - Freeside Membership Dues (Joint-MIC)</option></select></td><td><input alt="" src="https://checkout.google.com/buttons/buy.gif?merchant_id=337223875096561&amp;w=121&amp;h=44&amp;style=white&amp;variant=text&amp;loc=en_US" type="image"/></td></tr></table><input name="item_option_name_1" type="hidden" value="Freeside Membership Dues (Standard)"/>
+<input name="item_option_price_1" type="hidden" value="80.0"/>
+<input name="item_option_description_1" type="hidden" value=""/>
+<input name="item_option_quantity_1" type="hidden" value="1"/>
+<input name="item_option_currency_1" type="hidden" value="USD"/>
+<input name="item_option_name_2" type="hidden" value="Freeside Membership Dues (Starving Hacker)"/>
+<input name="item_option_price_2" type="hidden" value="40.0"/>
+<input name="item_option_description_2" type="hidden" value=""/>
+<input name="item_option_quantity_2" type="hidden" value="1"/>
+<input name="item_option_currency_2" type="hidden" value="USD"/>
+<input name="item_option_name_3" type="hidden" value="Freeside Membership Dues (Joint-MIC)"/>
+<input name="item_option_price_3" type="hidden" value="65.0"/>
+<input name="item_option_description_3" type="hidden" value=""/>
+<input name="item_option_quantity_3" type="hidden" value="1"/>
+<input name="item_option_currency_3" type="hidden" value="USD"/>
+</form></shtml>
