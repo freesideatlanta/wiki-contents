@@ -1,7 +1,14 @@
 
 = Owner(s) =
-
 * ???
+
+= Permissions =
+In this optional section, specify the conditions for permission to use the machine, if any.
+
+= Restrictions =
+In this optional section, specify any restrictions on use.  
+* Example: do not run lathe while X or Y machine is also running in the area
+* Example: only use lath in the presence of another member
 
 = About =
 * [http://www.busybeetools.com/products/LATHE-14IN.-X-40IN.-3HP-220V-1-PHASE.html Specifications]
@@ -10,7 +17,10 @@
 * [http://busybeetools.com/product_manuals/CT042.pdf CT042]
 * [http://busybeetools.com/product_manuals/CT089.pdf CT089]
 
-= Articles and Instructions =
+= Instruction and Safety Articles =
 * [http://www.busybeetools.com/pages/Metalworking-Basics.html Metalworking Basics]
 * [https://www.youtube.com/watch?v=fmFQEnDZy6E Southbend Metal Lathe (Basic Use) 1/2]
 * [https://www.youtube.com/watch?v=YPYBWXY60Sc Southbend Metal Lathe (Basic Use) 2/2]
+
+= Projects =
+Describe or indicate projects that are using the lathe...
