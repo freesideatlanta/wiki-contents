@@ -21,6 +21,12 @@ Members can pay their dues for the month on any day of that month.
 <a href="http://wiki.freesideatlanta.org/fs/Thanks" class="dwolla_button" data-name="Freeside Membership Dues" data-desc="Standard Rate " data-amount="80.00" data-shipping="0" data-tax="0" data-key="cSopmbTatKgd+BlDDB/h4yNbyqFhlahH7j+itD+0oinR87FdfX">Standard: $80</a>
 </shtml>
 
+<shtml version="2" hash="6cfcd7237bcdf1be19e15c7ad411549c96bf21551302d891d715e4a36d272832"><a href="http://wiki.freesideatlanta.org/fs/Thanks" class="dwolla_button" data-name="Freeside Membership Dues" data-desc="Starving Hacker Rate" data-amount="40.00" data-shipping="0" data-tax="0" data-key="cSopmbTatKgd+BlDDB/h4yNbyqFhlahH7j+itD+0oinR87FdfX">Starving Hacker: $40</a>
+</shtml>
+
+<shtml version="2" hash="67b6b49f79f8b6850e7bce834965e7fc0de398ac27356c7558ea5b34e5d795ff"><a href="http://wiki.freesideatlanta.org/fs/Thanks" class="dwolla_button" data-name="Freeside Membership Dues" data-desc="Joint-MIC Rate" data-amount="65.00" data-shipping="0" data-tax="0" data-key="cSopmbTatKgd+BlDDB/h4yNbyqFhlahH7j+itD+0oinR87FdfX">Joint-MIC: $65</a>
+</shtml>
+
 == Paypal ==
 
 Follow the links below to setup either a single or recurring payment of dues through Paypal.
