@@ -17,6 +17,10 @@ Members can pay their dues for the month on any day of that month.
 
 === Single Payment ===
 
+<shtml version="2" hash="03662c0adef3c7614fbbce032d402cb38f7f06be7f1c589421ae622c01782eb9"><script type="text/javascript" src="https://www.dwolla.com/scripts/button.min.js"> </script>
+<a href="http://wiki.freesideatlanta.org/fs/Thanks" class="dwolla_button" data-name="Freeside Membership Dues" data-desc="Standard Rate " data-amount="80.00" data-shipping="0" data-tax="0" data-key="cSopmbTatKgd+BlDDB/h4yNbyqFhlahH7j+itD+0oinR87FdfX">Standard: $80</a>
+</shtml>
+
 == Paypal ==
 
 Follow the links below to setup either a single or recurring payment of dues through Paypal.
