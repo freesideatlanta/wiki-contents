@@ -1,3 +1,12 @@
+{{Infobox
+|title = Infobox Title
+|header1 = Infobox Header
+|label2 = Created by
+|data2 = David
+|label3 = External reference
+|data3 = [http://trog.qgl.org trog.qgl.org]
+}}
+
 = [[Zone]] =
 [[Equipment]] \ [[Warehouse]] \ [[Metal Shop]]
 
