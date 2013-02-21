@@ -17,16 +17,12 @@ Members can pay their dues for the month on any day of that month.
 
 === Single Payment ===
 
-<shtml version="2" hash="03662c0adef3c7614fbbce032d402cb38f7f06be7f1c589421ae622c01782eb9"><script type="text/javascript" src="https://www.dwolla.com/scripts/button.min.js"> </script>
-<a href="http://wiki.freesideatlanta.org/fs/Thanks" class="dwolla_button" data-name="Freeside Membership Dues" data-desc="Standard Rate " data-amount="80.00" data-shipping="0" data-tax="0" data-key="cSopmbTatKgd+BlDDB/h4yNbyqFhlahH7j+itD+0oinR87FdfX">Standard: $80</a>
-</shtml><shtml version="2" hash="39d3ab160c927a5a6eb756426b670f6e73a56661be824253386160a38c8e98ba"><a href="http://wiki.freesideatlanta.org/fs/Thanks" class="dwolla_button" data-name="Freeside Membership Dues" data-desc="Standard Rate (Full Year)" data-amount="912.00" data-shipping="0" data-tax="0" data-key="cSopmbTatKgd+BlDDB/h4yNbyqFhlahH7j+itD+0oinR87FdfX">Standard (Full Year): $912</a>
-</shtml>
+<shtml version="2" hash="ab10e61b6737e124768a2fff154d6d5d6d59bb6f18ff8b54f8b03f8d3f271157"><script type="text/javascript" src="https://www.dwolla.com/scripts/button.min.js"> </script>
+<a href="http://wiki.freesideatlanta.org/fs/Thanks" class="dwolla_button" data-name="Freeside Membership Dues" data-desc="Standard Rate " data-amount="80.00" data-shipping="0" data-tax="0" data-key="cSopmbTatKgd+BlDDB/h4yNbyqFhlahH7j+itD+0oinR87FdfX" data-guest-checkout="true">Standard: $80</a></shtml><shtml version="2" hash="2cc1f5a98ef9eb6c281e1b4be232e4cff44ddd44b85d93b47c301c903cf7dfff"><a href="http://wiki.freesideatlanta.org/fs/Thanks" class="dwolla_button" data-name="Freeside Membership Dues" data-desc="Standard Rate (Full Year)" data-amount="912.00" data-shipping="0" data-tax="0" data-key="cSopmbTatKgd+BlDDB/h4yNbyqFhlahH7j+itD+0oinR87FdfX" data-guest-checkout="true">Standard (Full Year): $912</a></shtml>
 
-<shtml version="2" hash="6cfcd7237bcdf1be19e15c7ad411549c96bf21551302d891d715e4a36d272832"><a href="http://wiki.freesideatlanta.org/fs/Thanks" class="dwolla_button" data-name="Freeside Membership Dues" data-desc="Starving Hacker Rate" data-amount="40.00" data-shipping="0" data-tax="0" data-key="cSopmbTatKgd+BlDDB/h4yNbyqFhlahH7j+itD+0oinR87FdfX">Starving Hacker: $40</a>
-</shtml>
+<shtml version="2" hash="0263f28ccd93b1d1dcc0c3b509d4630892059dd0f06900f6fc16aeded48937dc"><a href="http://wiki.freesideatlanta.org/fs/Thanks" class="dwolla_button" data-name="Freeside Membership Dues" data-desc="Starving Hacker Rate" data-amount="40.00" data-shipping="0" data-tax="0" data-key="cSopmbTatKgd+BlDDB/h4yNbyqFhlahH7j+itD+0oinR87FdfX" data-guest-checkout="true">Starving Hacker: $40</a></shtml>
 
-<shtml version="2" hash="67b6b49f79f8b6850e7bce834965e7fc0de398ac27356c7558ea5b34e5d795ff"><a href="http://wiki.freesideatlanta.org/fs/Thanks" class="dwolla_button" data-name="Freeside Membership Dues" data-desc="Joint-MIC Rate" data-amount="65.00" data-shipping="0" data-tax="0" data-key="cSopmbTatKgd+BlDDB/h4yNbyqFhlahH7j+itD+0oinR87FdfX">Joint-MIC: $65</a>
-</shtml>
+<shtml version="2" hash="8693325a1c847a03bb804f6f529a72c8c045cec83d005b8808b2b0ba658aa2eb"><a href="http://wiki.freesideatlanta.org/fs/Thanks" class="dwolla_button" data-name="Freeside Membership Dues" data-desc="Joint-MIC Rate" data-amount="65.00" data-shipping="0" data-tax="0" data-key="cSopmbTatKgd+BlDDB/h4yNbyqFhlahH7j+itD+0oinR87FdfX" data-guest-checkout="true">Joint-MIC: $65</a></shtml>
 
 == Paypal ==
 
