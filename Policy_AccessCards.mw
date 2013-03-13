@@ -1,0 +1,9 @@
+'''Approved: 2013-FEB-02'''
+
+Upon joining Freeside Atlanta, new members are issued an RFID access badge or token that allows 24/7 access to the front door, the rear garage entrance, and member storage.  These access points are always available to members that are part of the group members when the access control list (ACL) is generated for the node that operates the access point.
+
+The card’s programmed locationid and tokenid (together, informally called the tokenid) are recorded into a centralized database and used to generate ACLs for nodes that operate other access points, such as the server room, the tool room, and the tool box.  These access points are granted if the member has membership to other groups, like it-staff or lathe-operators, for example.
+
+If a member loses the access card and needs a replacement, the cost is $5 to get a new badge or token.  
+
+It is the member’s responsibility to notify the Treasurer or IT when their card is lost, so the card can be disabled.
