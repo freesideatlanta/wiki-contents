@@ -32,24 +32,25 @@ Visit our [https://www.dwolla.com/hub/freeside Dwolla Hub Page] in order to setu
 
 Follow the links below to setup either a single or recurring payment of dues through Paypal.
 
-=== Single Payment ===
-
-* '''Standard:''' [https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=payments%40freesideatlanta%2eorg&lc=US&item_name=Freeside%20Dues&currency_code=USD&amount=80 $80] one month's dues
-* '''[[Policy_StarvingHackerProgram| Starving Hacker]]:''' [https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=payments%40freesideatlanta%2eorg&lc=US&item_name=Freeside%20Dues%20%28Starving%20Hacker%20Program%29&currency_code=USD&amount=40 $40] one month's dues
-* '''Joint:''' [https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=payments%40freesideatlanta%2eorg&lc=US&item_name=Freeside%20Dues%20%28Joint%20MIC%29&currency_code=USD&amount=65 $65] one month's dues
-
-<shtml version="2" hash="472c69b7edac2f58836a91d0da8af3021ced8bf67e125608468c4afa10d0e1df"><form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<table>
-<tr><td style="vertical-align: top"><select name="os0">
-	<option value="Standard">Standard $80.00 USD</option>
-	<option value="Starving Hacker">Starving Hacker $40.00 USD</option>
-	<option value="Joint">Joint $65.00 USD</option>
-</select> </td><td style="vertical-align: middle"><input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"></td></tr>
+<shtml version="2" hash="4c9473f4285d4f4b3b211a0e8869a6057ee5bd96ee95059074b632a6bbe0d9a8"><form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<table><tr><td style="vertical-align: top"><select name="os0">
+<option value="Standard">Standard : $80.00 USD</option>
+<option value="Starving Hacker">Starving Hacker : $40.00 USD</option>
+<option value="Joint">Joint : $65.00 USD</option>
+</select></td><td style="vertical-align: top"><input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"></td></tr>
 </table>
-<input type="hidden" name="on0" value="Rates">
 <input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="WXXGXYGXVLRYG">
+<input type="hidden" name="business" value="payments@freesideatlanta.org">
+<input type="hidden" name="item_name" value="Freeside Membership Dues">
 <input type="hidden" name="currency_code" value="USD">
+<input type="hidden" name="on0" value="Rates">
+<input type="hidden" name="option_select0" value="Standard Dues">
+<input type="hidden" name="option_amount0" value="80.00">
+<input type="hidden" name="option_select1" value="Starving Hacker Dues">
+<input type="hidden" name="option_amount1" value="40">
+<input type="hidden" name="option_select2" value="Joint Dues">
+<input type="hidden" name="option_amount2" value="65">
+<input type="hidden" name="option_index" value="0">
 </form></shtml>
 
 === Recurring Payment ===
