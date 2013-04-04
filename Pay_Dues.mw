@@ -38,7 +38,7 @@ Follow the links below to setup either a single or recurring payment of dues thr
 * '''[[Policy_StarvingHackerProgram| Starving Hacker]]:''' [https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=payments%40freesideatlanta%2eorg&lc=US&item_name=Freeside%20Dues%20%28Starving%20Hacker%20Program%29&currency_code=USD&amount=40 $40] one month's dues
 * '''Joint:''' [https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=payments%40freesideatlanta%2eorg&lc=US&item_name=Freeside%20Dues%20%28Joint%20MIC%29&currency_code=USD&amount=65 $65] one month's dues
 
-<shtml version="2" hash="4c9473f4285d4f4b3b211a0e8869a6057ee5bd96ee95059074b632a6bbe0d9a8"><form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<shtml version="2" hash="626513301edbe9d36718dce723db7e0a561d65a52a9a299d4c34fcf6d181434d"><form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <table><tr><td style="vertical-align: top"><select name="os0">
 <option value="Standard">Standard : $80.00 USD</option>
 <option value="Starving Hacker">Starving Hacker : $40.00 USD</option>
@@ -57,6 +57,8 @@ Follow the links below to setup either a single or recurring payment of dues thr
 <input type="hidden" name="option_select2" value="Joint Dues">
 <input type="hidden" name="option_amount2" value="65">
 <input type="hidden" name="option_index" value="0">
+<input type="hidden" name="lc" value="US">
+<input type="hidden" name="bn" value="PP-BuyNowBF">
 </form></shtml>
 
 === Recurring Payment ===
