@@ -32,6 +32,8 @@ Visit our [https://www.dwolla.com/hub/freeside Dwolla Hub Page] in order to setu
 
 Follow the links below to setup either a single or recurring payment of dues through Paypal.
 
+=== Single Payment ===
+
 <shtml version="2" hash="4c9473f4285d4f4b3b211a0e8869a6057ee5bd96ee95059074b632a6bbe0d9a8"><form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <table><tr><td style="vertical-align: top"><select name="os0">
 <option value="Standard">Standard : $80.00 USD</option>
