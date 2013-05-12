@@ -29,6 +29,10 @@ In this picture from left to right you can see:
 [[File:laserStuff1.jpg]]
 
 In the second picture you can see the high voltage power supply
-[[File:laserStuff2.jpg|thumb|600px]]
+[[File:laserStuff2.jpg]]
 
 The gantry is driven by a single dual-shaft stepper motor. This motor has a driveshaft on either side that goes to a bearing mechanism attached to the Y rails. Nearest this bearing mechanism there is a timing belt pulley on the shaft. The belt rides on this pulley and connects to the gantry's carriage to pull it back and forth. All motion in the laser cutter is established via pulling as you can't push a belt.
+
+The lens carriage is driven by a stepper motor with a timing belt attached to the carriage.
+
+The wiring exists for a Z(table) stepper but it's not currently installed. The large timing gear can be turned by hand to adjust the table up/down.
