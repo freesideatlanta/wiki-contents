@@ -16,3 +16,7 @@ The laser cutter is a CNC(Computer Numeric Control) machine capable of the follo
 Contrary to popular belief lasers don't melt things. They remove material via a process called sublimation; turning an object from the solid state directly to the gaseous state skipping the liquid stage almost completely.
 
 The laser uses an RF excited CO2 gas laser producing an invisible to the human eye beam at 1090um. Almost everything is opaque to this wavelength and as such if it can sublimate the material it will. This means that if you put *anything* in the path of the laser it'll try to cut it. If it can't cut the material and it doesn't reflect the beam it *WILL* heat it up very very rapidly. The excited gas you can visually see in the tube is kind of the same thing you see in neon signs. 25KV is applied and the gas is excited to the point where it has to release extra electrons and you see this as light. Do not forget that the beam coming out of the tube is completely invisible and completely dangerous.
+
+[[File:Http://wiki.freesideatlanta.org/fs/File:LaserStuff1.jpg|thumbnail|Interal shot of laser cutter]]
+
+[[File:Http://wiki.freesideatlanta.org/fs/File:LaserStuff2.jpg|thumbnail|Interal shot of laser cutter]]
