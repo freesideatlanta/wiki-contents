@@ -36,3 +36,10 @@ The gantry is driven by a single dual-shaft stepper motor. This motor has a driv
 The lens carriage is driven by a stepper motor with a timing belt attached to the carriage.
 
 The wiring exists for a Z(table) stepper but it's not currently installed. The large timing gear can be turned by hand to adjust the table up/down.
+
+The laser cutter is supported by several pieces of equipment outside of its own enclosure:
+From left to right
+# The coolant tank stores an amount of water/antifreeze mixture as well as houses the 24V bilge pump to circulate the coolant. Because of the amount of coolant available the temperature increase is not noticeable.
+# The air assist pump pumps air into the nozzle attached to the focusing lens on the laser carriage. It's purpose is twofold: keep smoke/debris from out of the line of the laser's beam and off of the optics themselves, and assist the sublimation process by expelling the gasses created
+# The fume extractor draws air in from the front of the laser cutter enclosure, across the cutting surface, and out through the back of the enclosure. (Actual equipment subject to change)
+[[File:LaserSupport.jpg]]
