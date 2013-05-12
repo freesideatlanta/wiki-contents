@@ -19,14 +19,16 @@ Contrary to popular belief lasers don't melt things. They remove material via a 
 The laser uses an RF excited CO2 gas laser producing an invisible to the human eye beam at 1090um. Almost everything is opaque to this wavelength and as such if it can sublimate the material it will. This means that if you put *anything* in the path of the laser it'll try to cut it. If it can't cut the material and it doesn't reflect the beam it *WILL* heat it up very very rapidly. The excited gas you can visually see in the tube is kind of the same thing you see in neon signs. 25KV is applied and the gas is excited to the point where it has to release extra electrons and you see this as light. Do not forget that the beam coming out of the tube is completely invisible and completely dangerous.
 
 In this picture from left to right you can see:
-# 24VDC power supply
-# 12VDC power supply
-# In the back are 3 Keling stepper drivers
-# In front of those are 2 120VAC solid state relays (not wired and currently not present in the enclosure)
+# 24VDC power supply; large aluminum case
+# 12VDC power supply; small aluminum case
+# In the back are 3 Keling stepper drivers; black aluminum cases with green wiring terminals
+# In front of those are 2 120VAC solid state relays (not wired and currently not present in the enclosure); grey plastic cases
 # Breakout board
 # Power entry
 # Hole for 120VAC duplex outlet
 [[File:laserStuff1.jpg|thumb|600px]]
 
-In this picture you can see the high voltage power supply
+In the second picture you can see the high voltage power supply
 [[File:laserStuff2.jpg|thumb|600px]]
+
+The gantry is driven by a single dual-shaft stepper motor. This motor has a driveshaft on either side that goes to a bearing mechanism attached to the Y rails. Nearest this bearing mechanism there is a timing belt pulley on the shaft. The belt rides on this pulley and connects to the gantry's carriage to pull it back and forth. All motion in the laser cutter is established via pulling as you can't push a belt.
