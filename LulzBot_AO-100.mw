@@ -22,7 +22,7 @@ TODO: complete instructions on use
 *  Please do not change the bed level or limit switches.
 * Turn off machine when done
 
-= Basic Operational Knowledge =
+== Basic Operational Knowledge ==
 
 * How to home it.
 * How to load and unload filament (optional, but you'll be stuck with the loaded plastic type and color)
@@ -30,7 +30,7 @@ TODO: complete instructions on use
 * How to abort a failed job.
 * How to properly remove a print once it has completed.
 
-= Advanced Operational Knowledge =
+== Advanced Operational Knowledge ==
 
 There are some more advanced tasks that not everyone needs to know to
 print, but needs to know to troubleshoot:
