@@ -65,11 +65,11 @@ From left to right
 The laser beam itself is guided to the cutting nozzle using a "flying optic" system. This means that the laser tube stays in one place and the beam is directed around the enclosure using mirrors. The beam exits the laser tube and hits the first mirror at a ~45 degree angle. It then is reflected onto the gantry's mirror again hitting at ~45 degree angle. It is then reflected onto the carriage mirror at ~45 degree angle and then hits the focusing lens.
 
 = Tips =
-Test power level and feedrate on a piece of material like the one you intend to use.
-More isn't always better in regard to power.
-More isn't always better in regard to assist air.
-When watching the laser cut/engrave wood, wear sunglasses, cutting goggles, or a welding helmet. The light coming off of the material is extremely bright.
-Never look directly at the item being cut without at least one material between you and the beam ie: no peeking in the vent holes without protective glasses
+# Test power level and feedrate on a piece of material like the one you intend to use.
+# More isn't always better in regard to power.
+# More isn't always better in regard to assist air.
+# When watching the laser cut/engrave wood, wear sunglasses, cutting goggles, or a welding helmet. The light coming off of the material is extremely bright.
+# Never look directly at the item being cut without at least one material between you and the beam ie: no peeking in the vent holes without protective glasses
 
 = Quick Reference =
 The focusing lens has a 55mm focal point.
