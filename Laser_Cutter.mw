@@ -62,6 +62,8 @@ From left to right
 # The fume extractor draws air in from the front of the laser cutter enclosure, across the cutting surface, and out through the back of the enclosure. (Actual equipment subject to change)
 [[File:LaserSupport.jpg]]
 
+The laser beam itself is guided to the cutting nozzle using a "flying optic" system. This means that the laser tube stays in one place and the beam is directed around the enclosure using mirrors. The beam exits the laser tube and hits the first mirror at a ~45 degree angle. It then is reflected onto the gantry's mirror again hitting at ~45 degree angle. It is then reflected onto the carriage mirror at ~45 degree angle and then hits the focusing lens.
+
 = Warnings =
 [[File:Laser.PNG|100px]] Eyesight Damage Risk
 
