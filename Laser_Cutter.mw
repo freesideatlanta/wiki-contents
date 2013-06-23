@@ -70,6 +70,13 @@ The laser beam itself is guided to the cutting nozzle using a "flying optic" sys
 # More isn't always better in regard to assist air.
 # When watching the laser cut/engrave wood, wear sunglasses, cutting goggles, or a welding helmet. The light coming off of the material is extremely bright.
 # Never look directly at the item being cut without at least one material between you and the beam ie: no peeking in the vent holes without protective glasses
+# From time to time the gantry gets out of square due to slop in the belts and loosening screws. In order to fix this you need to:
+## Loosen one of the setscrews on one of the Y drive pulleys. 
+## Pull the gantry to the front of the enclosure and using a square like one of these: http://www.harborfreight.com/3-piece-l-square-set-with-levels-98556.html with the large part against the front frame and the blade extending toward the gantry, make sure both sides are equidistant. 
+## If the belts are loose on one or both sides you can adjust tension using the front idler pulley brackets. 
+### Loosen the screws and pull the bracket forward. 
+### Hold the bracket still and re-tighten the screws. 
+## After the gantry is square and the belts are tight, re-tighten the set screw on the Y drive pulley you loosened earlier.
 
 = Quick Reference =
 * The focusing lens has a 55mm focal point.
