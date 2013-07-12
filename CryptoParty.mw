@@ -36,3 +36,7 @@ Plus:
 
 Have more questions? Check out [https://www.cryptoparty.in/ cryptoparty.org]. And remember to party like it's 1984!
 (tin foil hats not included)
+
+== Code examples ==
+The demonstration where I pulled my own session keys to put them into the browser had a few commands associated with it. Here they are:
+https://gist.github.com/eldondev/5980868
