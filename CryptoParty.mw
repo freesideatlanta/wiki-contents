@@ -41,7 +41,7 @@ Have more questions? Check out [https://www.cryptoparty.in/ cryptoparty.org]. An
 The demonstration where I pulled my own session keys to put them into the browser had a few commands associated with it. Here they are:
 https://gist.github.com/eldondev/5980868
 
-This is the script I used to modify the .ovpn files from [vpngate.net| VPNGate] so that the VPN settings could be easily imported into Ubuntu:
+This is the script I used to modify the .ovpn files from [http://vpngate.net| VPNGate] so that the VPN settings could be easily imported into Ubuntu:
 [https://gist.github.com/emptyset/5981276| extract.sh]
 
 == Talks ==
