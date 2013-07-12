@@ -37,6 +37,10 @@ Plus:
 Have more questions? Check out [https://www.cryptoparty.in/ cryptoparty.org]. And remember to party like it's 1984!
 (tin foil hats not included)
 
-== Code examples ==
+== Code Examples ==
 The demonstration where I pulled my own session keys to put them into the browser had a few commands associated with it. Here they are:
 https://gist.github.com/eldondev/5980868
+
+== Talks ==
+
+* 2013-JUL-11 Virtual Private Networks, Expounded Casually for the Novice Computer User
