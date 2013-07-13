@@ -3,17 +3,16 @@ To use this template, copy  <code><nowiki>{{subst:EquipmentPage}}</nowiki></code
 Add or link new equipment pages to [[Equipment]]
 = Zone =
 (Set to the right zone)<br />
-[[Equipment]] \ [[Warehouse]] \ [[Metal Shop]]
+[[Equipment]] \ [[Warehouse]] \ [[Woodshop]]
 
 = About =
-What is this equipment used for. Brief description.
+Used to collect sawdust and other non-metallic dust from wood working tools. Should NOT be used as a shop vac, be used to collect metal shavings or grinding dust, or be used to pick up any material from work surfaces or the floor. 
 
 = Owner(s) =
-* Freeside
-* Member Name (Link to their Wiki Page if it exists)
+* Randy Farmer
 
 = Hackability =
-Hack/Do Not Hack/List Of Desired Improvements
+Do Not Hack
 
 == Permissions ==
 Rules and expectations for use of this piece of equipment. Example: <br />
