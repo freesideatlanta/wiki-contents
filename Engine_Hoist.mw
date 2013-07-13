@@ -3,26 +3,24 @@ To use this template, copy  <code><nowiki>{{subst:EquipmentPage}}</nowiki></code
 Add or link new equipment pages to [[Equipment]]
 = Zone =
 (Set to the right zone)<br />
-[[Equipment]] \ [[Warehouse]] \ [[Metal Shop]]
+[[Equipment]] \ [[Warehouse]] \ [[Auto Bay]]
 
 = About =
 What is this equipment used for. Brief description.
 
 = Owner(s) =
-* Freeside
-* Member Name (Link to their Wiki Page if it exists)
+* Randy Farmer
 
 = Hackability =
-Hack/Do Not Hack/List Of Desired Improvements
+Do Not Hack
 
 == Permissions ==
-Rules and expectations for use of this piece of equipment. Example: <br />
-For general use by members after they have completed an appropriate training course. Treat this equipment as if it were your own cleaning items off of the top of the machine and around its table after usage.
+Use safely to lift large items, such as engine, transmissions, etc. 
 
 == Restrictions ==
-Things the equipment shouldn't be used for, limitations, etc (Don't grind aluminum or brass, etc)<br />
-* ??
-* ??
+Things the equipment shouldn't be used for, limitations, etc <br />
+* Should not be used for moving a heavy object long distances. 
+* Do not lift large items with the arm extended beyond the extension legs.
 
 == Caution ==
 Things a user should know prior to using the equipment (turn on power supply prior to plugging in USB, etc)<br />
