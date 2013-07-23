@@ -22,6 +22,9 @@ The laser cutter is a CNC(Computer Numeric Control) machine capable of the follo
     * wood
     * glass
     * dark stone
+    * ceramic
+    * leather
+
 == Caution ==
 Contrary to popular belief lasers don't melt things. They remove material via a process called sublimation; turning an object from the solid state directly to the gaseous state skipping the liquid stage almost completely.
 
