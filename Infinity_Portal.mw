@@ -4,7 +4,7 @@ The concept of the project centers on an infinity mirror, which is an optical ef
 
 The idea for this project is to create a large archway that appears to be a freestanding gateway standing on an altar. People walk up to the gate, triggering a proximity sensor. Once the system detects that a user is present, the LED strips inside the infinity mirror are triggered, giving the appearance of a portal having opened in the gate and extending backwards infinitely.
 
-=== Step 1: Prototyping the concept ===
+== Step 1: Prototyping the concept ==
 <gallery>
 File:InfinityBuild1Pic1.jpg|The mirror side of the prototype enclosure
 File:InfinityBuild1Pic2.jpg|Laying the strips in the prototype enclosure
@@ -19,7 +19,7 @@ We posted a write-up of the build on our [http://blog.freesideatlanta.org/2013/0
 
 We had some good finds from the initial prototyping, and found that we can change the apparent depth of the tunnel by changing the brightness of the LEDs or spacing the two mirrors farther apart. We can make the tunnel appear to curve around by tilting the mirrors slightly. By using two of the two-way mirrors, we found that we could project into the back of the enclosure to make a projected image repeat indefinitely.
 
-=== Step 2: Prototyping the design ===
+== Step 2: Prototyping the design ==
 <gallery>
 File:InfinityBuild2Pic1.jpg|Tam's concept sketch
 File:InfinityBuild2Pic2.jpg|The vector model in CamBam
