@@ -31,3 +31,12 @@ File:InfinityBuild2Pic5.jpg|Side view of the design prototype
 Next, we built a prototype that Tam sketched as a conceptual rendering of the final model. To do this, we vector-mapped her sketch, processed it in CamBam, exported the gcode to the laser cutter and cut a prototype out of wood.
 
 We used the two prototypes that we had (conceptual and design) at the Alchemy Art Fundraiser and received the highest funding at that event. We've still got some fundraising to do, but it looks like people are really excited about this concept!
+
+== Step 3: Planning the Build ==
+
+The build will probably be divided into a few different processes that we'll work on independently:
+*Building the framework to support the reflective acrylic pieces
+*Designing and milling the facade for the front of the archway
+*Programming the light controllers with rainbow chase patterns and setting up triggers
+*Laser engraving the acrylic accent pieces for the archway
+*Building the Altar and testing different setups to support the illusion
