@@ -1,19 +1,16 @@
-==Gallery==
-<TODO - A gallery of Server Room images will go here>
-
 ==Overview==
 
-The server room is where most of the heavy computing for Freeside happens. There are several rack-mounted servers, a rack for donated computer equipment, and a prototyping area for [[Vuvuzela| Access Control]].
+The server room is where most of the heavy computing for Freeside happens. There is a rack with several rack-mounted servers, and currently a bunch of old computers that need sorting.
 
 ==Equipment==
-* Racks
-* Rack servers running *nix OS, various specifications
-* IT workstation
+* VM Hosts
+** 1x Dell 2950 with: 2U 2xL5320 (Quad Core 64 bit @ 1.86GHz, Intel VT compatible), 16GB RAM, 1x1TB SATA Drive (Owned By Eldon)
+* 1x RBP Reboot Plus Switched PDU w/Serial interface
+* 1x TP-Link TL-WR703N VPN (Temporary!)
+* 1x Rackable Box (to be removed)
+* 1x Cisco switch
+* 1x Comcast Modem
 
 == Current Projects ==
 
 * [[Vuvuzela]], Open Source Access Control
-* Infosec Lab
-* Server Virtualization
-* F-BOMB
-* Other cloak and dagger stuff we can't talk about
