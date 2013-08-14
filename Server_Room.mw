@@ -19,3 +19,37 @@ The server room is where most of the heavy computing for Freeside happens. There
 * OpenVPN for members
 
 == Members-Only Wifi Services ==
+
+== Services Wishlist == 
+
+* 1 physical Zoneminder multi-U box because of the MPEG encoder card for the coax cameras.
+
+* 1 VM for Vuvuzela (access control database, etc) hooked up to physical serial for door rfid.
+
+* NAT/DNS/DHCP VM 
+
+* Distinct locked down network for infrastructure stuff (cameras, RasPi
+for access control, etc),
+
+* Distinct network for workstations, wifi access, etc. 
+
+* Public and Members wifi, with QOS 
+
+* A good physical drop in the classroom and the auditorium for streaming.
+
+* VPN access point to remote in and access infrastructure remotely.
+
+* A small NAS would be nice, and then look to leverage something like
+Jungledrive on AWS for some off-site backups of access control, VM images,
+security logs and video, etc.
+** I would rather have this be a vm. The vm server can handle 6 drives. I think probably just use that.
+
+== Server Room Rules Brainstorming ==
+* We don't need any internal (public) web servers.
+** Public as in open to the internet, right? ie, we don't want to be a colo for just whoever.
+** I would be fine with (and think it would be a nice service) if we hosted a vm on the "public" network being a member's public facing webpage (they user our IP and it gets natted/proxied somehow), they just have to realize that it is not going to be as reliable as amazon, and we will shut it off if it gets hacked or goes unmaintained.
+
+* Nice-to-haves, like a media server, etc, don't belong on the infrastructure
+rack/UPS, etc. If it isn't essential, we should monitor it, Kill-a-watt it,
+figure out the cost to keep it running, and figure out if the users want to
+support that.
