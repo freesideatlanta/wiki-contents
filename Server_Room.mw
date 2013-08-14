@@ -39,9 +39,7 @@ for access control, etc),
 
 * VPN access point to remote in and access infrastructure remotely.
 
-* A small NAS would be nice, and then look to leverage something like
-Jungledrive on AWS for some off-site backups of access control, VM images,
-security logs and video, etc.
+* A small NAS would be nice, and then look to leverage something like Jungledrive on AWS for some off-site backups of access control, VM images, security logs and video, etc.
 ** I would rather have this be a vm. The vm server can handle 6 drives. I think probably just use that.
 
 == Server Room Rules Brainstorming ==
