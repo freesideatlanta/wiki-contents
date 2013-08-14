@@ -49,7 +49,4 @@ security logs and video, etc.
 ** Public as in open to the internet, right? ie, we don't want to be a colo for just whoever.
 ** I would be fine with (and think it would be a nice service) if we hosted a vm on the "public" network being a member's public facing webpage (they user our IP and it gets natted/proxied somehow), they just have to realize that it is not going to be as reliable as amazon, and we will shut it off if it gets hacked or goes unmaintained.
 
-* Nice-to-haves, like a media server, etc, don't belong on the infrastructure
-rack/UPS, etc. If it isn't essential, we should monitor it, Kill-a-watt it,
-figure out the cost to keep it running, and figure out if the users want to
-support that.
+* Nice-to-haves, like a media server, etc, don't belong on the infrastructure rack/UPS, etc. If it isn't essential, we should monitor it, kill-a-watt it, figure out the cost to keep it running, and figure out if the users want to support that.
