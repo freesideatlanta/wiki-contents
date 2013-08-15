@@ -1,0 +1,9 @@
+What would it look like if you could track, record, and analyze the gaze tracking patterns of surgeons as they are diagnosing x-rays? What kinds of differences might emerge with experience and which of those are the good habits vs. bad habits?
+
+The first step in answering this question is to just have a look and see what patterns emerge. So that's what we did. Nick Giovinco and Steven Sutton collaborated on this project to create a dataset of gaze tracking information from a group of surgical residents and a group of surgeons with years of medical experience.
+
+We used [http://www.gazegroup.org/downloads/23-gazetracker ITU Gazetracker] to capture the gaze information and [http://www.ogama.net/ OGAMA] to record and analyze that data. We then put together a setup with a chin rest and webcam at the Dekalb Medical Center.
+
+After a day of setup and calibration, we had consistent results and a reliable testing procedure. We tried to make the test as comfortable as possible, but the need for side supports to keep the head from tilting relative to the screen (as you would imagine people might do while examining something like an x-ray) made the setup a little bit awkward.
+
+We collected data from more than 35 people, but narrowed the data set to 15 residents and 15 surgeons with more than 7 years of experience.
