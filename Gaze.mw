@@ -18,3 +18,5 @@ We used [http://www.gazegroup.org/downloads/23-gazetracker ITU Gazetracker] to c
 After a day of setup and calibration, we had consistent results and a reliable testing procedure. We tried to make the test as comfortable as possible, but the need for side supports to keep the head from tilting relative to the screen (as you would imagine people might do while examining something like an x-ray) made the setup a little bit awkward.
 
 We collected data from more than 35 people, but narrowed the data set to 15 residents and 15 surgeons with more than 7 years of experience.
+
+We are currently analyzing the data and writing up the results. Preliminary results indicate that experienced diagnosticians scan a tighter area of the image and rookies tend to move in a pattern that jumps around quite a bit more than the veterans. The tracking data is being compared to the recorded diagnoses so that we can look for patterns in the grouping of the data.
