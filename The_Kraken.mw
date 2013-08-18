@@ -55,10 +55,15 @@ TODO: complete specifications, links to documentation, etc.
 * Keep loose hair and sleeves away from all moving parts.
 * *****WARNING***** Long/loose hair may become entangled in the z-axis(vertical) threaded rods and all motor pulleys and idlers.
 * Kraken Print-bed operating temperature is 60°C (140°F)
-* Kraken Print nozzle/extruder operating temperature range is 185-200°C (365-392°F)
+* Kraken Print nozzle/extruder operating temperature range is 180-220°C (356-428°F)
 
 == Safety ==
 TODO: specify safety requirements
 * Keep loose hair and sleeves away from all moving parts.
 * Do not touch the printer nozzle/extruder while hot during print cycle.
 * [http://www.natureworksllc.com/~/media/Technical_Resources/Regulatory_Affairs/Material_Safety_Data_Sheets/MSDS_4043D_ansi_english_nw_pdf.pdf PLA Plastic sample MSDS]
+* PLA is not intended for: 
+:(A) in any application which is intended for any internal contact with human body fluids or body tissues 
+:(B) as a critical component in any medical device that supports or sustains human life; and 
+:(C) specifically pregnant women or in any applications 
+designed specifically to promote or interfere with human reproduction.
