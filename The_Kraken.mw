@@ -56,11 +56,13 @@ print, but needs to know to troubleshoot:
 * Precision: 0.1mm (position/printing)
 
 * Printed Parts: PLA components by Redbeard
-* Non-Printed Parts: Extrude aluminum frame using components from Misumi.com
+* Non-Printed Parts: Extruded aluminum frame using components from Misumi.com
 * Control Card: RAMPS 1.4 with Polulu stepper drivers
 * Motors: 5x Kysan-1124090 Nema 17 Stepper Motor with 1.8°/step
 * Extruder Nozzle: J-Head Mk V-BV 0.35 for 3mm pla
+::- nozzle temp 180-220°C
 * Heated Bed: Prusa PCB Heated Bed
+::- bed temp 60°C
 * [[Kraken BOM]] Bill Of Materials
 
 = Warnings =
