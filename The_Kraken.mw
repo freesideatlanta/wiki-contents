@@ -45,6 +45,8 @@ print, but needs to know to troubleshoot:
 
 == Specifications and Detailed Instructions ==
 TODO: complete specifications, links to documentation, etc.
+* The Kraken is a reprap derivative built with PLA Plastic components.  This printer is intended to be a dedicated PLA printer
+* [[Kraken BOM]]
 
 = Warnings =
 * Keep loose hair and sleeves away from all moving parts.
