@@ -47,10 +47,13 @@ print, but needs to know to troubleshoot:
 TODO: complete specifications, links to documentation, etc.
 
 = Warnings =
-TODO: specify warnings
 * Keep loose hair and sleeves away from all moving parts.
 * *****WARNING***** Long/loose hair may become entangled in the z-axis(vertical) threaded rods and all motor pulleys and idlers.
+* Kraken Print-bed operating temperature is 60°C (140°F)
+* Kraken Print nozzle/extruder operating temperature range is 185-200°C (365-392°F)
 
 == Safety ==
 TODO: specify safety requirements
 * Keep loose hair and sleeves away from all moving parts.
+* Do not touch the printer nozzle/extruder while hot during print cycle.
+* [[PLA Plastic MSDS]]
