@@ -14,6 +14,19 @@ File:Eggbotz.jpg|Eggbots are good to learn about CNC on, and are muchless comple
 
 3D Printing is a very popular facet of the maker/hacker movement. Though they are still a bit difficult to use/calibrate, they are capable of printing 3D items based on CAD models and using extruded filament.
 
+== Software ==
+'''3D Printing:'''
+*[http://reprap.org/wiki/Repetier-Host Repetierhost] used by the Freeside terminal to generate gcode from .stl files and command the 3D printers
+*[http://reprap.org/wiki/Slic3r Slic3r] is integrated with repetier host above or used as a stand alone to generate machine readable gcode from an .stl 3D model.
+
+'''CAD/3D Modeling:'''
+Any software that can generate an .stl 3D image file is suitable.  Below is an incomplete list of popular options.
+*www.openscad.org
+*tinkercad.com
+*blender.org
+*sketchup.com
+*AutoDesk (various products)
+
 == Equipment ==
 
 * Wall of Spool
