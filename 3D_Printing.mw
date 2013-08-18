@@ -19,6 +19,9 @@ File:Eggbotz.jpg|Eggbots are good to learn about CNC on, and are muchless comple
 *[http://reprap.org/wiki/Repetier-Host Repetierhost] used by the Freeside terminal to generate gcode from .stl files and command the 3D printers
 *[http://reprap.org/wiki/Slic3r Slic3r] is integrated with repetier host above or used as a stand alone to generate machine readable gcode from an .stl 3D model.
 
+: Printer Firmware
+:: Sprinter
+
 '''CAD/3D Modeling:'''
 
 Any software that can generate an .stl 3D image file is suitable.  Below is an incomplete list of popular options.
