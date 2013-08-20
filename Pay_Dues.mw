@@ -54,25 +54,3 @@ Follow the links below to setup either a single or recurring payment of dues thr
 * '''Standard:''' [https://www.paypal.com/subscriptions/business=payments%40freesideatlanta%2eorg&item_name=Freeside%20Monthly%20Dues%20%28Standard%29&cy_code=USD&a3=80&p3=1&t3=M&src=1 $80/mo]
 * '''[[Policy_StarvingHackerProgram| Starving Hacker]]:''' [https://www.paypal.com/subscriptions/business=payments%40freesideatlanta%2eorg&item_name=Freeside%20Monthly%20Dues%20%28Starving%20Hacker%20Program%29&cy_code=USD&a3=40&p3=1&t3=M&src=1 $40/mo]
 * '''Joint:''' [https://www.paypal.com/subscriptions/business=payments%40freesideatlanta%2eorg&item_name=Freeside%20Monthly%20Dues%20%28Joint%20MIC%29&cy_code=USD&a3=65&p3=1&t3=M&src=1 $65/mo]
-
-== Google Checkout ==
-
-<shtml version="2" hash="e5b59f3924c97785b028be7708f465c9f2be55a61e9e23fa7857af8a4128ff0a"><form action="https://checkout.google.com/api/checkout/v2/checkoutForm/Merchant/337223875096561" id="BB_BuyButtonForm" method="post" name="BB_BuyButtonForm" target="_top"><table><tr><td style="vertical-align: top"><select style="height: 34px" name="item_selection_1">
-<option value="1">$80.00 - Freeside Membership Dues (Standard)</option>
-<option value="2">$40.00 - Freeside Membership Dues (Starving Hacker)</option>
-<option value="3">$65.00 - Freeside Membership Dues (Joint)</option></select></td><td><input alt="" src="https://checkout.google.com/buttons/buy.gif?merchant_id=337223875096561&amp;w=121&amp;h=44&amp;style=white&amp;variant=text&amp;loc=en_US" type="image"/></td></tr></table><input name="item_option_name_1" type="hidden" value="Freeside Membership Dues (Standard)"/>
-<input name="item_option_price_1" type="hidden" value="80.0"/>
-<input name="item_option_description_1" type="hidden" value=""/>
-<input name="item_option_quantity_1" type="hidden" value="1"/>
-<input name="item_option_currency_1" type="hidden" value="USD"/>
-<input name="item_option_name_2" type="hidden" value="Freeside Membership Dues (Starving Hacker)"/>
-<input name="item_option_price_2" type="hidden" value="40.0"/>
-<input name="item_option_description_2" type="hidden" value=""/>
-<input name="item_option_quantity_2" type="hidden" value="1"/>
-<input name="item_option_currency_2" type="hidden" value="USD"/>
-<input name="item_option_name_3" type="hidden" value="Freeside Membership Dues (Joint)"/>
-<input name="item_option_price_3" type="hidden" value="65.0"/>
-<input name="item_option_description_3" type="hidden" value=""/>
-<input name="item_option_quantity_3" type="hidden" value="1"/>
-<input name="item_option_currency_3" type="hidden" value="USD"/>
-</form></shtml>
