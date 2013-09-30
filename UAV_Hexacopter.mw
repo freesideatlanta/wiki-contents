@@ -1,8 +1,8 @@
 == Hexacopter Information ==
 
-The platform that we're using is the [https://code.google.com/p/arducopter/ arducopter for arduino] system. The sister platform for planes is arduplane. The Open-Source equivalent is the ArduPirate. This is the platform that we can actually push code changes to, though all of the projects listed above are actually open source, just with varying degrees of control..
+The platform that we're using is the [https://code.google.com/p/arducopter/ arducopter for arduino] system. The sister platform for planes is [http://diydrones.com/profiles/blogs/ardupilot-mega-home-page arduplane]. The Open-Source equivalent is the [https://code.google.com/p/ardupirates/ ArduPirate]. This is the platform that we can actually push code changes to, though all of the projects listed above are actually open source, just with varying degrees of control..
 
-The model that we have is a DIY Drones hexacopter.
+The model that we have is a DIY Drones hexacopter. We run the [http://copter.ardupilot.com/ APM 1.0 Board].
 
 == Flight Videos ==
 
