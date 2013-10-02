@@ -1,0 +1,59 @@
+The Meme Cabinet, as it is eloquently called, is a project to build a Mame Cabinet oriented around internet culture.
+
+The project is currently in the halted phase, but is not far from completion. This document covers what has been completed, and what remains.
+
+It is possible to resume work on the project with this data. The only limit is yourself!
+
+== The inception of the project ==
+An ex-member gifted two working Sega Zilog Z80 arcade machines to Freeside, along with a computer full of MAME ROMs and a controller. We decided to sacrifice the Shadow Dancer cabinet in a glorious ritual (not unlike the [[goat ritual]]) and give birth to a meme-oriented arcade machine to relieve all those classic arcade and console hits!
+
+The current status of the project is that is functional with a LCD monitor and external game controllers. Unfortunately, nobody has interest in finishing it to full functionality. Unless...
+
+== Current Punchlist ==
+
+=== Install a CRT Screen. ===
+* The current LCD screen (w/ VESA mount) is not sufficient for standing gaming and is very impractical. A CRT would maximize visibility and assure a genuine appearance
+* Most effective CRT mount would be to build supports around a 12'' diagonal screen and support it from the side supports (diagram forthcoming)
+
+=== Decorate with memes ===
+* Nyan Cat is still popular, right?
+
+=== Install and fine-tune controls ===
+* Located on top of the cabinet, connect with and are configured using two PS/2 sockets. Rightmost cable to mouse, leftmost to keyboard.
+* Most labor-intensive given the modifications needed to be made to the cabinet in its current form to support this control
+
+=== Expose interface sockets ===
+* Give moulding to USB ports on the front
+* Expose a IEC-60320 C13 outlet and ethernet adapter on the back
+** Basically move the power supply out of the case onto a supporting wall (the back, ideally), make it pretty with moulding
+* Tie all electronics to a core power switch on the case
+** One such switch exists on the top, ready to be rewired.
+* Add Wifi if possible
+
+== Hardware Specifications ==
+* Unknown i686 System
+** VGA Output 1024x768
+** AC97-compatible sound board (unconfigured in ALSA)
+* Unknown version of Ubuntu Linux LTS
+** Pre-Unity
+* yaocade (or some Python-based XMAME launcher)
+* XMAME or SDL MAME
+* Tons of MAME arcade images, SNES, NES, Genesis roms
+* ZSnes
+* Gens
+
+== Measurements ==
+TBD. I have them written down somewhere. Most of the pertinent ones are in the Sketchup diagram
+
+== Safety Considerations ==
+=== Warnings ===
+[[File:Crush.png|100px]] Crush and Pinch Risk
+
+[[File:ElectricShock.PNG|100px]] Electric Shock Risk
+
+=== Safety ===
+[[File:Unplug.PNG |100px]] Unplug during maintenance
+
+== Additional Resources ==
+* [https://www.dropbox.com/s/bendco9eqg5wi08/Meme%20Cabinet.skp Sketchup diagram of lower cabinet innards] -- this contains a 1:1 scale render of the lower portion of the cabinet, outlining the best places for mounting the hardware inside of the cabinet for operations
+* [https://www.dropbox.com/s/ftt332sd7h5nilt/Sizing%20Up%20Cockpit%20Measurements.skp Ergonomics Measurement Data] -- Ideal seating arrangements Based on [http://www.bifma.org/ BIFMA] and [http://www.openlab.psu.edu/tools/calculators/AnsurDimensionSelect.php ANSUR] data. Originally planned for a mech simulation cabinet.
