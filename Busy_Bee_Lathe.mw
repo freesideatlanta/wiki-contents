@@ -1,20 +1,36 @@
 = Owner(s) =
+* This page in progress 10-6-2013
 * ???
 
 = Permissions =
 In this optional section, specify the conditions for permission to use the machine, if any.
 
 = Restrictions =
-In this optional section, specify any restrictions on use.  
+* Do not run lathe if oil level below 'low' on sightglass. ''add pic''
+* Test emergency foot brake before use
+* NEVER EVER EVER attempt to change spindle speeds while machine is running
+
 * Example: do not run lathe while X or Y machine is also running in the area
-* Example: only use lath in the presence of another member
+* Example: only use lathe in the presence of another member
 
 = About =
 * [http://www.busybeetools.com/products/LATHE-14IN.-X-40IN.-3HP-220V-1-PHASE.html Specifications]
 
+== Mechanical Controls ==
+''need labeled picture of headstock and apron controls''
+=== Setting Spindle Speed ===
+''add table ''
+See also: [http://en.wikipedia.org/wiki/Speeds_and_feeds]
+
+=== Lubrication System ===
+'' controls specs, lube type, does the lube pump even work? ''
+
+== Electrical ==
+''put up edited CT089 schematic here ''
+
 = Manual(s) =
 * [http://busybeetools.com/product_manuals/CT042.pdf CT042]
-* [http://busybeetools.com/product_manuals/CT089.pdf CT089]
+* [http://busybeetools.com/product_manuals/CT089.pdf CT089] <-- most similar to our model
 
 = Instruction and Safety Articles =
 * [http://www.busybeetools.com/pages/Metalworking-Basics.html Metalworking Basics]
@@ -22,4 +38,6 @@ In this optional section, specify any restrictions on use.
 * [https://www.youtube.com/watch?v=YPYBWXY60Sc Southbend Metal Lathe (Basic Use) 2/2]
 
 = Projects =
-Describe or indicate projects that are using the lathe...
+The lathe is down for some electrical repairs, week of 10-6-2013
+
+Single point threading drive and apron controls need to be refurbished and (re)installed.
