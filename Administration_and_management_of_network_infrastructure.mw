@@ -1,6 +1,10 @@
-If you are messing with freeside infrastructure, here are things to check before you walk out the door:
+If you are messing with Freeside networking infrastructure, here are things to check before you walk out the door:
 
-* Is the public wiki available on the internet/from the space (unlikely you broke this, but you never know!)
-* Is the member wifi working
-* Is the public wifi working
-*
+* Is the public wiki available on the internet and from the space?
+** It's unlikely you broke this, but you never know!
+* Is the member wifi working (freeside-members)?
+* Is the public wifi working (freeside-public)?
+* Can you ping (member resource/server) while on the member subnet?
+* Can you ping (public resource/server) while on the public subnet?
+* Is the NEST online and connected?  Tap the NEST to get to the menu and check the network settings.  The NEST should be on the infrastructure subnet.
+** For now, the NEST should be on the member's subnet.
