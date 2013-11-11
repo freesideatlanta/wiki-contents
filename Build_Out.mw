@@ -6,8 +6,10 @@ Please list any wants, needs, donations or suggestions.
 * Extend the system to the member storage
 * Extend the system to allow opening of one or more autobay doors
 
-== Entry Notification System, part of [[Vuvuzela]] ==
-* Plays audio on entry 
+== [[Vuvuzela]] ==
+* Plays audio on entry
+* Setup central server with ACLs
+* Finish ACL node prototype 
 * LED Notification? Investigate systems for triggering events based on entry/exit
 
 == Video Surveillance ==
