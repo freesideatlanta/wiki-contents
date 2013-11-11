@@ -2,17 +2,19 @@
 
 Please list any wants, needs, donations or suggestions.
 
-=== Security ===
+= Security =
 
-* Access Control
-** Extend the system to the member storage
-** Extend the system to allow opening of one or more autobay doors
-* Entry Notification System, part of [[Vuvuzela]]
-** Plays audio on entry 
-** LED Notification? Investigate systems for triggering events based on entry/exit
-* Video Surveillance
-** ZoneMinder?
-** Aimetis? Longwatch?
+== Access Control ==
+* Extend the system to the member storage
+* Extend the system to allow opening of one or more autobay doors
+
+== Entry Notification System, part of [[Vuvuzela]] ==
+* Plays audio on entry 
+* LED Notification? Investigate systems for triggering events based on entry/exit
+
+== Video Surveillance ==
+* ZoneMinder?
+* Aimetis? Longwatch?
 
 === Zones ===
 
