@@ -42,3 +42,55 @@ subgraph cluster_current {
 
 }
 </graphviz>
+
+== Future ==
+<graphviz>
+graph future {
+
+rankdir="LR"
+
+"The Internet" -- cablemodem:exten
+
+subgraph cluster_current {
+        label = "New network"
+        cablemodem [
+                label="cable modem | <exten> ??? | <intern> 10.1.10.1"
+                shape="record"
+        ]
+        cablemodem:intern -- openwrt:eth0
+
+        dd_wrt [
+                label="members ap | <extern> uplink | <intern> 10.1.40.2"
+                shape="record"
+        ]
+        newap [
+                label="new ap | <extern> uplink | <intern> 10.1.50.2"
+                shape="record"
+        ]
+        openwrt [
+                label="openwrt | <eth0> eth0:24.126.240.124 | <eth1> eth1:10.1.30.1 | <eth2> eth2:10.1.40.1 | <eth3> eth3:10.1.50.1"
+                shape="record"
+        ]
+        proxmox [
+                label="proxmox | <vmbr200> vmbr200:10.1.30.2"
+                shape="record"
+        ]
+        shell [
+                label="shell | <eth0> eth0:10.1.30.3"
+                shape="record"
+        ]
+
+        openwrt:eth1 -- proxmox:vmbr200
+        openwrt:eth1 -- shell:eth0
+
+        openwrt:eth2 -- dd_wrt:intern
+        dd_wrt:intern -- "Wireless Members"
+        openwrt:eth2 -- "Wired drops for tables, etc"
+        openwrt:eth3 -- newap:intern
+        newap:intern -- "Wireless Guests"
+
+}
+
+}
+
+</graphviz>
