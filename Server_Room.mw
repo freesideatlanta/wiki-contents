@@ -7,7 +7,7 @@ The server room is where most of the heavy computing for Freeside happens. There
 ** 1x Dell 2950 with: 2U 2xL5320 (Quad Core 64 bit @ 1.86GHz, Intel VT compatible), 16GB RAM, 1x1TB SATA Drive (Owned By Eldon)
 * 1x RBP Reboot Plus Switched PDU w/Serial interface
 * 1x TP-Link TL-WR703N VPN (Temporary! Interfaced to RBP)
-* 1x Rackable Box (to be removed, putting it's drives into vm host)
+* 1x Rackable Box (to be removed, putting its drives into vm host)
 * 1x Cisco switch
 * 1x Comcast Modem
 
