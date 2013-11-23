@@ -1,0 +1,44 @@
+== Current ==
+<graphviz>
+graph current {
+
+rankdir="LR"
+
+"The Internet" -- cablemodem:exten
+
+subgraph cluster_current {
+        label = "Current network"
+        cablemodem [
+                label="cable modem | <exten> ??? | <intern> 10.1.10.1"
+                shape="record"
+        ]
+        cablemodem:intern -- dd_wrt:extern
+
+        dd_wrt [
+                label="members ap | <extern> 24.126.240.124 | <intern> 10.1.20.10"
+                shape="record"
+        ]
+        openwrt [
+                label="openwrt | <eth0> eth0:10.1.20.5 | <eth1> eth1:10.1.30.1"
+                shape="record"
+        ]
+        proxmox [
+                label="proxmox | <vmbr200> vmbr200:10.1.30.2"
+                shape="record"
+        ]
+        shell [
+                label="shell | <eth0> eth0:10.1.30.3"
+                shape="record"
+        ]
+
+        dd_wrt:intern -- openwrt:eth0
+        openwrt:eth1 -- proxmox:vmbr200
+        openwrt:eth1 -- shell:eth0
+
+        dd_wrt:intern -- "Wireless clients"
+        dd_wrt:intern -- "Wired drops for tables, etc"
+
+}
+
+}
+</graphviz>
