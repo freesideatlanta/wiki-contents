@@ -16,11 +16,11 @@ subgraph cluster_current {
         cablemodem:intern -- dd_wrt:extern
 
         dd_wrt [
-                label="members ap | <extern> 24.126.240.124 | <intern> 10.1.20.10"
+                label="freeside-members | <extern> 24.126.240.124 | <intern> 10.1.20.10"
                 shape="record"
         ]
         openwrt [
-                label="openwrt | <eth0> eth0:10.1.20.5 | <eth1> eth1:10.1.30.1"
+                label="openwrt | <eth0> eth0:10.1.20.5 | <eth1> eth1:10.1.30.1 | <eth2> eth2:10.1.40.1"
                 shape="record"
         ]
         proxmox [
@@ -39,9 +39,12 @@ subgraph cluster_current {
         dd_wrt:intern -- "Wireless clients"
         dd_wrt:intern -- "Wired drops for tables, etc"
 
+        openwrt:eth2 -- "freeside-members2"
+
 }
 
 }
+
 </graphviz>
 
 === Future ===
