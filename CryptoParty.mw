@@ -56,9 +56,19 @@ This is the script I used to modify the .ovpn files from [http://vpngate.net| VP
 * [https://www.eff.org/deeplinks/2010/09/field-guide-copyright-trolls EFF Field Guide to Copyright Trolls]
 * [https://openwireless.org Open Wireless Initiative]
 * [http://torrentfreak.com/which-vpn-providers-really-take-anonymity-seriously-111007 Review of VPN Providers]
-* [https://panopticlick.eff.org Panopticlick Test for Browser Uniqueness]
 * [http://www.vpntopten.com/security/what-is-a-dns-leak-and-how-it-affects-vpn-security DNS Leaks Explained]
-* [https://www.eff.org/https-everywhere HTTPS Everywhere Browser Extension]
 * [http://learn.adafruit.com/onion-pi/overview Onion Pi Step-by-Step Instructions]
 * [http://krebsonsecurity.com/wp-content/uploads/2013/10/UlbrichtCriminalComplaint.pdf Silk Road Criminal Complaint]
 * [http://grugq.github.io/blog/archives The Grugq Blog Archives]
+
+== Online Tools ==
+* [https://panopticlick.eff.org Panopticlick Test for Browser Uniqueness]
+* [https://www.howsmyssl.com How's my TLS?]
+
+== Browser Settings, Plugins ==
+* [http://webdevelopmentaid.wordpress.com/2013/10/21/customize-privacy-settings-in-mozilla-firefox-part-1-aboutconfig Customize Privacy Settings in Mozilla Firefox, Part 1, about:config] - Some suggestions for modifying Firefox settings to minimize your digital footprint 
+* [https://addons.mozilla.org/en-US/firefox/addon/adblock-edge/ AdBlock Edge]
+* [https://www.eff.org/https-everywhere HTTPS Everywhere Browser Extension]
+* [https://addons.mozilla.org/en-US/firefox/addon/noscript/ NoScript]
+* [https://disconnect.me/#disconnect Disconnect]
+* [https://www.requestpolicy.com/ Request Policy]
