@@ -31,10 +31,14 @@ subgraph cluster_current {
                 label="shell | <eth0> eth0:10.1.30.3"
                 shape="record"
         ]
-
+        openvpn [
+                label="openvpn | <eth0> eth0:10.1.30.15"
+                shape="record"
+        ]
         dd_wrt:intern -- openwrt:eth0
         openwrt:eth1 -- proxmox:vmbr200
         openwrt:eth1 -- shell:eth0
+        openwrt:eth1 -- openvpn:eth0
 
         dd_wrt:intern -- "Wireless clients"
         dd_wrt:intern -- "Wired drops for tables, etc"
