@@ -3,17 +3,16 @@ To use this template, copy  <code><nowiki>{{subst:EquipmentPage}}</nowiki></code
 Add or link new equipment pages to [[Equipment]]
 = Zone =
 (Set to the right zone)<br />
-[[Equipment]] \ [[Warehouse]] \ [[Metal Shop]]
+[[Equipment]] \ [[Warehouse]] \ [[Electronics Lab]]
 
 = About =
 What is this equipment used for. Brief description.
 
 = Owner(s) =
-* Freeside
-* Member Name (Link to their Wiki Page if it exists)
+* Randy
 
 = Hackability =
-Hack/Do Not Hack/List Of Desired Improvements
+Do Not Hack
 
 == Permissions ==
 Rules and expectations for use of this piece of equipment. Example: <br />
@@ -97,4 +96,3 @@ Delete those that do not apply<br />
 [[File:WeldingMask.PNG |100px]] Welding Mask Must Be Worn
 
 [[category: Equipment]]
-[[category: QR Code Needed]]
