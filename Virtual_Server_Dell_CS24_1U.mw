@@ -1,0 +1,20 @@
+This is the VM Host. 
+Runs Proxmox VE
+Currently it contains the following VMs:
+Shell - This is the VM which is reachable via SSH from the outside
+Gateway - This serves as the gateway between the various VLANs and external
+components of the network.
+{| class="wikitable"
+|-
+! VM Name !! Purpose !! IP Address
+|-
+| Shell || This is the machine that is accessible via ssh. || 10.1.30.3
+|-
+| Gateway || This machine serves as the gateway to get from any of the VLANS out to the 'net || 10.1.X.1
+|-
+| Tahoe || This machine runs an installation of TahoeLAFS || DHCP?
+|-
+| Eldonterm || Example || 10.1.30.9
+|-
+| OpenVPN || This is the machine which is natted to https://crypto.freesideatlanta.org || 10.1.30.15
+|}
