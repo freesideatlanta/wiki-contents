@@ -14,7 +14,7 @@ components of the network.
 |-
 | Tahoe || This machine runs an installation of TahoeLAFS || DHCP?
 |-
-| Eldonterm || Example || 10.1.30.9
+| Eldonterm || This is Eldon's member VM. Any member can get one! || 10.1.30.9
 |-
 | OpenVPN || This is the machine which is natted to https://crypto.freesideatlanta.org || 10.1.30.15
 |}
