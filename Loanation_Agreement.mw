@@ -1,25 +1,25 @@
-I'm not sure we ever got far on one of these. Alan and I discussed on the
-> phone a while ago, and think it should include some mutual hold harmless
-> language, request for 30 (or 60?) days notice before removing the item from
-> Freeside, and member agreeing to remove the item from Freeside if given 30
-> (or 60?) days notice by the Board.
->
-> Agreement to create and fill out the wiki page on the item, and on a
-> case-by-case basis lay out the expectation on member usage. Charging for
-> use? Training required? One on one signoff? Member provides own tooling,
-> etc?
->
-> Costs for implementing or integrating into Freeside Infrastructure (access
-> control system, installation of additional camera to cover, climate
-> control, power outlet needs, etc) would be up to the member to provide
-> (Board or members may decide to cover or chip in on a case by case basis).
-> Ditto for costs to move the equipment in, and for removal.
->
-> Also should cover not relocating it within the space without prior approval
-> and coordinating with the Project and Storage team, and the Safety and Risk
-> team reserves the right to inspect and lock out at any time if there is a
-> safety issue with a piece of equipment, or to inspect prior to accepting
-> into the space as a loanation.
+
+* Hold Harmless ( owner shall insure, freeside not responsible for damage)
+* Notice before removing the item from the space (30/60 days)?
+* Able to remove the item within a specific time frame is necessary (30/60 days?) notified by Board.
+
+* Agreement to create and fill out the wiki page on the item, 
+* lay out the expectation on member usage. 
+* Charging for use? 
+* Training required? 
+* One on one signoff? 
+* Member provides own tooling, etc?
+
+* Costs for implementing or integrating into Freeside Infrastructure would be up to the member to provide
+** access control system
+** installation of additional camera to cover
+** climate control
+** power outlet needs
+(Board or members may decide to cover or chip in on a case by case basis.)
+(Ditto for costs to move the equipment in, and for removal.)
+
+* Do not relocating it within the space without prior approval
+* The Project and Storage team, and the Safety and Risk team reserves the right to inspect and lock out at any time if there is a safety issue with a piece of equipment, or to inspect prior to accepting into the space as a loanation.
 
 This sounds like a great outline to me. I would also like a clause
 requiring periodic training (minimum quarterly?) be offered for devices
@@ -36,8 +36,6 @@ for 60 days, then perhaps the owner gets 30 days to repair or move it).
 I think that's all fair. The training doesn't have to be from the owner
 either. They can designate others qualified to do one-on-ones or training
 classes.
-
-
 
 How about at least one training session within the first 60 days of
 bringing it into the space (gives time to get it set up, work out kinks,
