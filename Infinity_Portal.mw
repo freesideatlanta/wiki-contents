@@ -26,6 +26,7 @@ File:InfinityBuild2Pic2.jpg|The vector model in CamBam
 File:InfinityBuild2Pic3.jpg|The CamBam model with cutting paths set
 File:InfinityBuild2Pic4.jpg|Front view of the design prototype
 File:InfinityBuild2Pic5.jpg|Side view of the design prototype
+File:PortalDiagram.JPG|We decided to sandwich the acrylic between an inner and outer frame
 </gallery>
 
 Next, we built a prototype that Tam sketched as a conceptual rendering of the final model. To do this, we vector-mapped her sketch, processed it in CamBam, exported the gcode to the laser cutter and cut a prototype out of wood.
@@ -40,3 +41,38 @@ The build will probably be divided into a few different processes that we'll wor
 *Programming the light controllers with rainbow chase patterns and setting up triggers
 *Laser engraving the acrylic accent pieces for the archway
 *Building the Altar and testing different setups to support the illusion
+
+== Step 4: Building the framework ==
+
+<gallery>
+File:portalBuild01.jpg|We built the inner frames using support brackets and clamps
+File:portalBuild02.jpg|A closer view of the support brackets
+File:portalBuild03.jpg|Sizing up the frame on the base
+File:portalBuild04.jpg|Testing out the inner frame in the outer frame
+File:portalBuild05.jpg|This is the assembly jig to allow us to ship the structure flat
+File:portalBuild06.jpg|A test fit of the full assembly
+File:portalBuild07.jpg|Drilling out the acrylic and support frames for the support dowels
+File:portalBuild08.jpg|The (near-) finished structure
+File:portalBuild16.jpg|Pulling the protective coating off of the acrylic
+</gallery>
+
+== Step 5: Building the electronics ==
+
+<gallery>
+File:portalBuild09.jpg|Prototyping the brains with a teensy 3.0
+File:portalBuild10.jpg|Scott made the final-ish prototype on perfboard
+File:portalBuild11.jpg|The facade that Tam designed
+File:portalBuild12.jpg|Fitting the LED archway to the milled archway
+File:portalBuild13.jpg|The LED assembly jig that Scott designed
+File:portalBuild14.jpg|Attaching the LEDs in line so the illusion isn't broken
+File:portalBuild15.jpg|Firing up the electronics
+</gallery>
+
+== The Final Result ==
+
+<gallery>
+File:portalBuild17.jpg|The fully-assembled structure
+File:portalBuild18.jpg|The effect looks pretty good even in the light
+File:portalBuild19.jpg|Checking out the full effect
+File:portalBuild20.jpg|The effect is pretty mind-blowing in the dark!
+</gallery>
