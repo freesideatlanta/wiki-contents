@@ -1,0 +1,86 @@
+Brainiacs is a meetup that is all about Neuroscience and Brain-Computer Interfaces.
+
+The first round of projects that we've been working on center around setting up interfaces between different BCI and biometric devices with Python so that it will be much easier to build systems and collect data. 
+
+== NeuroSky to Python Interface ==
+
+One of the major points of discussion in the last meeting was how to identify and solve for the individual interfaces to collect biometric data and then push it to other systems like databases or arduinos to act on the data. Here is my walkthrough for the interface between the NeuroSky and Python.
+
+If you're in Windows and haven't fooled around with Python yet and would like a soft introduction, here is my recommendation. This is what I use because I have to do this stuff on my work computer too so it's just easier to manage everything in Windows 7 for me. If you're in Linux then this stuff is way easier for you and you'll probably be using a toolkit of choice there anyway.
+
+1 - Install pythonxy. This is an excellent package for Python in Windows that includes most of the important scientific computing libraries all at once, as well as pip and easy_install (package managers) and iPython Notebook (which is what I use). It also has pandas, opencv, scikits-learn, simpy, and of course numpy and scipy. Apparently it has the necessary tools to build a gui too, but I haven't gotten that far yet. 
+
+Uninstall whatever python stuff you have on your computer before installing this so you don't end up with multiple weird instances.
+
+2 - Press windows_key+r to bring up the run dialogue. Type cmd to bring up the command prompt.
+
+3 - Learn how to use the console. You could go through the trouble of learning powershell or using cygwin if you want, but I only use the command prompt to launch ipython and easy_install anyway. I'd rather invest my spare time learning bash, though I'm still pretty terrible at it.
+
+4 - type ipython notebook in whatever folder you want to store your code.
+
+5 - It will bring up your default browser and you can write your code in "cells" that execute individually on a specific kernel for each tab or "notebook." It's really easy.
+
+6 - In the console, type easy_install neuropy and it will pull down the library and set it up for you.
+
+7 - The documentation for the NeuroPy library is pretty easy to read and enough to get you started.
+
+Now, even if you don't have a NeuroSky, you can start to build programs to simulate the generation of the data and what to do with it so that when we hook up the device, we'll just be able to plug in and go. I've tested it with my NeuroSky and was able to replicate the functionality show in the documentation I linked to above.
+
+The python library is much easier to connect to the NS than the phone or tablet apps, which I've found excruciatingly frustrating.
+
+== Python to Arduino Interface ==
+
+Here is some info that I dug up about getting an arduino to talk to python and vice-versa.
+
+For my solution, it worked to send data in two-byte packages. So python basically sends a header and then a 0-255 value with something like:
+
+import serial
+port = 'COM6'
+baudrate = 9600
+arduino = serial.Serial(port, baudrate)
+
+val1 = 255
+arduino.write('h' + chr(int(val1)))
+
+...so that the arduino grabs the data like this:
+
+void setup() {
+  Serial.begin(9600); 
+}
+
+void loop() {
+  if(Serial.available() >= 2){
+    switch( byte( Serial.read() )) {
+      case 'r':
+        colorRGB[0] = Serial.read();
+        blnFade = 0;
+        break;
+      case 'g':
+        colorRGB[1] = Serial.read();
+        blnFade = 0;
+        break;   
+      case 'b':
+        colorRGB[2] = Serial.read();
+        blnFade = 0;
+        break;
+      case 'c':
+        Serial.flush();
+        blnFade = 0;
+        break;
+      case 'f':
+        delayVal = Serial.read();
+        Serial.flush();
+        colorFade();
+        blnFade = 1;
+      }
+   }
+
+Where it is looking for a "mode" and then runs a function afterwards that may or may not use the second value (it runs serial.flush() when it doesn't need the second character).
+
+There is some more data available at the following links and I'll be working on it this week to make a mind-controlled AR Drone or RC Car for the Atlanta Science Festival next weekend. I may even get to the point where I can make the controls that supplement the NeuroSky run through a Leap Motion if I have time.
+
+http://playground.arduino.cc/interfacing/python#.Uy4SaPldXSA
+http://www.instructables.com/id/Arduino-and-Python/?ALLSTEPS
+http://forum.arduino.cc/index.php/topic,8332.0.html
+
+Soon, we're gonna have a pretty awesome platform!
