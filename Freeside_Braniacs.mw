@@ -36,14 +36,16 @@ For my solution, it worked to send data in two-byte packages. So python basicall
 
 
 import serial
+
 port = 'COM6'
+
 baudrate = 9600
+
 arduino = serial.Serial(port, baudrate)
 
 val1 = 255
-arduino.write('h' + chr(int(val1)))
 
-...so that the arduino grabs the data like this:
+arduino.write('h' + chr(int(val1)))
 
 void setup() {
   Serial.begin(9600); 
