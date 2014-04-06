@@ -72,6 +72,8 @@ File:portalBuild14.jpg|Attaching the LEDs in line so the illusion isn't broken
 File:portalBuild15.jpg|Firing up the electronics
 </gallery>
 
+We built the electronics using a Teensy 3.0 and a buffer chip (to step the 3.3v up to 5v) to push to the LED data line. We used WS2812 LED strips and powered them with a 70a 5v power supply.
+
 == The Final Result ==
 
 <gallery>
@@ -80,3 +82,5 @@ File:portalBuild18.jpg|The effect looks pretty good even in the light
 File:portalBuild19.jpg|Checking out the full effect
 File:portalBuild20.jpg|The effect is pretty mind-blowing in the dark!
 </gallery>
+
+The final assembly had a few surprises - because of the way they are manufacturing and hung in the portal, the acrylic sheets have a small warp in them that makes the tunnel look like it opens to a huge room. Pushing on the front of the portal causes the tunnel to warp and change, and both sheets of acrylic are two-way so people can push from both sides to change the effect.
