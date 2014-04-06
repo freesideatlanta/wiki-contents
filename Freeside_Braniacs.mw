@@ -34,6 +34,7 @@ Here is some info that I dug up about getting an arduino to talk to python and v
 
 For my solution, it worked to send data in two-byte packages. So python basically sends a header and then a 0-255 value with something like:
 
+{
 import serial
 port = 'COM6'
 baudrate = 9600
@@ -74,6 +75,7 @@ void loop() {
         blnFade = 1;
       }
    }
+}
 
 Where it is looking for a "mode" and then runs a function afterwards that may or may not use the second value (it runs serial.flush() when it doesn't need the second character).
 
