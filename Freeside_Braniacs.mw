@@ -30,7 +30,7 @@ The python library is much easier to connect to the NS than the phone or tablet 
 
 == Python to Arduino Interface ==
 
-Here is some info that I dug up about getting an arduino to talk to python and vice-versa.
+Here is some info that I dug up about getting an arduino to talk to python and vice-versa. (Sorry for the formatting. MediaWiki is being kind of a nightmare about this)
 
 For my solution, it worked to send data in two-byte packages. So python basically sends a header and then a 0-255 value with something like:
 
