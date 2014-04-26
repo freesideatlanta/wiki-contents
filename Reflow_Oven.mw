@@ -29,13 +29,15 @@ Things a user should know prior to using the equipment (turn on power supply pri
 * ??
 
 = Basic Instructions = 
-* Step 1
-* Step 2
+* Prepare your board with paste and components
+* Wrap the thermocouple around the extra PCB and place near your board
+* Set ''Toast'' to ''off'', ''Function'' to ''turbo'', ''Temp'' to ''max'' and ''Timer'' to ''Stay On''
+* Plug in toaster oven and Arduino, and once the Arduino has booted press the right hand button to start the reflow process
+* When the Arduino indicates it is time to cool the board, turn the temperature down to minimum and open the door slightly
 
 == Specifications and Detailed Instructions ==
-[[File:Info.jpg|50px|link=]]URL to product page if it exists<br />
-[[File:RTFM.PNG|50px|link=]]URL to product manuals<br />
-[[File:Video.jpg|50px|link=]]Link to videos showing good examples of use
+[[File:Info.jpg|50px|link=http://www.rocketscream.com/blog/product/reflow-oven-controller-shield-arduino-compatible/]]RocketScream Arduino Shield<br />
+[[File:RTFM.PNG|50px|link=http://www.rocketscream.com/blog/portfolio-item/reflow-controller-shield/]]RocketScream Manual<br />
 
 = Tips =
 * ??
