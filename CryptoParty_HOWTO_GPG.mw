@@ -13,3 +13,8 @@
 ** Remember your passphrase!
 ** (Optional) [https://www.enigmail.net/documentation/keyman.php| Generate a revocation certificate]
 ** Publish your public key
+* [https://www.enigmail.net/documentation/quickstart-ch3.php| Send an Encrypted Email]
+** Create a plain-text email to [mailto:emptyset@freesideatlanta.org| emptyset@freesideatlanta.org]
+** Lookup the public key for [mailto:emptyset@freesideatlanta.org| emptyset@freesideatlanta.org]
+** Sign and encrypt the email
+** Send!
