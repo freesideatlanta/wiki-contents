@@ -1,7 +1,7 @@
 
 = Linux =
 * Install GnuPG
-** On Debian/GNU Linux (Includes Ubuntu): $ apt-get install gnupg
+** On Debian/GNU Linux (Includes Ubuntu): <code>$ apt-get install gnupg</code>
 ** [https://www.gnupg.org/download/index.html On other Linux systems]
 
 = OS X (Macintosh) =
