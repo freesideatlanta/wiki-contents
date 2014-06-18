@@ -5,16 +5,16 @@
 
 = Windows =
 
-* [http://www.gpg4win.org| Install GPG4WIN]
-* [http://www.mozilla.org/en-US/thunderbird| Install Thunderbird]
-** [https://support.mozilla.org/en-US/kb/automatic-account-configuration| Configure Thunderbird against your existing email account]
-* [https://www.enigmail.net/download| Install Enigmail Plug-in]
-* [https://www.enigmail.net/documentation/quickstart-ch2.php| Create a Public-Private Key Pair]
+* [http://www.gpg4win.org | Install GPG4WIN]
+* [http://www.mozilla.org/en-US/thunderbird | Install Thunderbird]
+** [https://support.mozilla.org/en-US/kb/automatic-account-configuration | Configure Thunderbird against your existing email account]
+* [https://www.enigmail.net/download | Install Enigmail Plug-in]
+* [https://www.enigmail.net/documentation/quickstart-ch2.php | Create a Public-Private Key Pair]
 ** Remember your passphrase!
-** (Optional) [https://www.enigmail.net/documentation/keyman.php| Generate a revocation certificate]
+** (Optional) [https://www.enigmail.net/documentation/keyman.php | Generate a revocation certificate]
 ** Publish your public key
-* [https://www.enigmail.net/documentation/quickstart-ch3.php| Send an Encrypted Email]
-** Create a plain-text email to [mailto:emptyset@freesideatlanta.org| emptyset@freesideatlanta.org]
-** Lookup the public key for [mailto:emptyset@freesideatlanta.org| emptyset@freesideatlanta.org]
+* [https://www.enigmail.net/documentation/quickstart-ch3.php | Send an Encrypted Email]
+** Create a plain-text email to [mailto:emptyset@freesideatlanta.org | emptyset@freesideatlanta.org]
+** Lookup the public key for [mailto:emptyset@freesideatlanta.org | emptyset@freesideatlanta.org]
 ** Sign and encrypt the email
 ** Send!
