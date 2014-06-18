@@ -1,17 +1,22 @@
 
-= Linux =
+= Overview =
+For an overview of how public key encryption works, this is an excellent explanation: [https://www.youtube.com/watch?&v=3QnD2c4Xovk#%21 Public Key Cryptography: Diffie-Hellman Key Exchange].  GPG is a tool that does several things, but mostly it is used to generate a public/private key pair and maintains a user's '''keychain''' - the set of public keys from all their contacts.  Thunderbird is an email client, and Enigmail is the plug-in that uses GPG for that platform to integrate that into a user's email account.
+
+The first step is to install GPG for your platform.  There are instructions for Linux, Mac, and Windows below.  After that, the next step is to install Thunderbird, a mail client.  You don't need a new email account - this setup works with your existing email account.  After confirming that Thunderbird can send/receive email, Enigmail plug-in can be installed and configured to use the GPG on your platform.  The next step is generate a public-private key pair, and publish your public key (so others can find your public key to send you encrypted email).  Then finally you can send an encrypted email!
+
+= Platform-Specific GPG Install =
+== Linux ==
 * Install GnuPG
 ** On Debian/GNU Linux (Includes Ubuntu): <code>$ apt-get install gnupg</code>
 ** [https://www.gnupg.org/download/index.html On other Linux systems]
 
-= OS X (Macintosh) =
+== OS X (Macintosh) ==
 * [https://gpgtools.org Install GPG Suite]
 
-= Windows =
+== Windows ==
 * [http://www.gpg4win.org Install GPG4WIN]
 
-= Continue... =
-
+= Thunderbird+Enigmail =
 * [http://www.mozilla.org/en-US/thunderbird Install Thunderbird]
 ** [https://support.mozilla.org/en-US/kb/automatic-account-configuration Configure Thunderbird against your existing email account]
 * [https://www.enigmail.net/download Install Enigmail Plug-in]
