@@ -1,6 +1,8 @@
 
 = Linux =
-
+* Install GnuPG
+** On Debian/GNU Linux (Includes Ubuntu): $ apt-get install gnupg
+** [https://www.gnupg.org/download/index.html On other Linux systems]
 
 = OS X (Macintosh) =
 * [https://gpgtools.org Install GPG Suite]
