@@ -7,7 +7,7 @@
 
 * [http://www.gpg4win.org| Install GPG4WIN]
 * [http://www.mozilla.org/en-US/thunderbird| Install Thunderbird]
-** Configure Thunderbird against your existing email account
+** [https://support.mozilla.org/en-US/kb/automatic-account-configuration| Configure Thunderbird against your existing email account]
 * [https://www.enigmail.net/download| Install Enigmail Plug-in]
 * [https://www.enigmail.net/documentation/quickstart-ch2.php| Create a Public-Private Key Pair]
 ** Remember your passphrase!
