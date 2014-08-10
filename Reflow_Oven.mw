@@ -2,8 +2,7 @@
 To use this template, copy  <code><nowiki>{{subst:EquipmentPage}}</nowiki></code> into a new page, save, and then begin editing. The current version of this template will be copied into the new page. Future modifications to this template will change existing pages. <br />
 Add or link new equipment pages to [[Equipment]]
 = Zone =
-(Set to the right zone)<br />
-[[Equipment]] \ [[Warehouse]] \ [[Electronics Lab]]
+[[Equipment]] \ [[Electronics Lab]]
 
 = About =
 What is this equipment used for. Brief description.
