@@ -1,19 +1,16 @@
 [[File:ImageOfEquipment.jpg|thumb|300px]]
-To use this template, copy  <code><nowiki>{{subst:EquipmentPage}}</nowiki></code> into a new page, save, and then begin editing. The current version of this template will be copied into the new page. Future modifications to this template will change existing pages. <br />
-Add or link new equipment pages to [[Equipment]]
+
 = Zone =
-(Set to the right zone)<br />
-[[Equipment]] \ [[Warehouse]] \ [[Metal Shop]]
+[[Equipment]] \ [[Electronics]]
 
 = About =
 What is this equipment used for. Brief description.
 
 = Owner(s) =
 * Freeside
-* Member Name (Link to their Wiki Page if it exists)
 
 = Hackability =
-Hack/Do Not Hack/List Of Desired Improvements
+Do Not Hack!  If you're interested in making improvements, coordinate on the public or member mailing list.
 
 == Permissions ==
 Rules and expectations for use of this piece of equipment. Example: <br />
@@ -25,8 +22,7 @@ Things the equipment shouldn't be used for, limitations, etc (Don't grind alumin
 * ??
 
 == Caution ==
-Things a user should know prior to using the equipment (turn on power supply prior to plugging in USB, etc)<br />
-* ??
+* Do not taunt Death-Bot
 * ??
 
 = Basic Instructions = 
