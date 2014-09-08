@@ -19,3 +19,19 @@ Feedrate: 70 mm/min
 Power: 1.0
 
 Feedrate: 200 mm/min
+
+== Foam ==
+
+Foams have a much higher tendency to melt and warp from the heat byproduct of the laser, so a higher power setting and faster feedrate is ideal to produce clean cuts all the way through the material.
+
+=== 1 mm / 0.4" craft foam ===
+
+Power: ?
+
+Feedrate: ?
+
+=== 6 mm / 0.23" EVA foam ===
+
+Power: 5.0
+
+Feedrate: 600 mm/min
