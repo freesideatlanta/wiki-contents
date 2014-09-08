@@ -8,9 +8,9 @@ Feedrate: ?
 
 === 3 mm / 0.11" opaque ===
 
-Power: 2.0
+Power: 3.0
 
-Feedrate: 50 mm/min
+Feedrate: 70 mm/min
 
 == Cardboard ==
 
