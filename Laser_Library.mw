@@ -1,10 +1,12 @@
 == Acrylic ==
 
+Cast acrylic and extruded acrylic will produce different results. Figures listed below are for extruded acrylic, which is more common and less expensive. If you aren't sure if your acrylic is extruded or cast, it is most likely extruded.
+
 === 3 mm / 0.11" clear ===
 
-Power: ?
+Power: 3.0
 
-Feedrate: ?
+Feedrate: 70 mm/min
 
 === 3 mm / 0.11" opaque ===
 
