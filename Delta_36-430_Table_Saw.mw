@@ -1,16 +1,15 @@
 [[File:ImageOfEquipment.jpg|thumb|300px]]
-To use this template, copy  <code><nowiki>{{subst:EquipmentPage}}</nowiki></code> into a new page, save, and then begin editing. The current version of this template will be copied into the new page. Future modifications to this template will change existing pages. <br />
-Add or link new equipment pages to [[Equipment]]
+
 = Zone =
-(Set to the right zone)<br />
-[[Equipment]] \ [[Warehouse]] \ [[Metal Shop]]
+[[Equipment]] \ [[Warehouse]] \ [[Woodshop]]
 
 = About =
 What is this equipment used for. Brief description.
 
+Replacement blade guard assembly Delta Part A23469
+
 = Owner(s) =
 * Freeside
-* Member Name (Link to their Wiki Page if it exists)
 
 = Hackability =
 Hack/Do Not Hack/List Of Desired Improvements
@@ -35,7 +34,7 @@ Things a user should know prior to using the equipment (turn on power supply pri
 
 == Specifications and Detailed Instructions ==
 [[File:Info.jpg|50px|link=]]URL to product page if it exists<br />
-[[File:RTFM.PNG|50px|link=]]URL to product manuals<br />
+[[File:RTFM.PNG|50px|link=http://www.1800toolrepair.com/schematics/36-430_TYPE_1.pdf]]URL to product manuals<br />
 [[File:Video.jpg|50px|link=]]Link to videos showing good examples of use
 
 = Tips =
