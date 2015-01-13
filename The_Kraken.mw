@@ -22,9 +22,9 @@ Freeside member Redbeard designed this custom build reprap machine.  In 2012, Re
 = Basic Instructions = 
 TODO: complete instructions on use
 * Log in with your credentials to the attached members-only terminal
-* Check that the print-bed is square and centered on the platform.  The print-bed is currently not attached to the y-carriage platform...it is simply resting on top of the carriage. If the print-bed is found skewed, carefully place it back on the support pads and verify levelness.  If the print-bed is found out of level, follow troubleshooting guide listed below.
-* Use a clean paper towel to clean printer surface with denatured alcohol (preferred) or acetone.
-* Apply a thin layer of Disappearing Purple Elmer's Gluestick to the print surface to help adhere your print to the heated bed.
+* Check that the print-bed is square and centered on the platform.
+* Use a clean paper towel to clean printer surface with denatured alcohol (preferred) or acetone. There should be a small labeled bottle nearby the printer.
+* Apply a thin layer of Disappearing Purple Elmer's Gluestick to the print surface to help adhere your print to the heated bed. There should be a gluestick attached to the holder on top of the printer.
 * The only tweaks you should need to make for your prints are layer thickness and infill style/density related. 
 * Please do not change the bed level or limit switches.
 * Turn off machine when done
