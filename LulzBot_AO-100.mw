@@ -10,31 +10,34 @@ For general use by members. Treat equipment as if it were your own and put away 
 
 == Restrictions == 
 TODO: specify all the restrictions
+
 * Use only with members-only terminal connected to AO-100
-* Use with 3mm filament only. ABS is recommended.
+* Use with 3mm ABS filament only
 
 = About =
 Freeside was one of only 8 hackerspaces in the world to win this printer as part of the [http://www.lulzbot.com/?q=blog/announcement-winners-lulzbot-hackerspace-printer-giveaway LulzBot hackerspace printer giveaway]!
 
 = Basic Instructions = 
 TODO: complete instructions on use
-* Log in with your credentials to the attached members-only terminal
+
+* Log in with your credentials to the attached members-only terminal.
 * Check that the bed is all the way up on the sprung screws on all 4 corners before starting a print, or it will not be level. It has a tendency, if compressed when removing a part for example, to stick down on some of the corners.
 * Use a clean paper towel to apply a thin layer of ABS Juice to the kapton tape surface.
-* The only tweaks you should need to make for your prints are layer thickness and infill style/density related. 
+* The only tweaks you should need to make for your prints are layer thickness and infill style/density related.
 * Please do not change the bed level or limit switches.
-* Turn off machine when done
+* Turn off machine when done.
 
 == Basic Operational Knowledge ==
-* How to home it.
+* How to home
+* How to slice and send a job to it
+* How to abort a failed job
+* How to properly remove a print once it has completed
 * How to load and unload filament (optional, but you'll be stuck with the loaded plastic type and color)
-* How to slice and send a job to it.
-* How to abort a failed job.
-* How to properly remove a print once it has completed.
 
 == Advanced Operational Knowledge ==
 There are some more advanced tasks that not everyone needs to know to
 print, but needs to know to troubleshoot:
+
 * How to level a bed
 * How to replace the covering on a bed
 * How to tighten belts, fix misaligned axises, replace worn out parts, etc.
@@ -46,14 +49,18 @@ There are several Print and Filament profiles that have been preconfigured for S
 The preconfigured print profiles will give you a good starting point for adjusting print quality. If you create a new profile, be sure you '''name it descriptively''' and include the name of the printer in the profile.
 
 * LulzBot-Default: Ideal configuration settings for print height, speed, and infill. Supports are disabled by default.
+* LulzBot-Mechanical: Ideal for parts which will have mechanical use, IE Bowden extruder gears. Prints with more perimeters, more top and bottom layers, high honeycomb infill for strength. Expect long print jobs.
+* LulzBot-Speedtest: Testing configuration for tuning printer speeds. Not guaranteed to work. Use at your own risk.
 
 === Filament Profiles ===
 There should be profiles configured for filament colors. Different colors of filament will work best at slightly different temperatures. If you are printing with a new color be sure you save a new profile for the name of the color.
 
 * LulzBot-ABS-Black: 235C extruder, 105C bed
+* LulzBot-ABS-Purple: 235?C extruder, 105?C bed
 
 == Specifications and Detailed Instructions ==
 TODO: complete specifications, links to documentation, etc.
+
 * [http://www.lulzbot.com/support/guides LulzBot Support Guides]
 * [http://download.lulzbot.com/AO-100 LulzBot AO-100 Downloads]
 * [http://hackaday.com/2013/02/09/adventures-in-3d-printing-our-first-week-with-the-lulzbot-ao-100 Hack-A-Day Review]
