@@ -11,36 +11,35 @@ For general use by members. Treat equipment as if it were your own and put away 
 
 == Restrictions == 
 TODO: specify all the restrictions
+
 * Use only with members-only terminal connected to Kraken
-* Use with 1.75mm filament only. PLA is recommended.
+* Use with 1.75mm PLA filament only
 
 = About =
-This printer is intended to be a dedicated PLA printer at Freeside.
-
-Freeside member Redbeard designed this custom build reprap machine.  In 2012, Redbeard taught a series of 3D printing classes/meetups and used the proceeds to donate all the material and hardware to Freeside.  The printer was assembled and commissioned by Freeside members.
+Freeside member Redbeard designed this custom build RepRap machine. In 2012, Redbeard taught a series of 3D printing classes/meetups and used the proceeds to donate all the material and hardware to Freeside. The printer was assembled and commissioned by Freeside members. In 2014, Freeside members designed and built a new printing platform that can be easily leveled, and built a new extruder assembly, drastically increasing the quality of prints the Kraken is able to produce.
 
 = Basic Instructions = 
 TODO: complete instructions on use
-* Log in with your credentials to the attached members-only terminal
-* Check that the print-bed is square and centered on the platform.
+
+* Log in with your credentials to the attached members-only terminal.
+* <strike>Check that the print-bed is square and centered on the platform.</strike> You should not need to re-level the bed unless your print suffers from noticeable deleveling. The printer's bed leveling screws are tightly secured and should keep the bed level without need for regular maintenance.
 * Use a clean paper towel to clean printer surface with denatured alcohol (preferred) or acetone. There should be a small labeled bottle nearby the printer.
-* Apply a thin layer of Disappearing Purple Elmer's Gluestick to the print surface to help adhere your print to the heated bed. There should be a gluestick attached to the holder on top of the printer.
+* Apply a thin layer of Disappearing Purple Elmer's Gluestick to the print surface to help adhere your print to the heated bed. There should be a gluestick attached to the holder on top of the printer. Return the gluestick back to the holder when done.
 * The only tweaks you should need to make for your prints are layer thickness and infill style/density related. 
 * Please do not change the bed level or limit switches.
-* Turn off machine when done
+* Turn off machine when done.
 
 == Basic Operational Knowledge ==
-* How to home it.
+* How to home
+* How to slice and send a job to it
+* How to abort a failed job
+* How to properly remove a print once it has completed
 * How to load and unload filament (optional, but you'll be stuck with the loaded plastic type and color)
-* How to slice and send a job to it.
-* How to abort a failed job.
-* How to properly remove a print once it has completed.
 
 == Advanced Operational Knowledge ==
-There are some more advanced tasks that not everyone needs to know to
-print, but needs to know to troubleshoot:
+There are some more advanced tasks that not everyone needs to know to print, but needs to know to troubleshoot:
+
 * How to level a bed
-* How to replace the covering on a bed
 * How to tighten belts, fix misaligned axises, replace worn out parts, etc.
 
 == Slic3r Preconfigured Profiles ==
@@ -50,6 +49,7 @@ There are several Print and Filament profiles that have been preconfigured for S
 The preconfigured print profiles will give you a good starting point for adjusting print quality. If you create a new profile, be sure you '''name it descriptively''' and include the name of the printer in the profile.
 
 * Kraken-Default: Ideal configuration settings for print height, speed, and infill. Supports are disabled by default.
+* Kraken-Speedtest: Testing configuration for tuning printer speeds. Not guaranteed to work. Use at your own risk.
 
 === Filament Profiles ===
 There should be profiles configured for filament colors. Different colors of filament will work best at slightly different temperatures. If you are printing with a new color be sure you save a new profile for the name of the color.
