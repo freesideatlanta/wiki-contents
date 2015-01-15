@@ -54,7 +54,8 @@ The preconfigured print profiles will give you a good starting point for adjusti
 === Filament Profiles ===
 There should be profiles configured for filament colors. Different colors of filament will work best at slightly different temperatures. If you are printing with a new color be sure you save a new profile for the name of the color.
 
-* Kraken-PLA-TransGreen: 220C extruder, 70C bed
+* Kraken-PLA-TransGreen: 205C extruder, 60C bed
+* Kraken-PLA-DarkGreen: 215C extruder, 65C bed
 
 == Specifications and Detailed Instructions ==
 '''This printer is intended to be a dedicated PLA printer'''
