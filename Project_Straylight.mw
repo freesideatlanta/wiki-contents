@@ -21,8 +21,11 @@ Pros/Cons
 Acrylic will be lighter (and maybe cheaper), but prone to scratching and harder to clean. Risk that some markers might have chemicals that can etch the surface. Glass is heavier, some greater risk of breaking in transport, but won't flex when being written on or scratch.
 
 === backdrop and frame ===
-Some sort of black fabric that can be hung behind the subject with low reflection 
-A frame of some sort to set this up on. Height and width TBD based upon the glass size
+Some sort of black fabric that can be hung behind the subject with low reflection.
+ 
+A frame of some sort to set this up on. 
+
+Height and width TBD based upon the glass size
 
 === HDMI or composite monitor or TV ===
 Something the subject can see themselves on. Needs HDMI or composite input so it can be driven from the RasPi
