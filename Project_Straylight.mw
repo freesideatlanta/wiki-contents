@@ -11,6 +11,8 @@ Steven is in charge of the LED edge lighting. We'll need to do some back and sid
 
 DMM is looking at an open stack for video switching
 
+We'll need lots of fab help, and likely some programming and integration help on the RasPi side
+
 == Needs ==
 === the glass/acrylic ===
 We can get 3x6' 6mm/.25" acrylic for $110 locally. Need to price a piece of similar sized tempered glass (with at least one top and one side edge polished so it can be edge lit) . Not married to the size, but approximately this ratio and probably not smaller than 3x5' or larger than 4x8'. It would be great to find a readily available piece, either something kept stocked or a frameless shower door that wouldn't break the budget. 6mm or .220. If larger than 6mm we'll have to mill out the slot in the aluminum (up to maybe 10 or 11 mm) to fit it. More work and heavier.
