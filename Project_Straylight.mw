@@ -4,8 +4,11 @@ We have a $500 Budget (funded!) to build an educational project to display and d
 == Plan ==
 Build a portable, RaspberryPi based Lightboard for recording lessons/lectures/demos. A lightboard allows the instructor to write on a whiteboard in front of them while facing the camera. See: [https://sites.google.com/site/northwesternlightboard/ Northwestern Lightboard] for examples
 
+Demo videos:
+[Youtube|https://www.youtube.com/watch?v=ZsAPPUVK-DY&list=PLqATPiC_Bcl-t8vrzZlnGi3HTurs9Yuf3]
+
 == Status ==
-The basic board is assembled and working. 
+The basic lightboard is assembled and working. 
 
 The RaspberryPi and camera is set up to automatically boot into camera preview mode with the image flipped horizontally.
 
@@ -35,5 +38,19 @@ The RaspberryPi and camera is set up to automatically boot into camera preview m
 '''Total: $495'''
 
 == Todo/Version 2 ==
+=== Software ===
+* Video mixer to be able to overlay images into the background in real time
+* Experiment with the RaspberryPi cameras settings for white balance, image stabilization, etc for optimal recording
+* Script that automatically starts and stops recording of video and audio on a trigger
+* Script to mix the audio and video into a single file for easier post-production
+* Auto-mounting of a USB thumb drive at boot time and set this as the default location for recordings, or post-mixing drops to eliminate users from needed access to the RaspberryPi
 
-[Youtube|https://www.youtube.com/watch?v=ZsAPPUVK-DY&list=PLqATPiC_Bcl-t8vrzZlnGi3HTurs9Yuf3]
+=== Hardware ===
+* Give the presenter a remote control to start and stop recording from behind the board. Keyboard or mouse would be fine.
+* Redesign the floor mounts of the board to be sturdier and to allow for a heavier board
+* Use tempered glass instead of acrylic for better long term durability (current budget wouldn't allow for this at approximately twice the cost, plus twice the weight)
+* Edge light with solid white LED strip instead of RGB strip (RGD was available so was used although not necessary)
+* Add a second RaspberryPi/monitor/45degree piece of acrylic in front of the camera for a teleprompter
+* On-air light: Add a red LED to the VESA mount, hooked into a GPIO on the RaspberryPi, that can be turned on and off via script. This will edge light the mount with a red glow when the Pi is recording.
+* Add WiFi and set up Network Time Protocol (NTP) or add a real time clock (RTC) to the Pi so the time stamping of files is accurate. 
+* If Lightboard is set up in a semi-permanent location (The podcast studio?) set up better ambient lighting for optimal recording
