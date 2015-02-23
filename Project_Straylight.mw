@@ -12,6 +12,16 @@ The basic lightboard is assembled and working.
 
 The RaspberryPi and camera is set up to automatically boot into camera preview mode with the image flipped horizontally.
 
+== Project Description ==
+A lightboard allows an instructor to record educational material to be presented online (either streaming live or after additional post processing and editing) in a natural manner. Notes and diagrams are easily written directly on the transparent board between the presenter and the camera, without the need for the presenter to turn their back to the virtual students (as in a traditional classroom setting with a whiteboard behind the presenter). 
+
+The presenter writes and draws naturally in their own handwriting as the camera handles flipping the image horizontally before the student views it. The real-time preview screen aids in the presentation. It is like watching oneself in a mirror instead of a traditional studio monitor that is inverted left to right. Additionally the text drawn on the lightboard is seen immediately in the same orientation as it will be viewed by the students. 
+
+The edge lighting of the transparent dry erase board creates an effect of bright, clear letters easily viewable that appear in midair in front of the presenter and the black background. The dark solid background also allows for easy insertion of images using post production video editing software, or through a hardware video mixing board.
+
+Project Straylight is built using commonly available aluminum extrusion sections holding a sheet of ¼” acrylic, RGB LEDs for edge lighting, and a RaspberryPi single board Linux based PC with an inexpensive HD camera. The backdrop is heavy black canvas fabric on a PVC frame. In a studio environment, the back wall could be painted a matte black finish instead. 
+
+
 == Budget ==
 === RaspberryPi Recording ===
 * RaspberryPi B: $35 
