@@ -9,23 +9,31 @@ The basic board is assembled and working.
 
 The RaspberryPi and camera is set up to automatically boot into camera preview mode with the image flipped horizontally.
 
-== Needs ==
-=== the glass/acrylic ===
-We can get 3x6' 6mm/.25" acrylic for $110 locally. Need to price a piece of similar sized tempered glass (with at least one top and one side edge polished so it can be edge lit) . Not married to the size, but approximately this ratio and probably not smaller than 3x5' or larger than 4x8'. It would be great to find a readily available piece, either something kept stocked or a frameless shower door that wouldn't break the budget. 6mm or .220. If larger than 6mm we'll have to mill out the slot in the aluminum (up to maybe 10 or 11 mm) to fit it. More work and heavier.
+== Budget ==
+=== RaspberryPi Recording ===
+* RaspberryPi B: $35 
+* RaspberryPi Camera: $30
+* Monitor with HDMI input: $100
+* Powered USB Hub: $10
+* USB sound card for recording: $10
+* Microphone: $15
+* HDMI and misc cables: $20
+* RaspberryPi Mount: $0 (3D printed)
+* VESA Mount to monitor: $0 (Laser cut from scrap acrylic)
+* Software: $0 (all open source)
 
-Pros/Cons
-Acrylic will be lighter (and maybe cheaper), but prone to scratching and harder to clean. Risk that some markers might have chemicals that can etch the surface. Glass is heavier, some greater risk of breaking in transport, but won't flex when being written on or scratch.
+=== Lightboard ===
+* 3x6" .220" thick Acrylic: $100
+* 25mm extruded aluminum frame: $80
+* LED lighting strip and power supply: $25
+* Neon EXPO dry erase markers: $15
+* Black canvas for backdrop (2.75 yards): $10
+* PVC for backdrop stand: $15 (estimate as this was scrap)
+* Baskets for markers: $5
+* Misc screws and brackets: $25
 
-=== backdrop and frame ===
-Some sort of black fabric that can be hung behind the subject with low reflection.
- 
-A frame of some sort to set this up on. 
+'''Total: $495'''
 
-Height and width TBD based upon the glass size
-
-=== HDMI or composite monitor or TV ===
-Something the subject can see themselves on. Needs HDMI or composite input so it can be driven from the RasPi
-Something VESA mountable a big plus
-HDMI to DVI/VGA adapter might work too with some existing surplus screens we have
+== Todo/Version 2 ==
 
 [Youtube|https://www.youtube.com/watch?v=ZsAPPUVK-DY&list=PLqATPiC_Bcl-t8vrzZlnGi3HTurs9Yuf3]
