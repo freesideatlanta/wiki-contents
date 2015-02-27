@@ -46,17 +46,19 @@ print, but needs to know to troubleshoot:
 There are several Print and Filament profiles that have been preconfigured for Slic3r. Use these before creating or modifying your own.
 
 === Print Profiles ===
-The preconfigured print profiles will give you a good starting point for adjusting print quality. If you create a new profile, be sure you '''name it descriptively''' and include the name of the printer in the profile.
+The preconfigured print profiles will give you a good starting point for adjusting print quality. If you create a new profile, be sure you '''name it descriptively''' and include the name of the printer in the profile. The LulzBot prints best with layer heights between 0.3mm and 0.5mm. Lower layer heights will cause severe print issues!
 
 * LulzBot-Default: Ideal configuration settings for print height, speed, and infill. Supports are disabled by default.
-* LulzBot-Mechanical: Ideal for parts which will have mechanical use, IE Bowden extruder gears. Prints with more perimeters, more top and bottom layers, high honeycomb infill for strength. Expect long print jobs.
+* LulzBot-Mechanical: Ideal for parts which will have mechanical use, IE Bowden extruder gears. This profile prints with more perimeters, more top and bottom layers, high honeycomb infill for strength. Expect long print jobs.
 * LulzBot-Speedtest: Testing configuration for tuning printer speeds. Not guaranteed to work. Use at your own risk.
+* LulzBot-Factory: Slic3r configuration provided by LulzBot.
 
 === Filament Profiles ===
-There should be profiles configured for filament colors. Different colors of filament will work best at slightly different temperatures. If you are printing with a new color be sure you save a new profile for the name of the color.
+There should be profiles configured for filament colors. Due to additives to the ABS, different colors of filament will work best at slightly different temperatures. ABS will print best between 205C and 235C, and the heated bed between 100C and 110C. If you are printing with a new color be sure you save a new profile for the name of the color.
 
-* LulzBot-ABS-Black: 235C extruder, 105C bed
-* LulzBot-ABS-Purple: 235?C extruder, 105?C bed
+* LulzBot-ABS-White: 235C extruder, 105C bed, 50% fan
+* LulzBot-ABS-Black: 215C extruder, 105C bed, 40% fan
+* LulzBot-ABS-Purple: ?C extruder, ?C bed, 40% fan
 
 == Specifications and Detailed Instructions ==
 TODO: complete specifications, links to documentation, etc.
