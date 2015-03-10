@@ -1,0 +1,77 @@
+= Phone System =
+== To-Do ==
+* Get Callcentric DID (or Other)
+* Edit Sip.conf and Extension.conf With Callcentric login and google account
+* Test (test the DTMF TONES, calling, other)
+* Change Voicemail Settings (send wav to someone)
+* Add A Custom Voicemail Greating
+* Add/Change Phone book (xml)  (started )
+* fix asterisk Config errors (some syntax changes needed in some files due to update)
+* Make a web page for the phone system
+* ADD URL (sip calling) calling into asterisk (google how to?) 
+
+== Prerequisites ==        
+=== Supplies ===
+* Sip Phone (cisco [[sip]])
+* Debian Server
+* Callcentric DID
+* Google Voice account
+* Python 2.7 w/ setuptools and simplejson
+* pygooglevoice script
+* tftp (phone config)
+* apache2 (host directory and logo)
+     
+=== What was installed ===
+* python-setuptools
+* pygooglevoice script
+* tftp
+* apache2
+* asterisk 13
+       
+
+       
+==== Installing  Pygooglevoice ====
+* We Ran the below code at root mainly to insure the install of pygooglevoice-0.5.tar.gz
+ wget http://pygooglevoice.googlecode.com/files/pygooglevoice-0.5.tar.gz
+tar zxvf pygooglevoice-0.5.tar.gz
+cd pygooglevoice-0.5
+python setup.py install
+sed -i 's|https://www.google.com/accounts/ServiceLoginAuth?service=grandcentral|https://accounts.google.com/ServiceLogin?service=grandcentral\&continue=https://www.google.com/voice|' /usr/local/lib/python2.7/dist-packages/googlevoice/settings.py
+sed -i 's|      galx.*|      galx = re.search(r\"name=\\"GALX\\" type=\\"hidden\\"\\n *value=\\"(.+)\\"\", content).group(1)|' /usr/local/lib/python2.7/dist-packages/googlevoice/voice.py 
+
+* Latter We installed asterisk 13 from source and Apache+php using the Package manager as well as the tftp server we decided on using.
+
+== Main Files == 
+=== TFTP ===
+The Main files here are:
+* dialplan.xml = dialplan on Phone ONLY 
+* P0S3-08-12-00.load = Phone Firmware
+* XMLDefault.cnf.xml = All Cisco Phone config 
+* SIP(MAC_HERE).CNF = Phone config 
+* SipDEFAULT.CNF  = All Cisco SIP Phones config
+* *.PCM and *.RAW are ringtones (config-ed in RINGLIST.DAT)
+
+=== HTTP ===
+* NOTE: HTTP on cisco requires port usage in urls it will not assume port 80  
+* The Directory is located here! and the directory is a simple XML file (freeside.php with xml headers) ever there is a limit of 32 entries  be warned If we need more we will need to use a database and fetch from there using a different script 
+* the Phone logo I also here 
+
+=== Asterisk Setup ===
+ We edited sip.conf and extensions.conf to our info. Adding a password to the phone and the correct callcentric and Google info. Note: after editing the documents you must restart asterisk   After the asterisk server was up we set up the tftp server with the config files for the phone and the ringtones.. the config file had to be added to to include the network IP of the tftp server, the web-server and asterisk install and the creds. we gave this user in sip.conf          
+==== Files ====
+===== Sip.conf =====  
+<code>[general]</code><code>context=phone                 ; Default context </code><code>for</code> <code>incoming calls</code><code>allowoverlap=no                 ; Disable overlap dialing support. (Default is </code><code>yes</code><code>)</code><code>bindport=5060                  ; UDP Port to bind to (SIP standard port is 5060)</code><code>externrefresh=60</code><code>localnet=192.168.1.0</code><code>/255</code><code>.255.255.0</code><code>udpbindaddr=0.0.0.0             ; IP address to bind to (0.0.0.0 binds to all)</code><code>srvlookup=</code><code>yes</code>                   <code>; Enable DNS SRV lookups on outbound calls</code><code>canreinvite=no</code><code>dtmfmode = rfc2833</code><code>tcpenable=no</code><code>;directmedia=</code><code>yes</code><code>register =&gt; sipusername:sippassword@iptel.org:5060</code><code>/253xxxxxxx</code><code>session-timers=refuse</code><code>disallow=all</code><code>allow=ulaw</code><code>allow=gsm</code> <code>[201]</code><code>defaultuser=201</code><code>secret=secret1</code><code>type</code><code>=peer</code><code>callerid=</code><code>"user1 "</code><code>host=dynamic</code><code>context=phone</code><code>outgoinglimit=1</code><code>incominglimit=1</code><code>canreinvite=no</code><code>nat=</code><code>yes</code><code>qualify=</code><code>yes</code> <code>[202]</code><code>defaultuser=202</code><code>secret=secret2</code><code>type</code><code>=peer</code><code>callerid=</code><code>"user2 "</code><code>host=dynamic</code><code>context=phone</code><code>outgoinglimit=1</code><code>incominglimit=1</code><code>canreinvite=no</code><code>nat=</code><code>yes</code><code>qualify=</code><code>yes</code> <code>[203]</code><code>defaultuser=203</code><code>secret=secret3</code><code>type</code><code>=peer</code><code>callerid=</code><code>"user3 "</code><code>host=dynamic</code><code>context=phone</code><code>outgoinglimit=1</code><code>incominglimit=1</code><code>canreinvite=no</code><code>nat=</code><code>yes</code><code>qualify=</code><code>yes</code> <code>[DID]</code><code>context=sip</code><code>defaultuser=sipusername</code><code>type</code><code>=peer</code><code>secret=sippassword</code><code>host=iptel.org</code><code>fromdomain=iptel.org</code><code>fromuser=253xxxxxxx</code><code>trustrpid = </code><code>yes</code><code>sendrpid = </code><code>yes</code><code>canreinvite = no</code><code>insecure=port,invite</code><code>nat=</code><code>yes</code> 
+===== extensions.conf =====
+<code>[general]</code><code>static=no</code><code>writeprotect=no</code><code>autofallthrough=</code><code>yes</code><code>clearglobalvars=</code><code>yes</code><code>priorityjumping=no</code> <code>[globals]</code><code>gtimeout=50    ; timeout value</code><code>; initialize</code><code>gvuser=10000</code> <code>[sip]</code><code>exten =&gt; _253xxxxxxx,1,ExecIf($[${gvuser}!=10000]?Bridge(${gvuser}):Dial(SIP</code><code>/201</code><code>&amp;SIP</code><code>/203</code><code>,60,D(:1)))</code><code>exten =&gt; _253xxxxxxx,n, Set(GLOBAL(gvuser)=10000)</code><code>exten =&gt; _253xxxxxxx, n, Hangup()</code><code>[phone]</code><code>include =&gt; sip</code><code>include =&gt; gv-outbound</code><code>[gv-outbound]</code><code>exten =&gt; _NXXNXXXXXX,1,GoTo(1${EXTEN},1)</code><code>exten =&gt; _1NXXNXXXXXX,1,Answer</code><code>exten =&gt; _1NXXNXXXXXX,n,Set(GLOBAL(gvuser)=${CHANNEL})</code><code>exten =&gt; _1NXXNXXXXXX,n,System(gvoice -e gvusername@gmail.com -p gvpassword call ${EXTEN} 1253xxxxxxx 1 &amp;)</code><code>exten =&gt; _1NXXNXXXXXX,n,Ringing</code><code>exten =&gt; _1NXXNXXXXXX,n,Wait(30)</code><code>exten =&gt; _X.,n,Noop(Never received callback from Google Voice on channel ${gvuser} . exiting)</code><code>exten =&gt; h,1,GotoIf($[</code><code>"${CHANNEL(state)}"</code> <code>= </code><code>"Ring"</code><code>]?:bridged)</code><code>exten =&gt; h,n,Noop(Hangup on channel ${gvuser})</code><code>exten =&gt; h,n,System(gvoice -e gvusername@gmail.com -p gvpassword cancel &amp;)</code><code>exten =&gt; h,n, Set(GLOBAL(gvuser)=10000)</code><code>exten =&gt; h,n,Hangup()</code><code>exten =&gt; h,n(bridged),Noop(The channel has been bridged successfully)</code><code>exten =&gt; h,n, Set(GLOBAL(gvuser)=10000)</code>   
+     
+= Test cmds =
+  gvoice -e [gvusername@gmail.com] -p [gvpassword] call NXXNXXXXXX [callcentricdid] 1  
+* the above makes a call 
+
+asterisk -rvvvvv (loads the asterisk server, type help for list of cmds) some are: sip show peers  sip show registry  sip show users  sip reload
+ 	         
+= Links =
+
+[[Phone setup]] 
+[[How to use the 7060g]] 
+[[DIrectory info]]
