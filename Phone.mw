@@ -1,14 +1,16 @@
 = Phone System =
 == To-Do ==
-* Get Callcentric DID (or Other)
-* Edit Sip.conf and Extension.conf With Callcentric login and google account
-* Test (test the DTMF TONES, calling, other)
+* [s]Get Callcentric DID (or Other)[/s]
+* Edit Sip.conf and Extension.conf With [s]Callcentric login [/s] and a Google account
+* Test (DTMF TONES, calling, Dialplan, other)
 * Change Voicemail Settings (send wav to someone)
 * Add A Custom Voicemail Greating
 * Add/Change Phone book (xml)  (started )
-* fix asterisk Config errors (some syntax changes needed in some files due to update)
+* Fix asterisk Config errors (some syntax changes needed in some files due to update)
+* [s] Fix Cisco config [/s]
 * Make a web page for the phone system
 * ADD URL (sip calling) calling into asterisk (google how to?) 
+* Change some init  
 
 == Prerequisites ==        
 === Supplies ===
@@ -27,9 +29,7 @@
 * tftp
 * apache2
 * asterisk 13
-       
-
-       
+   
 ==== Installing  Pygooglevoice ====
 * We Ran the below code at root mainly to insure the install of pygooglevoice-0.5.tar.gz
  wget http://pygooglevoice.googlecode.com/files/pygooglevoice-0.5.tar.gz
