@@ -1,20 +1,20 @@
 = Phone System =
 == To-Do ==
-* [s]Get Callcentric DID (or Other)[/s]
-* Edit Sip.conf and Extension.conf With [s]Callcentric login [/s] and a Google account
+* <strike>Get Callcentric DID (or Other)</strike>
+* Edit Sip.conf and Extension.conf With <strike>Callcentric login </strike> and a Google account
 * Test (DTMF TONES, calling, Dialplan, other)
 * Change Voicemail Settings (send wav to someone)
 * Add A Custom Voicemail Greating
 * Add/Change Phone book (xml)  (started )
 * Fix asterisk Config errors (some syntax changes needed in some files due to update)
-* [s] Fix Cisco config [/s]
+* <strike> Fix Cisco config </strike>
 * Make a web page for the phone system
 * ADD URL (sip calling) calling into asterisk (google how to?) 
 * Change some init  
 
 == Prerequisites ==        
 === Supplies ===
-* Sip Phone (cisco [[sip]])
+* Sip Phone (cisco sip)
 * Debian Server
 * Callcentric DID
 * Google Voice account
