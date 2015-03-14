@@ -9,8 +9,8 @@
 * Fix asterisk Config errors (some syntax changes needed in some files due to update)
 * <strike> Fix Cisco config </strike>
 * Make a web page for the phone system
-* ADD URL (sip calling) calling into asterisk (google how to?) 
-* Change some init  
+* ADD URL (sip calling) calling into asterisk ([http://www.voip-info.org/wiki/view/Asterisk+tips+SIP+URI+Dial Guide]) 
+* Change some init
 
 == Prerequisites ==        
 === Supplies ===
