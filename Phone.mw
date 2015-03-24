@@ -180,11 +180,18 @@ We edited sip.conf and extensions.conf to our info. Adding a password to the pho
 * (loads the asterisk server Diagnostic program, type help for list of cmds) some are: sip show peers  sip show registry  sip show users  sip reload
  	         
 = Links =
-
+== Cisco 79XX Phone == 
 [http://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/sip/proxies/2-1/white/paper/sipwp21.pdf Phone setup]<br>
 [http://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7960g_7940g/sip/english/user/guide/user/sipuget.html#wp1013789 How to use the 7060g]<br>
 [http://www.voip-info.org/wiki/view/Asterisk+Cisco+79XX+XML+Services Directory info] <BR>
 [http://www.voip-info.org/wiki/view/Asterisk+phone+cisco+79xx cisco 79xx info]<br>
+
+== Asterisk 13 Documentation == 
+[https://wiki.asterisk.org/wiki/display/AST/Asterisk+13+Documentation Asterisk 13 Documentation]<br>
+[https://wiki.asterisk.org/wiki/display/AST/Asterisk+13+Application_Dial Application Dial]<br>
+<br>
+<br>
+==Other==
 [http://www.asteriskdocs.org/en/2nd_Edition/asterisk-book-html-chunk/index.html Asterisk™: The Future of Telephony]<br>
 <br>
-[http://tech.iprock.com/?p=9784 how to on freepbx]
+[http://tech.iprock.com/?p=9784 how to on freepbx]<br>
