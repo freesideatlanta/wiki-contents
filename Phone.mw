@@ -17,6 +17,7 @@ The system doen't have a Voicemail set at this time!! <br>
 * <strike>Make a web page for the phone system 
 * ADD URL (sip calling) calling into asterisk ([http://www.voip-info.org/wiki/view/Asterisk+tips+SIP+URI+Dial Guide]) 
 * Change some init </strike>
+* Fix some internal port FWDing 
 * Debug 7960
 * Mount Phones
 * Buy a 48v 1.5 amp Power brick
