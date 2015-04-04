@@ -9,7 +9,7 @@ The system doen't have a Voicemail set at this time!! <br>
 * <strike>Edit Sip.conf and Extension.conf With <strike>Callcentric login  and a Google account</strike>
 * Test (DTMF TONES, calling, Dialplan, other)
 * Change Voicemail Settings (send wav to someone)
-* Add sendmail 
+* <strike> configure sendmail </strike> 
 * Add A Custom Voicemail Greating
 * Add/Change Phone book (xml)  (started )
 * Fix asterisk Config errors (some syntax changes needed in some files due to update)
