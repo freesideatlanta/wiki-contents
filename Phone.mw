@@ -204,7 +204,7 @@ We edited sip.conf and extensions.conf to our info. Adding a password to the pho
 <br>
 [http://tech.iprock.com/?p=9784 how to on freepbx]<br>
 [http://www.einhorn-net.de/headset/index_e.html Headset Jack Pinout] << Make a Intercom anyone?
-=7960 POE=
+=[[equipment/Cisco_7960| Cisco 7960]] POE=
 * The Phone uses the old POE STD and thus requires a POE CROSSOVER cable to swap pins 4+5 to 7+8 
 * The Phone also can use 802.3af STD B (power on non data pairs)
 * For smart POEs put a 25k resistor across pins 1 and 3 and connect your phone to the switch using a crossover cable. (this will tell the POE to send power)
