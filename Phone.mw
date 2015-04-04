@@ -1,6 +1,8 @@
 Currently the phone system accepts incoming calls and With a delay can make calls and some help [[Equipment/Cisco_7960 | Cisco 7960]] see Eldon or Matt for howto <br>
 The system doen't have a Voicemail set at this time!! <br>
+This is the Google Voice Bounce Back method Commonly used by others before XMPP was created. I have however after some careful research and configuring we should have Several XMPP Lines. However, there have been reports that google is turning XMPP off, They have or some other crap. It will happen but what most people are refering to is Google has been Changing the Login Security, and detects what we are doing as an insecure app in logging in. Thus we must go into setting and change to allow and someone must logon to the account once day to once every 2 months... 
 
+I have added XMPP calling on lines 3-5 and Line 2 is not configured correctly at this time stay tuned...   
 = Phone System =
 
 
