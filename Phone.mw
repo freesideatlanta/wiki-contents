@@ -14,16 +14,16 @@ I have added XMPP calling on lines 3-5 and Line 2 is not configured correctly at
 * <strike> configure sendmail </strike> 
 * Add A Custom Voicemail Greating
 * Add/Change Phone book (xml)  (started )
-* Fix asterisk Config errors (some syntax changes needed in some files due to update)
+* <strike>Fix asterisk Config errors (some syntax changes needed in some files due to update)
 * <strike> Fix Cisco config </strike>
 * <strike>Make a web page for the phone system 
 * ADD URL (sip calling) calling into asterisk ([http://www.voip-info.org/wiki/view/Asterisk+tips+SIP+URI+Dial Guide]) 
 * Change some init </strike>
 * Fix some internal port FWDing 
-* Debug 7960
-* Mount Phones
-* Buy a 48v 1.5 amp Power brick
-* Make POE crossover adapters (4,5 switches with 7,8)
+* <strike> Debug 7960
+* Mount Phones </strike>
+* Buy a 48v 1.5 amp Power brick or 15.4W per phone
+* Make POE crossover adapters (4,5 switches with 7,8) (BUYING)
 * Make Instructions for 7960 (see talk)
 * Make NOTICE for phone
 
