@@ -12,7 +12,7 @@ One of the SIP PHONES we currently have
 * Freeside
 
 = Hackability =
-Hack/Do Not Hack/List Of Desired Improvements
+Do Not Hack
 
 == Permissions ==
 Rules and expectations for use of this piece of equipment. Example: <br />
@@ -28,6 +28,7 @@ Things a user should know prior to using the equipment (turn on power supply pri
 * Has A Delay with Outgoing calls
 * Requires Internet
 * Requires Asterisk server
+* USES POE(Power Over Ethernet)
 
 = Basic Instructions = 
 * Step 1
