@@ -1,0 +1,72 @@
+Notice: Currently line one is only working with a 30 sec delay <br /> if the phone is off we are still waiting on the POE crossover cable (my attempt at making one failed 
+
+[[File:cisco-7960g.jpg|thumb|300px]]
+[[File:7960back.jpg|thumb|300px]]
+
+{{Infobox tool
+| name           = Cisco 7960G
+| image          = cisco-7960g.jpg
+| image size     = 300px
+| caption        = Front
+| classification = SIP Phone
+| used_with      = Asterisk 13
+| manufacturer   = Cisco
+| model          = 7960 G 
+| Status         = NOT HACK ABLE
+| Power Requirements = DC 48v 16w
+| Extension      = 202,302,402,502,602
+| auto answer extension = 602
+}}
+
+= Zone =
+(Set to the right zone)<br />
+[[Equipment]] \ [[Woodshop]]
+
+= About =
+One of the SIP PHONES we currently have
+
+= Owner(s) =
+* Freeside Atlanta
+
+= Hackability =
+Do Not Hack
+
+== Permissions ==
+Rules and expectations for use of this piece of equipment. Example: <br />
+For general use by members after they have read and understand its use.
+
+== Restrictions ==
+Things the equipment shouldn't be used for, limitations, etc (Don't grind aluminum or brass, etc)<br />
+* ??
+* ??
+
+== Caution ==
+Things a user should know prior to using the equipment (turn on power supply prior to plugging in USB, etc)<br />
+* Has A Delay with Outgoing calls
+* Requires Internet
+* Requires Asterisk server
+* USES POE(Power Over Ethernet)
+ 
+
+=TO USE=
+==OUTGOING==
+* SELECT THE LINE YOU WISH TO DIAL OUT FROM 
+* DIAL THE DESIRED RECIPIENT IN THE FORMAT 1NXXNXXXXXX
+* PRESS THE DIAL KEY IF NEEDED 
+
+NOTE: FOR LINE 1 THERE IS CURRENTLY A 30 SEC DELAY FOR OUTBOUND CALLS OTHER THAN 411 AND CALLCENTRIC NUMBERS 1777XXXXXXX
+==INCOMING==
+* PICK UP THE PHONE THE PHONE AS NORMAL OR YOU MAY SELECT THE LINE TO COME OUT AS INTERCOM (HIT HANDSET TO TALK)
+* IF SOUND COMES OUT THE SPEAKER YOU WILL NEED TO HIT THE HEADSET KEY  
+
+== Specifications and Detailed Instructions ==
+[http://www.cisco.com/c/en/us/products/collaboration-endpoints/unified-ip-phone-7960g/index.html Product page ]<br />
+[http://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7960g_7940g/sip/english/user/guide/user/sipuget.html#wp1003605  How to make a call ]<br />[http://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7960g_7940g/sip/english/user/guide/user.html  User guide ]<br />
+[http://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cuipph/7960g_7940g/7_0/sip/english/user/guide/6040sip.pdf Pdf of user guide] (note its for a older version of firmware) minor changes <br />
+
+= Tips =
+* ??
+* ??
+
+[[category: Equipment]]
+[[category: QR Code Needed]]
