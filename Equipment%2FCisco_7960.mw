@@ -30,9 +30,16 @@ Things a user should know prior to using the equipment (turn on power supply pri
 * Requires Asterisk server
 * USES POE(Power Over Ethernet)
 
-= Basic Instructions = 
-* Step 1
-* Step 2
+=TO USE=
+==OUTGOING==
+* SELECT THE LINE YOU WISH TO DIAL OUT FROM 
+* DIAL THE DESIRED RECIPIENT IN THE FORMAT 1NXXNXXXXXX
+* PRESS THE DIAL KEY IF NEEDED 
+
+NOTE: FOR LINE 1 THERE IS CURRENTLY A 30 SEC DELAY FOR OUTBOUND CALLS OTHER THAN 411 AND CALLCENTRIC NUMBERS 1777XXXXXXX
+==INCOMING==
+* PICK UP THE PHONE THE PHONE AS NORMAL OR YOU MAY SELECT THE LINE TO COME OUT AS INTERCOM (HIT HANDSET TO TALK)
+* IF SOUND COMES OUT THE SPEAKER YOU WILL NEED TO HIT THE HEADSET KEY  
 
 == Specifications and Detailed Instructions ==
 [http://www.cisco.com/c/en/us/products/collaboration-endpoints/unified-ip-phone-7960g/index.html Product page ]<br />
