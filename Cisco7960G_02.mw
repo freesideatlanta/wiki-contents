@@ -1,9 +1,4 @@
-Notice: Currently line one is only working with a 30 sec delay <br /> if the phone is off we are still waiting on the POE crossover cable (my attempt at making one failed 
-
-[[File:cisco-7960g.jpg|thumb|300px]]
-[[File:7960back.jpg|thumb|300px]]
-
-{{Infobox tool
+<div style="float: right;">{{Infobox tool
 | name           = Cisco 7960G
 | image          = cisco-7960g.jpg
 | image size     = 300px
@@ -12,11 +7,16 @@ Notice: Currently line one is only working with a 30 sec delay <br /> if the pho
 | used_with      = Asterisk 13
 | manufacturer   = Cisco
 | model          = 7960 G 
-| Status         = NOT HACK ABLE
-| Power Requirements = DC 48v 16w
-| Extension      = 202,302,402,502,602
-| auto answer extension = 602
-}}
+| status         = NOT HACK ABLE
+| power requirements = DC 48v 16w
+| extension      = 202,302,402,502,602
+| auto answer = Null
+}}</div>
+Notice: Currently line one is only working with a 30 sec delay <br /> if the phone is off we are still waiting on the POE crossover cable (my attempt at making one failed 
+
+[[File:7960back.jpg|thumb|300px]]
+
+
 
 = Zone =
 (Set to the right zone)<br />
