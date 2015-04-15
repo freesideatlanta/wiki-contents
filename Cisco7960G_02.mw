@@ -11,6 +11,8 @@
 | power requirements = DC 48v 16w
 | extension      = 202,302,402,502,602
 | auto answer = Null
+| mac           = 001A6DD86AEC
+| ip            =
 }}</div>
 Notice: Currently line one is only working with a 30 sec delay <br /> if the phone is off we are still waiting on the POE crossover cable (my attempt at making one failed 
 
