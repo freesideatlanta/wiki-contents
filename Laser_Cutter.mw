@@ -73,6 +73,21 @@ From left to right
 
 The laser beam itself is guided to the cutting nozzle using a "flying optic" system. This means that the laser tube stays in one place and the beam is directed around the enclosure using mirrors. The beam exits the laser tube and hits the first mirror at a ~45 degree angle. It then is reflected onto the gantry's mirror again hitting at ~45 degree angle. It is then reflected onto the carriage mirror at ~45 degree angle and then hits the focusing lens.
 
+= Dimensions =
+The dimensions of the work area are: 
+
+X: 453mm 
+
+Y: 289mm
+
+Depending on the Z-axis setting, the Z-axis knob might interfere with the carriage. In this case, the rear, left corner of the work area is reduced by a rectangle 13mm in the Y dimension, and 113mm in the X dimension.
+
+The frontmost, leftmost point in the work area is located 140mm from the left wall of the laser cutter cabinet, and 79mm from the front wall.
+
+The grill on which work is set is 605mm wide, 304mm front-to-back, and 23mm thick.
+
+If possible, I will link to templates for the work area in PNG, DXF, and SVG format.
+
 = Tips =
 # Test power level and feedrate on a piece of material like the one you intend to use.
 # More isn't always better in regard to power.
