@@ -42,7 +42,7 @@ The laser uses an RF-excited CO2 gas laser producing a beam invisible to the hum
 * Mach3 is running and in the foreground
 * the E-stop in Mach3 is engaged
 '''
-Do not apply the laser to any material containing Chlorine.  Chlorine is poisonous, and also will damage the electronic components of the laser cutter.
+Do not apply the laser to any material containing chlorine.  Chlorine is poisonous, and also will damage the electronic components of the laser cutter.
 
 == Specifications ==
 In this picture from left to right you can see:
