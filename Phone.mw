@@ -1,15 +1,15 @@
 Currently the phone system accepts incoming calls and With a delay can make calls and some help [[Equipment/Cisco_7960 | Cisco 7960]] see Eldon or Matt for howto <br>
-The system doen't have a Voicemail set at this time!! <br>
-This is the Google Voice Bounce Back method Commonly used by others before XMPP was created. I have however after some careful research and configuring we should have Several XMPP Lines. However, there have been reports that google is turning XMPP off, They have or some other crap. It will happen but what most people are refering to is Google has been Changing the Login Security, and detects what we are doing as an insecure app in logging in. Thus we must go into setting and change to allow and someone must logon to the account once day to once every 2 months... 
+The system May have a Voicemail <br>
+It uses the Google Voice Bounce Back method Commonly used by others before XMPP was created. <strike>I have however after some careful research and configuring we should have Several XMPP Lines. However, there have been reports that google is turning XMPP off, They have or some other crap. It will happen but what most people are refering to is Google has been Changing the Login Security, and detects what we are doing as an insecure app in logging in. Thus we must go into setting and change to allow and someone must logon to the account once day to once every 2 months... 
 
-I have added XMPP calling on lines 3-5 and Line 2 is not configured correctly at this time stay tuned...   
+I have added XMPP calling on lines 3-5 and Line 2 is not configured correctly at this time stay tuned...   </strike>
 = Phone System =
 
 
 == To-Do ==
 * <strike>Get Callcentric DID (or Other)</strike>
 * <strike>Edit Sip.conf and Extension.conf With <strike>Callcentric login  and a Google account</strike>
-* Test (DTMF TONES, calling, Dialplan, other)
+* <strike>Test (DTMF TONES, calling, Dialplan, other) </strike>
 * Change Voicemail Settings (send wav to someone)
 * <strike> configure sendmail </strike> 
 * Add A Custom Voicemail Greating
@@ -22,8 +22,8 @@ I have added XMPP calling on lines 3-5 and Line 2 is not configured correctly at
 * Fix some internal port FWDing 
 * <strike> Debug 7960
 * Mount Phones </strike>
-* Buy a 48v 1.5 amp Power brick or 15.4W per phone
-* Make POE crossover adapters (4,5 switches with 7,8) (BUYING)
+* Buy a 48v ~1.5 amp Power brick or 15.4W per phone (currently POE with Original brick) 
+* <strike>Make POE crossover adapters (4,5 switches with 7,8) (BUYING)</strike>
 * Make Instructions for 7960 (see talk)
 * Make NOTICE for phone
 
@@ -75,6 +75,9 @@ The Main files here are:
 We edited sip.conf and extensions.conf to our info. Adding a password to the phone and the correct Callcentric and Google info. Note: after editing the documents you must restart asterisk.   After the asterisk server was up we set up the TFTP server with the config files for the phone and the ringtones.. the config file had to be added to to include the network IP of the TFTP server, the web-server and asterisk install and the creds. we gave this user in sip.conf          
 ==== Files ====
 ===== Sip.conf =====  
+[notice]
+This is just where we started here for ref 
+[/notice]
  [general]
  context=phone                 ; Default context for incoming calls
  allowoverlap=no                 ; Disable overlap dialing support. (Default is yes)
@@ -147,6 +150,9 @@ We edited sip.conf and extensions.conf to our info. Adding a password to the pho
  nat=yes
 
 ===== extensions.conf =====
+[notice]
+This is just where we started here for ref 
+[/notice]
  [general]
  static=no
  writeprotect=no
