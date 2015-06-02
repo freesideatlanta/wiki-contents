@@ -1,0 +1,62 @@
+Temporary Donated Equipment Status List
+
+Created and written by Ben Bradley  May 2, 02015
+
+Equipment on the Electronics Bench and Known To Work:
+
+HP 211A Square Wave Generator s/n 829-09572 (large grey box) is on the electronics bench and works fine. It may not be within calibration, but frequency output sampled at a few places was within 5 percent. Dial is linear, goes 1 to 10, rane switch is from x1 to x100k for a range of 1Hz to 1MHz. Other controls: Symmetry, Amplitude for 600 ohm output (banana), amplitude for 75 ohm output (BNC), attenuator for 75 ohm output (0dB, -20dB, -40dB, -60dB). Tube-operated, takes about a minute to warm up after turning on.
+
+HP 202C Sine Wave "LOW FREQUENCY OSCILLATOR" audio-range oscillator (moderately large grey box, large silver dial) is on the electronics bench and works fine. Dial reading is log, marked  1-1.5 by 0.1, 1.7, 2, 2.5, 3, 3.5, 4-10 by 1. Range is x1 to x10k for frequency range of 1Hz to 100kHz. Has vernier knob for precision frequency setting, amplitude control, 600 ohm output, separate ground connection (three banana jacks). May not be exactly within calibration, but spot checking shows frequency accuracy is within 5 percent. Tube-operated, takes about a minute to warm up after turning on.
+
+Tenma Function Generator Model 72-380 (in small clamshell box), pdf manual online
+
+HP 652A Test Oscillator, sine wave, 10Hz to 1MHz. (serial # unknown)
+
+HP 712C DC Power Supply (serial # unknown)
+
+Equipment In The Back, Known working:
+
+HP-200CD serial #605-64280 works well.
+No screws holding case on.
+Has solid state rectifiers, no 5AR4, looks original.
+
+Equipment In The Back, Almost or Partially Working:
+
+Heathkit VTVM/VOM # IM-10 no case
+Not worth much but has big meter movement, good for showing off a "standard" VTVM.
+needs:
+ case on 5 sides
+ Meter movement cover has a high electrostatic charge, and this strongly affects
+ movement operation. This needs to be fixed, but it's probably not worth doing unless it's an easy fix.
+
+Equipment In The Back, Known Not To Work or Unknown:
+ 
+HP-200CD  serial # (on back chassis) 333-51626 
+Missing: Case, Fuse and fuse holder end, Power cord, Filter capacitor, tubes and bulbs:
+(2) 6CW5/EL86 V2, V4
+(2) 6AU6
+(2) light bulbs, standard (10W 240V, still available) for this model.
+(rectifier 5AR4 is installed)
+The case it was "in" was too short for the chassis, found a naked HP400 AC VTVM that the case fits.
+
+HP 333A distortion analyzer (quantity two)
+Heath SM-5248 distortion analyzer (newer/later Heath model, looks nice) 
+
+Heathkit R/L/C bridge IB-28 - the only one I've seen, didn't recall seeing it in the catalogs,
+I suspect not many of these were made.
+PDF downloaded "Heathkit IB-28 impedance bridge.pdf" (and another PDF scan as well) through Google.
+Opened up, missing all four tubes (two 1L4, two 1U4 - same/similar to in tube-type Zenith T-O receivers), has a SELENIUM rectifier that
+needs to be removed from the circuit (though probably not removed altogether, to "keep original parts") and a silicon rectifier (w/R-C snubber for good measure) put in. Looks clean inside, and outside case got mostly cleaned up as well. The front panel should be taken apart and all knobs well-cleaned, as well as the panel itself cleaned well. Silk-screen printing looks good, and should (perhaps!) survive a good cleaning with light soap. I have three of the four tubes this needs. This is not a whiz-bang modern RLC meter, but it has historical interest and might be valuable.
+
+HP 201C oscillator serial #351-05374
+Tuning dial shaft connection to tuning capacitor is broke (fixable - mechanical problem). Small tuning knob
+has lots of friction, apparently just needs cleaning and grease.
+No output. With attentuator switch at "0DB" turning the variable output makes a small DC voltage change
+on output, but no other sign of working.
+On left side: 6AQ5, light bulb resistor, 6AU6 - both tubes get warm, but 6AQ5 does not get as warm as 6AU6.
+On right side, octals: 6K6, 6SN7, 6K6, 5Y3/5AR4. These tubes get hot. All filaments light.
+
+
+HP 400D s/n 310-52074 has selenium rectifier (should be replaced with silicon rectifier(s)). missing 5651 tube. Replaced with 5651 tube from s/n 310-49046, everything lights up, meter at first goes to 2/3 deflection, then after a minute settles down to about 5-10 percent. Selenium rectifier is cool (a Good Thing). large 10W(?) tubular resistor "0815-0017" gets too hot to touch (it's probably ok, but tempted to replace with larger rating). No deflection on any range with touching input terminal.
+
+HP 400D s/n 310-49046
