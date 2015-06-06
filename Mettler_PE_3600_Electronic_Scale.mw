@@ -31,7 +31,7 @@ Full accuracy requires 30 minutes warmup time and calibration, in that order. Re
 * Resolution: 0.01g
 * Maximum Measurement: 3600g (about 7.93 pounds)
 
-[[File:RTFM.PNG|50px|link=http://homepage.univie.ac.at/dieter.mader/data/man/mettler-pe360-3600-manual.pdf]]Manual in PDF format<br />
+[[File:RTFM.PNG|50px|link=http://us.mt.com/dam/mt_ext_files/Editorial/Generic/5/PE360DR_3600DR_BA_0x000010083f8272f740009ff7_files/pe360-3600-ba-701344.pdf]]Manual in PDF format<br />
 
 = Tips =
 The power connector on the back does not always make good contact to the IEC end of the power cord, making it appear the unit is not working. If unit does not come on, move around the power cord in the back connector and press the metal bar.
