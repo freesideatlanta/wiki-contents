@@ -19,18 +19,19 @@ For general use by members (and guests with member permission and supervision) a
 Full accuracy requires 30 minutes warmup time and calibration, in that order. Read manual for more info.
 
 = Basic Instructions = 
-* Plug in power. If maximum accuracy is needed, wait 30 minutes and follow calibration instructions in manual.
+* Plug in power. If maximum accuracy is needed, wait 30 minutes and follow calibration instructions in The Fine Manual.
 * Remove anything from the measurement tray, then press down on the metal bar at the edge of the display. All segments of the display will light for a few seconds to allow checking for missing segments, then "0.00g" will be display.
 * Put item to be measured on measurement tray.
 * Observe weight reading on display.
 * If the display says "OFF" power has been interrupted and restored. Press down on the metal bar to restore operation.
 * pull up on the metal bar at the edge of the display to turn off the display (unit remains powered internally to maintain calibration).
+* if it is desired to display other units of weight, follow instructions in The Fine Manual.
 
 == Specifications and Detailed Instructions ==
 * Resolution: 0.01g
 * Maximum Measurement: 3600g (about 7.93 pounds)
 
-[[File:RTFM.PNG|50px|link=http://us.mt.com/dam/mt_ext_files/Editorial/Generic/5/PE360DR_3600DR_BA_0x000010083f8272f740009ff7_files/pe360-3600-ba-701344.pdf]]Manual in PDF format<br />
+[[File:RTFM.PNG|50px|link=http://us.mt.com/dam/mt_ext_files/Editorial/Generic/5/PE360DR_3600DR_BA_0x000010083f8272f740009ff7_files/pe360-3600-ba-701344.pdf]]The Fine Manual in PDF format<br />
 
 = Tips =
 The power connector on the back does not always make good contact to the IEC end of the power cord, making it appear the unit is not working. If unit does not come on, move around the power cord in the back connector and press the metal bar.
