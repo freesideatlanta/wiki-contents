@@ -210,8 +210,10 @@ This is just where we started here for ref
 ==Other==
 [http://www.asteriskdocs.org/en/2nd_Edition/asterisk-book-html-chunk/index.html Asterisk™: The Future of Telephony]<br>
 <br>
-[http://tech.iprock.com/?p=9784 how to on freepbx]<br>
+[http://tech.iprock.com/?p=9784 BounceBack with Freepbx] &nbsp;&nbsp;&nbsp;[Guide]<br>
+[http://nerdvittles.com/?p=12233 Incredible PBX for Asterisk-GUI (RasPi 2 Edition)] &nbsp;&nbsp;&nbsp;[Guide]<br>
 [http://www.einhorn-net.de/headset/index_e.html Headset Jack Pinout] << Make a Intercom anyone?
+
 =[[equipment/Cisco_7960| Cisco 7960]] POE=
 * The Phone uses the old POE STD and thus requires a POE CROSSOVER cable to swap pins 4+5 to 7+8 
 * The Phone also can use 802.3af STD B (power on non data pairs)
