@@ -52,7 +52,7 @@ I have added XMPP calling on lines 3-5 and Line 2 is not configured correctly at
  cd pygooglevoice-0.5
  python setup.py install
  sed -i 's|https://www.google.com/accounts/ServiceLoginAuth?service=grandcentral|https://accounts.google.com/ServiceLogin?service=grandcentral\&continue=https://www.google.com/voice|' /usr/local/lib/python2.7/dist-packages/googlevoice/settings.py
-sed -i 's|      galx.*|      galx = re.search(r\"name=\\"GALX\\" type=\\"hidden\\"\\n *value=\\"(.+)\\"\", content).group(1)|' /usr/local/lib/python2.7/dist-packages/googlevoice/voice.py 
+ sed -i 's|      galx.*|      galx = re.search(r\"name=\\"GALX\\" type=\\"hidden\\"\\n *value=\\"(.+)\\"\", content).group(1)|' /usr/local/lib/python2.7/dist-packages/googlevoice/voice.py 
 
 * Latter We installed asterisk 13 from source and Apache+php using the Package manager as well as the tftp server we decided on using.
 
