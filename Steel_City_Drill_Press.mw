@@ -1,6 +1,6 @@
 [[File:ImageOfEquipment.jpg|thumb|300px]]
-To use this template, copy  <code><nowiki>{{subst:EquipmentPage}}</nowiki></code> into a new page, save, and then begin editing. The current version of this template will be copied into the new page. Future modifications to this template will change existing pages. <br />
-Add or link new equipment pages to [[Equipment]]
+A drill press (also known as a pedestal drill, pillar drill, or bench drill) is a fixed style of drill that may be mounted on a stand or bolted to the floor or workbench. Portable models with a magnetic base grip the steel workpieces they drill. A drill press consists of a base, column (or pillar), table, spindle (or quill), and drill head, usually driven by an induction motor. The head has a set of handles (usually 3) radiating from a central hub that, when turned, move the spindle and chuck vertically, parallel to the axis of the column. The table can be adjusted vertically and is generally moved by a rack and pinion; however, some older models rely on the operator to lift and reclamp the table in position. The table may also be offset from the spindle's axis and in some cases rotated to a position perpendicular to the column. The size of a drill press is typically measured in terms of swing. Swing is defined as twice the throat distance, which is the distance from the center of the spindle to the closest edge of the pillar.
+
 = Zone =
 [[Equipment]] \ [[Warehouse]] \ [[Woodshop]]
 
@@ -35,9 +35,9 @@ Things a user should know prior to using the equipment (turn on power supply pri
 * Step 2
 
 == Specifications and Detailed Instructions ==
-[[File:Info.jpg|50px|link=]]URL to product page if it exists<br />
-[[File:RTFM.PNG|50px|link=]]URL to product manuals<br />
-[[File:Video.jpg|50px|link=]]Link to videos showing good examples of use
+<!--[[File:Info.jpg|50px|link=]]URL to product page if it exists<br />-->
+[[File:RTFM.PNG|50px|link=http://steelcitytoolworks.com/media/wysiwyg/20520_17in_DRILL_PRESS_8.5.10_smallpdf.com_.pdf]]URL to product user manual<br />
+<!--[[File:Video.jpg|50px|link=]]Link to videos showing good examples of use-->
 
 = Tips =
 * ??
