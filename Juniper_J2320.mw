@@ -1,71 +1,49 @@
-[[File:ImageOfEquipment.jpg|thumb|300px]]
-To use this template, copy  <code><nowiki>{{subst:EquipmentPage}}</nowiki></code> into a new page, save, and then begin editing. The current version of this template will be copied into the new page. Future modifications to this template will change existing pages. <br />
-Add or link new equipment pages to [[Equipment]]
+[[File:J2320.jpg|thumb|300px]]
 = Zone =
-(Set to the right zone)<br />
-[[Equipment]] \ [[Warehouse]] \ [[Metal Shop]]
+[[Equipment]] \ [[Server Room]]
 
 = About =
-What is this equipment used for. Brief description.
+The J2320 is the hardware used to to help manage the network. It runs [ Pfsense | https://www.pfsense.org/ ] allowing us to have VPN, Duel Wifi, Vlans, and much more in the space.. 
 
 = Owner(s) =
 * Freeside
-* Member Name (Link to their Wiki Page if it exists)
 
 = Hackability =
-Hack/Do Not Hack/List Of Desired Improvements
+DO NOT Hack
 
 == Permissions ==
-Rules and expectations for use of this piece of equipment. Example: <br />
-For general use by members after they have completed an appropriate training course. Treat this equipment as if it were your own cleaning items off of the top of the machine and around its table after usage.
+Rules and expectations for use of this piece of equipment. <br />
+For general use by members after they have completed an appropriate training course. Treat this equipment as if it were your own cleaning items off of the top of the machine and around the rack as needed.
 
 == Restrictions ==
-Things the equipment shouldn't be used for, limitations, etc (Don't grind aluminum or brass, etc)<br />
+Things the equipment shouldn't be used for, limitations, etc <br />
 * ??
 * ??
 
 == Caution ==
 Things a user should know prior to using the equipment (turn on power supply prior to plugging in USB, etc)<br />
-* ??
+* COntact Network team if reset is   
 * ??
 
 = Basic Instructions = 
 * Step 1
 * Step 2
 
+* Contact Network team if restart is Requested
+
 == Specifications and Detailed Instructions ==
-[[File:Info.jpg|50px|link=]]URL to product page if it exists<br />
-[[File:RTFM.PNG|50px|link=]]URL to product manuals<br />
+[[File:Info.jpg|50px|link=https://www.juniper.net/customers/support/?j2320]]URL to product page if it exists<br />
+[[File:RTFM.PNG|50px|link=http://www.juniper.net/support/downloads/?p=j2320]]URL to product manuals<br />
+
+[[File:Info.jpg|50px|link=https://www.pfsense.org/]]URL to Pfsense<br />
 [[File:Video.jpg|50px|link=]]Link to videos showing good examples of use
 
 = Tips =
-* ??
+* Notify Network team of malfunction.. 
 * ??
 
 = Warnings =
 Delete those that do not apply<br />
-
-[[File:Laser.PNG|100px]] Eyesight Damage Risk
-
-[[File:Entrapment.png|100px]] Entrapment Risk
-
-[[File:Flammable.png|100px]] Flammable Risk
-
-[[File:HighSpeedMovingParts.png|100px]] High Speed Moving Parts
-
-[[File:NonIoizingRadiation.png|100px]] Non-Ionizing Radiation (RF)
-
-[[File:UV.png |100px]] UV Radiation
-
-[[File:Radiation.PNG |100px]] Radiation Warning
-
-[[File:Poison.PNG|100px]] Poisonous Substances
-
-[[File:Hot.gif|100px]] Hot Surfaces
-
-[[File:Cutting.PNG|100px]] Cutting Risk
-
-[[File:Crush.png|100px]] Crush and Pinch Risk
 
 [[File:ElectricShock.PNG|100px]] Electric Shock Risk
 
@@ -74,27 +52,8 @@ Delete those that do not apply<br />
 == Safety ==
 Delete those that do not apply<br />
 
-[[File:BreathingMask.PNG|100px]] Breathing Mask Required
-
-[[File:Gloves.PNG|100px]] Gloves Required
-
-[[File:Goggles.PNG|100px]] Eye Protection Required
-
-[[File:HardHat.PNG|100px]] Hardhat Required
-
-[[File:Hearing.PNG|100px]] Hearing Protection Required
-
-[[File:Lockout.PNG|100px]] Lockout Required
-
 [[File:RTFM.PNG|100px]] Read the Fine Manual
 
-[[File:Unplug.PNG |100px]] Unplug After Use
-
-[[File:WashHands.PNG|100px]] Wash Hands Prior/After Use
-
-[[File:Unplug.PNG |100px]] Unplug After Use
-
-[[File:WeldingMask.PNG |100px]] Welding Mask Must Be Worn
 
 [[category: Equipment]]
 [[category: QR Code Needed]]
