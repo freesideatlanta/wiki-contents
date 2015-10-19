@@ -5,6 +5,31 @@
 = About =
 The J2320 is the hardware used to to help manage the network. It runs [https://www.pfsense.org/ Pfsense] allowing us to have VPN, Duel Wifi, Vlans, and much more in the space..
 
+== Console Pin-out ==
+
+{| class="wikitable"
+|-
+! Pin  !! Signal !! Direction !! Description
+|-
+|1 ||DCD ||<– ||Carrier Detect
+|-
+|2 ||RxD ||<– ||Receive Data
+|-
+|3 ||TxD ||–> ||Transmit Data
+|-
+|4 ||DTR ||–> ||Data Terminal Ready
+|-
+|5 ||Ground ||— ||Signal Ground
+|-
+|6 ||DSR ||<– ||Data Set Ready
+|-
+|7 ||RTS ||–> ||Request To Send
+|-
+|8 ||CTS ||<– ||Clear To Send
+|-
+|9 ||RING|| <–|| Ring Indicator
+|}
+
 = Owner(s) =
 * Freeside
 
