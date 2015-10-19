@@ -115,12 +115,12 @@ subgraph cluster_current {
 |-
 | RJ45 || J2320 
 |}
-=== J2320 ===
+=== [[Juniper_J2320|J2320]] ===
 {| class="wikitable sortable"
 |-
 ! Port !! Type !! Vlan ID !! Connection 
 |-
-| CONSOLE   || CONSOLE  || N/A|| rs-232
+| CONSOLE   || CONSOLE  || N/A|| [[Juniper_J2320#Console_Pin-out|rs-232]]
 |-
 | AUX || WAN || WAN1 || Modem
 |-
