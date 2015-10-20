@@ -5,7 +5,11 @@
 = About =
 The J2320 is the hardware used to to help manage the network. It runs [https://www.pfsense.org/ Pfsense] allowing us to have VPN, Duel Wifi, Vlans, and much more in the space..
 
-== Console Pin-out ==
+Has an AMI bios,  
+== Console Port ==
+115200/8/1/n  == Bios
+115200/8/1/n  == Should be for PFsense 
+=== Console Pin-out ===
 
 {| class="wikitable"
 |-
