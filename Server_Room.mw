@@ -12,6 +12,7 @@ The server room is where most of the heavy computing for Freeside happens. There
 * 1x RBP Reboot Plus Switched PDU w/Serial interface
 * 1x TP-Link TL-WR703N VPN (Temporary! Interfaced to RBP)
 * 1x Rackable Box (to be removed, putting its drives into vm host)
+* 1X Raspberry PI 2 running [[RASPBX]]
 
 == Current Projects ==
 
