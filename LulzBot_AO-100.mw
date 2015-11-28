@@ -12,7 +12,7 @@ For general use by members. Treat equipment as if it were your own and put away 
 TODO: specify all the restrictions
 
 * Use only with members-only terminal connected to AO-100
-* Use with 3mm ABS filament only
+* Use with 1.75mm ABS or PLA filament only
 
 = About =
 Freeside was one of only 8 hackerspaces in the world to win this printer as part of the [http://www.lulzbot.com/?q=blog/announcement-winners-lulzbot-hackerspace-printer-giveaway LulzBot hackerspace printer giveaway]!
@@ -21,8 +21,7 @@ Freeside was one of only 8 hackerspaces in the world to win this printer as part
 TODO: complete instructions on use
 
 * Log in with your credentials to the attached members-only terminal.
-* Check that the bed is all the way up on the sprung screws on all 4 corners before starting a print, or it will not be level. It has a tendency, if compressed when removing a part for example, to stick down on some of the corners.
-* Use a clean paper towel to apply a thin layer of ABS Juice to the kapton tape surface.
+* Use the Elmer's Disappearing Purple glue stick to apply a thin layer of glue where your print will be. If there is already residue from past glue then you may not need to apply more. If you are having issues with print adhesion, remove the glass and wash it with warm water, and try again with the glue.
 * The only tweaks you should need to make for your prints are layer thickness and infill style/density related.
 * Please do not change the bed level or limit switches.
 * Turn off machine when done.
