@@ -1,15 +1,3 @@
-==Gallery==
-<gallery widths=200px heights=200px>
-File:3D_Printer_2_-_Makerbot.jpg|Our Makerbot Thing-o-Matic
-File:3D Printer 2 - Makerbot Printing.jpg|Side view of the Makerbot
-File:3D_Printer_1_and_3_-_Cupcake_and_Rep_Rap.jpg|Our Cupcake CNC and Scott's Reprap
-File:NicksHeart1.jpg|Dr. Glass assembling the heart that he printed on his Replicator 2
-File:NicksHeart2.jpg|The fully-assembled working clockwork heart
-File:3DPrintingArea.jpg|The full 3D printing area
-File:2013-08-17 19.15.54.jpg|The Kraken and his creator Redbeard
-File:Eggbotz.jpg|Eggbots are good to learn about CNC on, and are muchless complex than 3D printers
-</gallery>
-
 ==Overview==
 
 3D Printing is a very popular facet of the maker/hacker movement. Though they are still a bit difficult to use/calibrate, they are capable of printing 3D items based on CAD models and using extruded filament.
@@ -18,6 +6,7 @@ File:Eggbotz.jpg|Eggbots are good to learn about CNC on, and are muchless comple
 '''3D Printing:'''
 *[http://reprap.org/wiki/Repetier-Host Repetierhost] used by the Freeside terminal to generate gcode from .stl files and command the 3D printers
 *[http://reprap.org/wiki/Slic3r Slic3r] is integrated with repetier host above or used as a stand alone to generate machine readable gcode from an .stl 3D model.
+*[http://reprap.org/wiki/Cura Cura] LulzBot branded flavor of Cura, included with the LulzBot Mini.
 
 : Printer Firmware
 :: Sprinter
@@ -33,13 +22,15 @@ Any software that can generate an .stl 3D image file is suitable.  Below is an i
 
 == Equipment ==
 
-* Wall of Spool
 * [[LulzBot AO-100]]
-* Thingomatic
-* Cupcake 1
-* Cupcake 2
-* Reprap
 * [[The Kraken]] (custom--designed by Redbeard)
+* [[Lulzbot Mini]]
+* Wall of Spool
+* Thingomatic (museum)
+* Cupcake 1 (museum)
+* Cupcake 2 (museum)
+* Reprap (museum)
+
 * Member workstation
 
 ==Current Projects==
@@ -52,6 +43,18 @@ Any software that can generate an .stl 3D image file is suitable.  Below is an i
 :: - Lighting & LEDs
 :: - Cooling Fan independent switch
 :: - Leveling print bed
+
+==Gallery==
+<gallery widths=200px heights=200px>
+File:3D_Printer_2_-_Makerbot.jpg|Our Makerbot Thing-o-Matic
+File:3D Printer 2 - Makerbot Printing.jpg|Side view of the Makerbot
+File:3D_Printer_1_and_3_-_Cupcake_and_Rep_Rap.jpg|Our Cupcake CNC and Scott's Reprap
+File:NicksHeart1.jpg|Dr. Glass assembling the heart that he printed on his Replicator 2
+File:NicksHeart2.jpg|The fully-assembled working clockwork heart
+File:3DPrintingArea.jpg|The full 3D printing area
+File:2013-08-17 19.15.54.jpg|The Kraken and his creator Redbeard
+File:Eggbotz.jpg|Eggbots are good to learn about CNC on, and are muchless complex than 3D printers
+</gallery>
 
 ==Outside Links==
 *[http://www.ted.com/talks/lisa_harouni_a_primer_on_3d_printing.html Lisa Harouni: A primer on 3D printing]
