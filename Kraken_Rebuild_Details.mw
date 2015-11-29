@@ -1,0 +1,32 @@
+This page details the zero dollar rebuild of The Kraken to convert it into a Prusa i3 2020 aluminum frame reworking.
+
+The original build of The Kraken suffered from design problems that caused the entire frame to torque and move out of square, which severely limited the printing speed and quality. The Prusa i3 is a well tested design and could be built using parts salvaged from the original Kraken.
+
+== Prusa i3 "Wilson" ==
+
+Because the original Kraken was built using 2020 aluminum extrusion, the new machine would be built into a slight reworking of the "Wilson" 2020 Prusa i3 design. The Kraken's threaded rod are 8mm whereas the Wilson uses 5mm, so parts were slightly modified to accommodate the larger rod and nuts.
+
+* [http://www.thingiverse.com/thing:255605 Wilson 2020 Prusa i3 on Thingiverse]
+
+== Purchased Materials ==
+* [https://www.lulzbot.com/support/budaschnozzle-20 Budaschnozzle 2.0c] (replacement for original J-head hot end)
+
+This was purchased before the rebuild, as the old hot end suffered from several failures. The new hot end also allows us to print in other materials besides PLA.
+
+* [http://www.amazon.com/gp/product/B00NITZ5OG/ JET Skyblue ABS filament]
+
+The original frame was printed in PLA, which is not ideal for structural uses. We bought ABS to print parts for the Prusa i3 to keep with the color scheme of the original machine.
+
+* Assorted M3 and M5 bolts, washers, T-nuts, etc.
+
+Vitamins were bought to supplement the ones removed from the original machine, in case more were needed during the rebuild.
+
+== Build Log ==
+
+'''NOV-28'''
+
+The original Kraken was disassembled to bare components. The 2020 sections were cut to length for the Wilson. ABS was purchased to print the frame components. The Z-axis parts were modified to accommodate the larger threaded rod and nuts.
+
+== Gallery ==
+
+TBD
