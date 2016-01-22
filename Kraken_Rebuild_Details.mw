@@ -17,6 +17,18 @@ This was purchased before the rebuild, as the old hot end suffered from several 
 
 The original frame was printed in PLA, which is not ideal for structural uses. We bought ABS to print parts for the Prusa i3 to keep with the color scheme of the original machine.
 
+* [http://www.ebay.com/itm/351289170039 LJ18A3-8-Z/BX 8mm Inductive sensor]
+
+Inductive sensor to replace the Z endstop, which allows the printer to use the auto bed tramming in Marlin.
+
+* [http://www.ebay.com/itm/281108676591 1/8" Aluminum Sheet Plate 8" x 8"]
+
+* [http://www.amazon.com/dp/B0013HKZTA 0.03" PEI sheet]
+
+* [http://www.amazon.com/dp/B007Y7D5NQ 3M 468MP adhesive sheet]
+
+Aluminum plate to replace the borosilicate bed. An aluminum bed is necessary for the inductive sensor, as well as providing a more evenly heated surface. PEI (Polyetherimide) provides a superior printing surface over bare glass, Kapton tape, gluestick, or hairspray. The high temp 3M adhesive is used to attach the PEI to the aluminum print bed.
+
 * Assorted M3 and M5 bolts, washers, T-nuts, etc.
 
 Vitamins were bought to supplement the ones removed from the original machine, in case more were needed during the rebuild.
@@ -43,6 +55,14 @@ Printed parts finished. The majority of the frame was rebuilt, but a few 3D prin
 
 A few new parts have been printed. The Budaschnozzle did not fit the standard extruder so a new one was made. The frame was also disassembled so that steel corner brackets could be installed to greatly increase the rigidity of the frame. The wiring was wrapped in new cable management wrap and most of the electronics were ran to the board. A new aluminum Y carriage was ordered to replace the original acrylic bed.
 
+'''JAN-18'''
+
+A sturdier aluminum Y carriage was bought and installed to replace the old acrylic carriage. This will help produce parts with less warping due to the less dimensionally stable acrylic.
+
+'''JAN-20'''
+
+New capactive Z probes were bought to replace the standard Z axis endstop, as well as an 8" x 8" sheet of 1/4" aluminum and a PEI sheet with adhesive. The capacative sensor and aluminum bed well allow The Kraken to use the auto bed tramming in Marlin, and the PEI provides a superior print surface for nearly all materials over borosilicate, Kapton, gluestick, and hairspray.
+
 == Gallery ==
 
 <gallery widths=200px heights=200px>
@@ -56,4 +76,6 @@ File:2015-12-12_21.17.02.jpg|Chassis nearly completed
 File:2016-01-03_23.45.13.jpg|New Budaschnozzle extruder printed and installed
 File:2016-01-03_23.47.14.jpg|Frame bracket close ups
 File:2016-01-03_02.47.44.jpg|Wiring and cable management 
+File:2016-01-18_21.39.11.jpg|New aluminum Y carriage installed
+File:2016-01-20_15.54.46.jpg|Capactive Z probes for the auto bed tramming
 </gallery>
