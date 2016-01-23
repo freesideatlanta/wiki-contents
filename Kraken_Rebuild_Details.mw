@@ -61,7 +61,7 @@ A sturdier aluminum Y carriage was bought and installed to replace the old acryl
 
 '''JAN-20'''
 
-New capactive Z probes were bought to replace the standard Z axis endstop, as well as an 8" x 8" sheet of 1/4" aluminum and a PEI sheet with adhesive. The capacative sensor and aluminum bed well allow The Kraken to use the auto bed tramming in Marlin, and the PEI provides a superior print surface for nearly all materials over borosilicate, Kapton, gluestick, and hairspray.
+New inductive Z probes were bought to replace the standard Z axis endstop, as well as an 8" x 8" sheet of 1/4" aluminum and a PEI sheet with adhesive. The inductive sensor and aluminum bed well allow The Kraken to use the auto bed tramming in Marlin, and the PEI provides a superior print surface for nearly all materials over borosilicate, Kapton, gluestick, and hairspray.
 
 == Gallery ==
 
@@ -77,5 +77,5 @@ File:2016-01-03_23.45.13.jpg|New Budaschnozzle extruder printed and installed
 File:2016-01-03_23.47.14.jpg|Frame bracket close ups
 File:2016-01-03_02.47.44.jpg|Wiring and cable management 
 File:2016-01-18_21.39.11.jpg|New aluminum Y carriage installed
-File:2016-01-20_15.54.46.jpg|Capactive Z probes for the auto bed tramming
+File:2016-01-20_15.54.46.jpg|Inductive Z probes for the auto bed tramming
 </gallery>
