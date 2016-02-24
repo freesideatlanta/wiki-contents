@@ -3,6 +3,20 @@
 = Zone =
 [[Equipment]] \ [[Electronics Lab]]
 
+FIles for Monica
+
+Upload files, then reference them with format
+
+[[Filename|Text to appear on page]]
+
+[[Media:Laser cutter template.png|Right Click Here to Download PNG]]
+
+[[Media:Laser cutter template.dxf|Right Click Here to Download DXF]]
+
+[[Media:Laser cutter template.svg|Right Click Here to Download SVG]]
+
+
+
 = About =
 What is this equipment used for. Brief description.
 
