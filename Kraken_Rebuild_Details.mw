@@ -67,6 +67,14 @@ New inductive Z probes were bought to replace the standard Z axis endstop, as we
 
 The Y carriage belt and heated bed were installed. The RAMPS board is missing it's positive voltage pins for the end stops, so it will need to be modified to add those in order for the Z probe to function.
 
+'''FEB-1'''
+
+RAMPS board was modified by Wayne to include the +V pins for the endstops. The board was reinstalled and everything was wired up.
+
+'''FEB-9'''
+
+The Kraken lives! Firmware loaded and the printer was configured in Repetier Host. It still needs fine tuning but The Kraken has been unleashed.
+
 == Gallery ==
 
 <gallery widths=200px heights=200px>
@@ -83,4 +91,6 @@ File:2016-01-03_02.47.44.jpg|Wiring and cable management
 File:2016-01-18_21.39.11.jpg|New aluminum Y carriage installed
 File:2016-01-20_15.54.46.jpg|Inductive Z probes for the auto bed tramming
 File:2016-01-26_19.39.41.jpg|Y carriage full assembled
+File:2016-02-01_20.21.26.jpg|Wiring everything up
+File:24495000883_c84da5a225_h.jpg|The Kraken completed!
 </gallery>
