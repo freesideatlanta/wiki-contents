@@ -1,5 +1,4 @@
-[[File:2013-08-17 19.15.54.jpg|thumbnail|The Kraken and his creator Redbeard]]
-[[File:Kraken2_loop.gif|thumbnail|Kraken printing a kraken]]
+[[File:24495000883_c84da5a225_h.jpg|frame|x400px]]
 = Zone =
 01: [[3D Printing]]
 
@@ -12,24 +11,22 @@ For general use by members. Treat equipment as if it were your own and put away 
 == Restrictions == 
 TODO: specify all the restrictions
 
-* Use only with members-only terminal connected to Kraken
-* Use with 1.75mm PLA filament only
+* Use only with members-only terminal connected to The Kraken
+* Use with 3mm ABS, PLA, and HIPS filament only
 
 = About =
 Freeside member Redbeard designed this custom build RepRap machine. In 2012, Redbeard taught a series of 3D printing classes/meetups and used the proceeds to donate all the material and hardware to Freeside. The printer was assembled and commissioned by Freeside members. In 2014, Freeside members designed and built a new printing platform that can be easily leveled, and built a new extruder assembly, drastically increasing the quality of prints the Kraken is able to produce.
 
-In late 2015, The Kraken was rebuilt into a new design. Info about the rebuild can be found here: [[Kraken Rebuild Details]]
+In late 2015, The Kraken was rebuilt into a "Wilson" RepRap design by Michelle. The printer was upgraded with an auto leveling sensor. In February 2016, The Kraken was back in action and printing again. Info about the rebuild can be found here: [[Kraken Rebuild Details]]
 
 = Basic Instructions = 
 TODO: complete instructions on use
 
 * Log in with your credentials to the attached members-only terminal.
-* <strike>Check that the print-bed is square and centered on the platform.</strike> You should not need to re-level the bed unless your print suffers from noticeable deleveling. The printer's bed leveling screws are tightly secured and should keep the bed level without need for regular maintenance.
-* Use a clean paper towel to clean printer surface with denatured alcohol (preferred) or acetone. There should be a small labeled bottle nearby the printer.
-* Apply a thin layer of Disappearing Purple Elmer's Gluestick to the print surface to help adhere your print to the heated bed. There should be a gluestick attached to the holder on top of the printer. Return the gluestick back to the holder when done.
+* <strike>Check that the print-bed is square and centered on the platform.</strike> You should not need to re-level the bed unless your print suffers from noticeable deleveling. The printer has an auto bed tramming feature so the bed does not need to be leveled unless it becomes significantly out of level.
+* Use a clean paper towel to clean printer's PEI surface with acetone. There should be a small labeled bottle nearby the printer.
 * The only tweaks you should need to make for your prints are layer thickness and infill style/density related. 
 * Please do not change the bed level or limit switches.
-* Turn off machine when done.
 
 == Basic Operational Knowledge ==
 * How to home
@@ -41,7 +38,7 @@ TODO: complete instructions on use
 == Advanced Operational Knowledge ==
 There are some more advanced tasks that not everyone needs to know to print, but needs to know to troubleshoot:
 
-* How to level a bed
+* How the auto bed tramming feature works
 * How to tighten belts, fix misaligned axises, replace worn out parts, etc.
 
 == Slic3r Preconfigured Profiles ==
@@ -64,10 +61,9 @@ There should be profiles configured for filament colors. Different colors of fil
 * [http://en.wikipedia.org/wiki/Polylactic_acid PLA Plastic - Polylactic Acid] or polylactide (PLA) is a thermoplastic aliphatic polyester derived from renewable resources, such as corn starch (in the United States), tapioca roots, chips or starch (mostly in Asia), or sugarcane (in the rest of the world).
 
 '''General Specs:'''
-* Approx Cost: $700
-* Printing Size: 200mm x 200mm x 200mm 
+* Approx cost: $700
+* Printing size: 200mm x 200mm x 200mm 
 * Precision: 0.1mm (position/printing)
-
 * Printed Parts: PLA components by Redbeard
 * Non-Printed Parts: Extruded aluminum frame using components from Misumi.com
 * Control Card: RAMPS 1.4 with Polulu stepper drivers running Sprinter firmware
@@ -79,11 +75,20 @@ There should be profiles configured for filament colors. Different colors of fil
 ::- bed temp 60°C
 * [[Kraken BOM]] Bill Of Materials
 
+'''Rebuild Specs:'''
+* Approx cost: $100
+* Printing size: 200mm x 200mm x 200mm 
+* Printed parts: ABS components by Michelle and Freeside
+* Z probe: LJ18A3-8-Z/BX 8mm Approach Sensor Inductive Proximity
+* Extruder: Budaschnozzle 2.0c, 3mm filament, 0.5mm nozzle
+* Bed surface: 1/8" aluminum plate, 0.03" PEI surface
+* [[Kraken Rebuild Details]]
+
 = Warnings =
 * Keep loose hair and sleeves away from all moving parts.
 * *****WARNING***** Long/loose hair may become entangled in the z-axis(vertical) threaded rods and all motor pulleys and idlers.
-* Kraken Print-bed operating temperature is 60°C (140°F)
-* Kraken Print nozzle/extruder operating temperature range is 180-220°C (356-428°F)
+* Kraken Print-bed operating temperature is 60°C - 110°C
+* Kraken Print nozzle/extruder operating temperature range is 180-260°C
 
 == Safety ==
 * Keep loose hair and sleeves away from all moving parts.
@@ -93,3 +98,9 @@ There should be profiles configured for filament colors. Different colors of fil
 :(A) in any application which is intended for any internal contact with human body fluids or body tissues 
 :(B) as a critical component in any medical device that supports or sustains human life; and 
 :(C) specifically pregnant women or in any applications designed specifically to promote or interfere with human reproduction.
+
+==Gallery==
+<gallery widths=200px heights=200px>
+File:2013-08-17 19.15.54.jpg|The Kraken and his creator Redbeard
+File:Kraken2_loop.gif|Kraken printing a kraken
+</gallery>
