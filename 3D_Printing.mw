@@ -1,24 +1,26 @@
-==Overview==
+__NOTOC__
+[[File:24495000883_c84da5a225_h.jpg|thumb|right|300px]]
 
 3D Printing is a very popular facet of the maker/hacker movement. Though they are still a bit difficult to use/calibrate, they are capable of printing 3D items based on CAD models and using extruded filament.
 
 == Software ==
-'''3D Printing:'''
-*[http://reprap.org/wiki/Repetier-Host Repetierhost] used by the Freeside terminal to generate gcode from .stl files and command the 3D printers
-*[http://reprap.org/wiki/Slic3r Slic3r] is integrated with repetier host above or used as a stand alone to generate machine readable gcode from an .stl 3D model.
-*[http://reprap.org/wiki/Cura Cura] LulzBot branded flavor of Cura, included with the LulzBot Mini.
 
-: Printer Firmware
-:: Sprinter
+'''3D Printing'''
 
-'''CAD/3D Modeling:'''
+* [http://reprap.org/wiki/Repetier-Host Repetierhost] used by the Freeside terminal to generate gcode from .stl files and command the 3D printers
+* [http://reprap.org/wiki/Slic3r Slic3r] is integrated with repetier host above or used as a stand alone to generate machine readable gcode from an .stl 3D model
+* [http://reprap.org/wiki/Cura Cura] LulzBot branded flavor of Cura, included with the LulzBot Mini
+* [http://reprap.org/wiki/Marlin Marlin] firmware running on all 3 machines
+
+'''CAD/3D Modeling'''
 
 Any software that can generate an .stl 3D image file is suitable.  Below is an incomplete list of popular options.
-*openscad.org
-*tinkercad.com
-*blender.org
-*sketchup.com
-*AutoDesk (various products)
+
+* openscad.org
+* tinkercad.com
+* blender.org
+* sketchup.com
+* AutoDesk (various products)
 
 == Equipment ==
 
@@ -26,39 +28,28 @@ Any software that can generate an .stl 3D image file is suitable.  Below is an i
 * [[The Kraken]]
 * [[Lulzbot_Mini|LulzBot Mini]]
 * Wall of Spool
-* Thingomatic (museum)
-* Cupcake 1 (museum)
-* Cupcake 2 (museum)
-* RepRap Mendel Max (museum)
-
 * Member workstation
 
-==Current Projects==
-* Reprap Assembly
-* ≠ Assembling the Kraken ***finally done, woohoo!
-* [http://wiki.freesideatlanta.org/fs/File:Kraken2_loop.gif ≠ Kraken2_loop.gif|≠ Commissioning the Kraken ***Done]
-* Kraken enhancements
-:: - Spool Holder
-:: - Enclosure
-:: - Lighting & LEDs
-:: - Cooling Fan independent switch
-:: - Leveling print bed
+== Current Projects ==
+* Rebuild the AO-100
+* Replace the heated bed and power supply on the Kraken
 
-==Gallery==
+== Gallery ==
+
 <gallery widths=200px heights=200px>
-File:3D_Printer_2_-_Makerbot.jpg|Our Makerbot Thing-o-Matic
-File:3D Printer 2 - Makerbot Printing.jpg|Side view of the Makerbot
-File:3D_Printer_1_and_3_-_Cupcake_and_Rep_Rap.jpg|Our Cupcake CNC and Scott's Reprap
+File:33_-_uNkjSZI.jpg|LulzBot AO-100 after some upgrades
+File:2016-02-01_20.21.26.jpg|[[Kraken_Rebuild_Details|The Kraken rebuild]] nearly complete
+File:IMG_2593.JPG|Printing parts for The Kraken on the LulzBot Mini
+File:Dsc_7319_26490596240_o.jpg
+
 File:NicksHeart1.jpg|Dr. Glass assembling the heart that he printed on his Replicator 2
 File:NicksHeart2.jpg|The fully-assembled working clockwork heart
-File:3DPrintingArea.jpg|The full 3D printing area
-File:2013-08-17 19.15.54.jpg|The Kraken and his creator Redbeard
 File:Eggbotz.jpg|Eggbots are good to learn about CNC on, and are muchless complex than 3D printers
 </gallery>
 
-==Outside Links==
-*[http://www.ted.com/talks/lisa_harouni_a_primer_on_3d_printing.html Lisa Harouni: A primer on 3D printing]
-*[http://reprap.org/wiki/Main_Page Reprap.org]
-*[http://richrap.blogspot.com/2012/01/slic3r-is-nicer-part-1-settings-and.html Slic3r is Nicer]
-*[http://reprap.org/wiki/Calibration Basic printer calibration]
-*[http://reprap.org/wiki/Print_Troubleshooting_Pictorial_Guide Print Troubleshooting Pictorial Guide]
+== External Links ==
+* [http://www.ted.com/talks/lisa_harouni_a_primer_on_3d_printing.html Lisa Harouni: A primer on 3D printing]
+* [http://reprap.org/wiki/Main_Page Reprap.org]
+* [http://richrap.blogspot.com/2012/01/slic3r-is-nicer-part-1-settings-and.html Slic3r is Nicer]
+* [http://reprap.org/wiki/Calibration Basic printer calibration]
+* [http://reprap.org/wiki/Print_Troubleshooting_Pictorial_Guide Print Troubleshooting Pictorial Guide]
