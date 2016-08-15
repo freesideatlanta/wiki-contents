@@ -34,7 +34,7 @@ The laser cutter is a CNC (Computer Numeric Control) machine capable of the foll
 
 This laser uses a CO2 gas tube and excites the gas through application of a 25KV voltage across the tube. The tube emits infrared light at a frequency of 1090um. This is invisible to the human eye. Most materials absorb photons with this frequency very readily.
 
-Laser beams do not directly burn or melt melt material. When absorbing laser light, material moves to the plasma state, bypassing conversion to liquid or gas.  However, this plasma is very hot, and material near the plasma can absorb heat and change to liquid or gas, and, if flammable, burn.
+Laser beams do not directly burn or melt material. When absorbing laser light, material moves to the plasma state, bypassing conversion to liquid or gas.  However, this plasma is very hot, and material near the plasma can absorb heat and change to liquid or gas, and, if flammable, burn.
 
 Although the beam is invisible, it is very powerful, and can easily damage your skin, clothing, other items, and your eyes.
 
