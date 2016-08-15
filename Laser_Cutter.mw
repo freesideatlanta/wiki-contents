@@ -31,9 +31,12 @@ The laser cutter is a CNC (Computer Numeric Control) machine capable of the foll
     * leather
 
 == Caution ==
-Contrary to popular belief lasers don't melt things. They remove material via a process called sublimation, turning an object from the solid state directly to the gaseous state, skipping the liquid stage almost completely.
 
-The laser uses an RF-excited CO2 gas laser producing a beam invisible to the human eye, with a wavelength of 1090um. Almost everything is opaque to this wavelength and as such if the laser can sublimate the material it will. This means that if you put *anything* in the path of the laser, the laser will try to cut it. If the laser can't cut the material and the material doesn't reflect the beam, the material *WILL* heat up very rapidly. The excited gas you can see in the tube is similar to what can be seen in neon signs. 25KV is applied, and the gas is excited to the point where it has to release extra electrons and you see this as light. Do not forget that the beam coming out of the tube is completely invisible and completely dangerous.
+This laser uses a CO2 gas tube and excites the gas through application of a 25KV voltage across the tube. The tube emits infrared light at a frequency of 1090um. This is invisible to the human eye. Most materials absorb photons with this frequency very readily.
+
+Laser beams do not directly burn or melt melt material. When absorbing laser light, material moves to the plasma state, bypassing conversion to liquid or gas.  However, this plasma is very hot, and material near the plasma can absorb heat and change to liquid or gas, and, if flammable, burn.
+
+Although the beam is invisible, it is very powerful, and can easily damage your skin, clothing, other items, and your eyes.
 
 '''Do not, under any circumstance, power the laser cutter on unless:
 * the E-stop on the machine is on
