@@ -1,29 +1,26 @@
 
-== Projects == 
-* Electrical
-:* Next Step:  
-::* [ ] Clarify steps required to get a project approved for work by others.
+== Punch List of current electrical needs ==
 
-As an example, what steps are required by Freeside in order to have work done that will make the kiln usable by members or guests?
-
-== Punch List ==
-
-:::* In
-::::* run code electrical to light in kitchen
-::::* Run electrical to Form1 room
-::::* Run electrical to kiln
+:::* Electrician items
+::::* Run electrical to Form1 room (Review existing circuits available above the clean room, may be possible to move this to work we can do based upon existing quad that was in that room's ceiling)
+::::* Run electrical to kiln (see 220 bellow)
 :::::* Per Scott, " Pretty sure it's split phase 240.  Pretty sure it just needs a 50A split phase outlet to run on 208V at a lower temperature/ramp."
-::::* hole in outlet above projector
-::::* inspect for exposed outlets
-::::* install lights in hallway
-:::* Considering
-::::* run electrical to outlets on wall between work tables and admin closet
-::::* Remove dropped quads from above work tables in front
-::::* replace removed dropped quads above work tables with outlets at wall for each table
-::::* 120v cables to quads in workshop
-::::* 240v to front left corner of auto bay
-::::* 240v to large air compressor
-::::* 240v to welding table
+::::* install lights in hallway (need to look to see if there is an existing junction box usable in the attic or hallway, in which case we might be able to do this ourselves)
+::::* Install dropped quads in workshop (was: 120v cables to quads in workshop)
+::::* 220v to front left corner of auto bay (Duplicate of Kiln item above)
+::::* 220v to large air compressor
+::::* 220v to welding table
+::::* Split metal shop\auto bay lights to their own switch that can be turned on/off from there (we could do this, but well worth having electrician do it while they're working on the 220v in this area)
+
+:::* Unknown Items
+::::* hole in outlet above projector (What does this mean? There's a hole in the outlet? Please provide more details.)
+::::* inspect for exposed outlets (Not really sure what this means? Outlets without a cover? If so, move to list of items we can do)
+
+:::* Repair Items we can do
+::::* Fix electrical to light in kitchen (repair of existing work)
+::::* Remove dropped quads from above work tables in front 
+::::* run electrical to outlets on wall between work tables and admin closet (these are existing outlets, so a repair not new work)
+::::* replace removed dropped quads above work tables with outlets at wall for each table (This is existing rough work, so a repair)
 
 :::* Electricians Contacted:
 ::::* Greg Pica of Socket Doctors
