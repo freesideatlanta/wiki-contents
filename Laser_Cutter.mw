@@ -132,3 +132,10 @@ Files showing useful dimensions:
 [[File:Unplug.PNG |100px]] Unplug After Use
 
 [[Category: Projects]]
+
+
+== Control Computer Backup ==
+
+From time to time it is a good idea to back up the control computer.  The laser runs on a careful stack of near-obsolete software.  We've been using Clonezilla to image the entire hard drive.  
+
+There is a boot CD and a USB stick near the laser.  The USB stick is large enough for several copies of the hard drive, so leave the oldest one and the last one, if you can.  If you restore, you might also want to clone the existing state of the drive for autopsy or in case something goes wrong with the restore process.
