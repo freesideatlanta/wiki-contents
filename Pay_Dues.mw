@@ -15,15 +15,6 @@ Members can pay their dues for the month on any day of that month.
 
 == Dwolla ==
 
-=== Single Payment ===
-
-<shtml version="2" hash="ab10e61b6737e124768a2fff154d6d5d6d59bb6f18ff8b54f8b03f8d3f271157"><script type="text/javascript" src="https://www.dwolla.com/scripts/button.min.js"> </script>
-<a href="http://wiki.freesideatlanta.org/fs/Thanks" class="dwolla_button" data-name="Freeside Membership Dues" data-desc="Standard Rate " data-amount="80.00" data-shipping="0" data-tax="0" data-key="cSopmbTatKgd+BlDDB/h4yNbyqFhlahH7j+itD+0oinR87FdfX" data-guest-checkout="true">Standard: $80</a></shtml> <shtml version="2" hash="2cc1f5a98ef9eb6c281e1b4be232e4cff44ddd44b85d93b47c301c903cf7dfff"><a href="http://wiki.freesideatlanta.org/fs/Thanks" class="dwolla_button" data-name="Freeside Membership Dues" data-desc="Standard Rate (Full Year)" data-amount="912.00" data-shipping="0" data-tax="0" data-key="cSopmbTatKgd+BlDDB/h4yNbyqFhlahH7j+itD+0oinR87FdfX" data-guest-checkout="true">Standard (Full Year): $912</a></shtml>
-
-<shtml version="2" hash="0263f28ccd93b1d1dcc0c3b509d4630892059dd0f06900f6fc16aeded48937dc"><a href="http://wiki.freesideatlanta.org/fs/Thanks" class="dwolla_button" data-name="Freeside Membership Dues" data-desc="Starving Hacker Rate" data-amount="40.00" data-shipping="0" data-tax="0" data-key="cSopmbTatKgd+BlDDB/h4yNbyqFhlahH7j+itD+0oinR87FdfX" data-guest-checkout="true">Starving Hacker: $40</a></shtml>
-
-<shtml version="2" hash="e4cba6a7f8e3e423335aa868f5f65122084f2cb64d8091326b691f0fdce2c2a4"><a href="http://wiki.freesideatlanta.org/fs/Thanks" class="dwolla_button" data-name="Freeside Membership Dues" data-desc="Joint Rate" data-amount="65.00" data-shipping="0" data-tax="0" data-key="cSopmbTatKgd+BlDDB/h4yNbyqFhlahH7j+itD+0oinR87FdfX" data-guest-checkout="true">Joint: $65</a></shtml>
-
 === Recurring Payment ===
 
 Visit our [https://www.dwolla.com/hub/freeside Dwolla Hub Page] in order to setup recurring payments.  Enter the appropriate amount for your membership level.
