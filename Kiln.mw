@@ -22,7 +22,7 @@ Upload files, then reference them with format
 A six-and-a-half cone kiln.  Would be great to be able to use. The kiln is functional, but we have no appropriate electrical connection to it.
 
 = Owner(s) =
-* Randy
+
 
 = Hackability =
 Do Not Hack, other than to provide safe electrical power.
@@ -32,28 +32,17 @@ Rules and expectations for use of this piece of equipment. Example: <br />
 For general use by members after they have completed an appropriate training course. Treat this equipment as if it were your own cleaning items off of the top of the machine and around its table after usage.
 
 == Restrictions ==
-Things the equipment shouldn't be used for, limitations, etc (Don't grind aluminum or brass, etc)<br />
 * Do not attempt to use this kiln except when appropriate electrical power is available.
 * ??
 
 == Caution ==
-Things a user should know prior to using the equipment (turn on power supply prior to plugging in USB, etc)<br />
 * This kiln is deceptively not powered.
 * ??
 
 = Basic Instructions = 
-* Prepare your board with paste and components
-* Wrap the thermocouple around the extra PCB and place near your board
-* Set ''Toast'' to ''off'', ''Function'' to ''turbo'', ''Temp'' to ''max'' and ''Timer'' to ''Stay On''
-* Plug in toaster oven and Arduino, and once the Arduino has booted press the right hand button to start the reflow process
-* When the Arduino indicates it is time to cool the board, turn the temperature down to minimum. Opening the door slightly will speed up the process, but is not required and will confuse the Arduino.
-
 == Specifications and Detailed Instructions ==
-[[File:Info.jpg|50px|link=http://www.rocketscream.com/blog/product/reflow-oven-controller-shield-arduino-compatible/]]RocketScream Arduino Shield<br />
-[[File:RTFM.PNG|50px|link=http://www.rocketscream.com/blog/portfolio-item/reflow-controller-shield/]]RocketScream Manual<br />
 
 = Tips =
-* ??
 * ??
 
 = Warnings =
